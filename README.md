@@ -69,7 +69,7 @@ Iran is the most mentioned entity (919 mentions across 89 of 93 articles), close
 
 *Table 2. Top 10 co-occurring entity pairs.*
 
-The Iran-US dyad dominates at 343 co-occurrences, more than double the next most frequent pair. Of the top ten pairs, seven involve Iran (or a referring form) on one side and the US or Trump on the other. High-PMI pairs outside this axis include Hezbollah-Lebanon (PMI 3.402), Hezbollah-Israeli (3.166) and Israel-Lebanese (3.135). 
+The Iran-US dyad dominates at 343 co-occurrences, more than double the next most frequent pair. Of the top ten pairs, six involve Iran (or a referring form) on one side and the US or Trump on the other. High-PMI pairs outside this axis include Hezbollah-Lebanon (PMI 3.402), Hezbollah-Israeli (3.166) and Israel-Lebanese (3.135). 
 
 ### 3.3 Agency analysis
 

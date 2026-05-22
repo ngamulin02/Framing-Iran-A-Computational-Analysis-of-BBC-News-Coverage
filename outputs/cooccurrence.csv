@@ -1,0 +1,345 @@
+entity_a,entity_b,shared_sentences,count_a,count_b,pmi
+Iran,US,343,845,725,1.006
+Iran,Trump,151,845,373,0.782
+Trump,US,137,373,725,0.862
+Iranian,US,130,331,725,0.959
+Israel,US,100,226,725,1.131
+Iran,Israel,95,845,226,0.836
+Iran,Strait of Hormuz,88,845,202,0.887
+Iran,Iranian,65,845,331,-0.262
+Strait of Hormuz,US,65,202,725,0.671
+Tehran,US,64,160,725,0.985
+Iran,Tehran,57,845,160,0.597
+Israel,Lebanon,55,226,119,2.875
+Iran,Israeli,48,845,103,0.985
+Israeli,US,47,103,725,1.175
+Hezbollah,Israel,46,97,226,2.912
+Iranian,Tehran,36,331,160,1.286
+Iran,Pakistan,35,845,73,1.026
+Iran,Lebanon,34,845,119,0.279
+Iranian,Trump,34,331,373,-0.017
+Hezbollah,Lebanon,34,97,119,3.402
+Israeli,Lebanon,30,103,119,3.135
+Pakistan,US,28,73,725,0.925
+Strait of Hormuz,Trump,28,202,373,0.415
+Iranian,Strait of Hormuz,27,331,202,0.535
+Gulf,Iran,26,65,845,0.764
+Iran,Washington,26,845,51,1.114
+Gulf,US,26,65,725,0.985
+Hezbollah,Iran,25,97,845,0.13
+Hezbollah,Israeli,25,97,103,3.166
+Lebanon,US,23,119,725,-0.064
+Iranian,Israel,22,331,226,0.078
+Islamabad,US,22,52,725,1.066
+Middle East,US,21,59,725,0.817
+Israel,Tehran,21,226,160,1.059
+Trump,Vance,20,373,54,1.833
+Tehran,Trump,20,160,373,0.266
+US,Washington,18,725,51,0.805
+JD Vance,US,18,23,725,1.953
+Iran,Islamabad,17,845,52,0.473
+Centcom,Iranian,17,45,331,2.034
+Israel,Netanyahu,17,226,43,2.65
+US,Vance,17,725,54,0.64
+Israel,Israeli,17,226,103,1.39
+Centcom,US,16,45,725,0.815
+Strait of Hormuz,Tehran,16,202,160,0.829
+Iran,Middle East,15,845,59,0.11
+UK,US,15,90,725,-0.278
+Israeli,Netanyahu,15,103,43,3.603
+Hezbollah,US,15,97,725,-0.386
+Israel,Trump,14,226,373,-0.747
+Iran,Vance,14,845,54,0.139
+Pakistan,Trump,13,73,373,0.777
+Iran,Netanyahu,13,845,43,0.36
+Iranian,Pakistan,13,331,73,0.949
+Hezbollah,Lebanese,12,97,24,4.209
+Hezbollah,Iranian,12,97,331,0.423
+Gulf,Strait of Hormuz,12,65,202,1.713
+Iranian,Israeli,12,331,103,0.337
+Israel,Lebanese,12,226,24,2.989
+Israel,Strait of Hormuz,12,226,202,-0.084
+Iranian,Lebanon,11,331,119,0.003
+Tehran,Washington,11,160,51,2.274
+American,US,11,35,725,0.637
+IRGC,Iran,10,39,845,0.123
+Netanyahu,Trump,10,43,373,1.162
+Islamabad,Trump,10,52,373,0.887
+France,UK,10,11,90,5.18
+American,Iranian,10,35,331,1.631
+Marco Rubio,US,10,17,725,1.542
+Craig Foreman,Lindsay Foreman,10,20,18,6.639
+Iran,White House,10,845,25,0.764
+Marco Rubio,State,10,17,11,7.584
+China,Iran,10,35,845,0.279
+State,US,9,11,725,2.018
+Israeli,Strait of Hormuz,9,103,202,0.634
+US,White House,9,725,25,0.833
+Iran,JD Vance,9,845,23,0.733
+Israel,Washington,9,226,51,1.486
+Iran,UK,9,845,90,-1.236
+Germany,US,9,15,725,1.57
+Iranian,Islamabad,8,331,52,0.738
+Israeli,Tehran,8,103,160,0.801
+American,Iran,8,35,845,-0.043
+Axios,US,8,14,725,1.5
+Lebanon,Netanyahu,8,119,43,2.488
+Pakistani,US,8,17,725,1.22
+Iran,Iranians,8,845,48,-0.499
+Nato,Trump,8,18,373,2.096
+Nato,US,8,18,725,1.137
+North America,Trump,8,8,373,3.266
+China,Iranian,8,35,331,1.309
+Israeli,Trump,8,103,373,-0.421
+China,US,8,35,725,0.178
+Lebanon,Tehran,8,119,160,0.592
+Iranian,Washington,8,331,51,0.766
+Pentagon,US,8,18,725,1.137
+Iran,Mohammad Bagher Ghalibaf,7,845,11,1.434
+Islamabad,Vance,7,52,54,3.161
+Beirut,Hezbollah,7,20,97,3.694
+Gaza,Iran,7,12,845,1.309
+Trump,White House,7,373,25,1.429
+Iranians,US,7,48,725,-0.47
+Congress,US,7,18,725,0.945
+Iranians,Trump,7,48,373,0.488
+Iran,Masoud Pezeshkian,7,845,14,1.086
+Jared Kushner,Steve Witkoff,7,7,7,9.002
+Middle East,Trump,7,59,373,0.191
+China,Trump,7,35,373,0.944
+Trump,Washington,7,373,51,0.401
+Germany,Trump,7,15,373,2.166
+Islamabad,Pakistan,7,52,73,2.726
+British,Iran,7,20,845,0.572
+Hezbollah,Tehran,7,97,160,0.694
+Anthony Zurcher,US,7,7,725,2.307
+Strait of Hormuz,UK,7,202,90,0.466
+Iran,Pakistani,7,845,17,0.806
+Abbas Araghchi,Iran,7,12,845,1.309
+North America,US,7,8,725,2.114
+Islamabad,JD Vance,7,52,23,4.392
+Anthony Zurcher,North America,7,7,8,8.809
+Anthony Zurcher,Trump,7,7,373,3.266
+Congress,Iran,6,18,845,0.501
+Iran,Yemen,6,845,6,2.086
+Congress,Trump,6,18,373,1.681
+Israel,Middle East,6,226,59,0.691
+Iran,Starlink,6,845,12,1.086
+Abbas Araghchi,Iranian,6,12,331,2.438
+Axios,Iran,6,14,845,0.864
+Iran,Lebanese,6,845,24,0.086
+Lebanon,Washington,6,119,51,1.827
+Esmail Baghaei,Iran,6,7,845,1.864
+Iranian,Sri Lanka,6,331,9,2.853
+Gulf of Oman,Iranian,6,12,331,2.438
+Beirut,Israel,6,20,226,2.252
+Gulf,Iranian,6,65,331,0.001
+Iranian,Pakistani,6,331,17,1.936
+Islamabad,Pakistani,6,52,17,4.606
+Iranian,UK,6,331,90,-0.469
+Hamas,Iran,6,8,845,1.671
+Pete Hegseth,US,6,11,725,1.433
+Hormuz,Iran,6,14,845,0.864
+Beirut,Lebanon,6,20,119,3.177
+Keir,UK,6,13,90,4.202
+Pakistan,Tehran,6,73,160,0.882
+Iranian,Masoud Pezeshkian,6,331,14,2.216
+Keir Starmer,UK,6,11,90,4.443
+Masoud Pezeshkian,Tehran,6,14,160,3.265
+IRGC,US,6,39,725,-0.393
+Gulf,Trump,6,65,373,-0.171
+Iranian,Iranians,6,331,48,0.438
+Aoun,Hezbollah,5,7,97,4.724
+Iran,Oman,5,845,20,0.086
+Americans,Iran,5,16,845,0.408
+Jared Kushner,Trump,5,7,373,2.781
+American,Trump,5,35,373,0.459
+Hezbollah,Netanyahu,5,97,43,2.105
+Lebanon,Pakistan,5,119,73,1.046
+Steve Witkoff,Trump,5,7,373,2.781
+Centcom,Strait of Hormuz,5,45,202,0.981
+Trump,US Navy,5,373,16,1.588
+Iran,Operation Epic Fury,5,845,5,2.086
+British,US,5,20,725,0.307
+Minab,US,5,10,725,1.307
+JD Vance,Trump,5,23,373,1.064
+Pakistan,Shehbaz Sharif,5,73,5,5.619
+Iranian,Mohammad Bagher Ghalibaf,5,331,11,2.301
+Americans,US,5,16,725,0.629
+Lebanon,Trump,5,119,373,-1.307
+Russia,US,5,13,725,0.929
+Facebook,Instagram,5,7,8,8.324
+Mohammad Bagher Ghalibaf,US,5,11,725,1.17
+Araghchi,Iranian,5,13,331,2.06
+Defence,Pete Hegseth,5,8,11,7.671
+Hormuz,Strait of Hormuz,5,14,202,2.665
+Gulf,Israel,5,65,226,0.288
+Israeli,Washington,5,103,51,1.772
+Lyse Doucet,Tehran,5,5,160,4.487
+Iran,Marco Rubio,5,845,17,0.321
+IRGC,Iranian,5,39,331,0.475
+Lebanese,Lebanon,5,24,119,2.651
+Merz,Trump,5,9,373,2.418
+Ayatollah Ali Khamenei,Israel,4,9,226,2.819
+Iran,Iraq,4,845,10,0.764
+Iran,UN,4,845,10,0.764
+Gulf,Israeli,4,65,103,1.1
+Iranians,Islamabad,4,48,52,2.524
+Pakistan,White House,4,73,25,2.975
+JD Vance,White House,4,23,25,4.642
+British,Iranian,4,20,331,1.116
+Ayatollah Ali Khamenei,Iran,4,9,845,0.916
+Lebanon,Strait of Hormuz,4,119,202,-0.744
+Karoline Leavitt,White House,4,4,25,7.165
+Iran,Nato,4,845,18,-0.084
+Strait of Hormuz,Washington,4,202,51,0.478
+China,Russia,4,35,13,4.979
+British,UK,4,20,90,2.995
+Iran,Pentagon,4,845,18,-0.084
+Russia,Ukraine,4,13,8,7.109
+Trump,UK,4,373,90,-1.226
+Germany,UK,4,15,90,3.41
+Masoud Pezeshkian,US,4,14,725,0.5
+Qatar,Saudi Arabia,4,8,7,8.002
+Lyse Doucet,Persian Service,4,5,4,9.487
+Operation Epic Fury,US,4,5,725,1.985
+China,Strait of Hormuz,4,35,202,1.021
+Iranian,US Navy,4,331,16,1.438
+Hamas,Israel,4,8,226,2.989
+Centcom,Iran,4,45,845,-1.406
+Abraham Accords,Israel,4,4,226,3.989
+Israeli,Lebanese,4,103,24,2.538
+Persian Service,Tehran,4,4,160,4.487
+Hamas,Hezbollah,4,8,97,4.209
+Hezbollah,Yemen,4,97,6,4.624
+American,Israeli,4,35,103,1.993
+Arab,Iran,4,8,845,1.086
+Emmanuel Macron,French,4,4,14,8.002
+Badea,George Stana,4,5,14,7.68
+Bahrain,Saudi Arabia,4,5,7,8.68
+Iranian,London,4,331,14,1.631
+Pakistani,Tehran,4,17,160,2.4
+Arab,Israel,4,8,226,2.989
+Iran,Reuters,4,845,13,0.386
+Islamabad,Mohammad Bagher Ghalibaf,4,52,11,4.649
+Marco Rubio,Trump,4,17,373,1.178
+Chinese,Xi Jinping,4,7,5,8.68
+Islamabad,Washington,4,52,51,2.436
+Chinese,Trump,4,7,373,2.459
+Jared Kushner,Vance,4,7,54,5.247
+Trump,Xi Jinping,4,373,5,2.944
+Steve Witkoff,Vance,4,7,54,5.247
+Islamabad,Tehran,4,52,160,0.787
+Beijing,US,4,10,725,0.985
+Iranians,JD Vance,3,48,23,3.285
+Hezbollah,Strait of Hormuz,3,97,202,-0.864
+CNN,Iranians,3,4,48,5.809
+Politics Essential,Westminster,3,3,5,9.487
+Iranian,Middle East,3,331,59,-0.859
+Iran,Supreme,3,845,4,1.671
+Araghchi,Islamabad,3,13,52,3.993
+Iran,London,3,845,14,-0.136
+US,Yemen,3,725,6,1.307
+Lebanon,Yemen,3,119,6,3.914
+IRGC,Navy,3,39,7,5.301
+Pakistani,Washington,3,17,51,3.634
+European,US,3,7,725,1.085
+Iranian,Mr Explosive,3,331,10,1.701
+Jared Kushner,US,3,7,725,1.085
+Hezbollah,Trump,3,97,373,-1.749
+Islamabad,Israel,3,52,226,-0.127
+Gulf,Tehran,3,65,160,0.05
+Sri Lanka,US,3,9,725,0.722
+Israel,Yemen,3,226,6,2.989
+Kushner,Witkoff,3,4,4,9.394
+Gaza,Hamas,3,12,8,6.809
+Hezbollah,Israelis,3,97,12,3.209
+Steve Witkoff,US,3,7,725,1.085
+Hamas,Yemen,3,8,6,7.809
+Esmail Baghaei,US,3,7,725,1.085
+Leavitt,US,3,5,725,1.57
+Ayatollah Ali Khamenei,US,3,9,725,0.722
+Gaza,Yemen,3,12,6,7.224
+Hamas,US,3,8,725,0.892
+Emma Barnett,John Simpson,3,3,3,10.224
+Epaminondas,Greek,3,6,5,8.487
+Indian Ocean,Iran,3,7,845,0.864
+Australia,Iranian,3,8,331,2.023
+Gaza,Lebanon,3,12,119,2.914
+Iranian,Starlink,3,331,12,1.438
+Israel,UK,3,226,90,-0.918
+China,Xi,3,35,3,6.68
+France,Strait of Hormuz,3,11,202,2.276
+Iran,Mohammad Ghalibaf,3,845,3,2.086
+Iran,Wall Street Journal,3,845,4,1.671
+Israel,UAE,3,226,14,1.766
+UAE,US,3,14,725,0.085
+Hezbollah,Washington,3,97,51,1.122
+Centcom,US Navy,3,45,16,3.902
+Reuters,US,3,13,725,0.192
+Iran,Minab,3,845,10,0.349
+Hezbollah,IDF,3,97,5,4.472
+IDF,Israel,3,5,226,3.252
+American,Washington,3,35,51,2.592
+Gulf,Washington,3,65,51,1.699
+Pakistan,Reuters,3,73,13,3.504
+Chinese,Strait of Hormuz,3,7,202,2.928
+Adnoc,Strait of Hormuz,3,5,202,3.414
+Ghalibaf,Iran,3,6,845,1.086
+CBS,Netanyahu,3,6,43,5.383
+Iran,State,3,845,11,0.212
+Axios,Iranian,3,14,331,1.216
+Evin,Tehran,3,9,160,2.902
+Qatar,US,3,8,725,0.892
+Kuwait,US,3,5,725,1.57
+Oman,US,3,20,725,-0.43
+Gulf,Oman,3,65,20,3.05
+Bahrain,Qatar,3,5,8,8.072
+Bahrain,Kuwait,3,5,5,8.75
+Bahrain,Oman,3,5,20,6.75
+Kuwait,Saudi Arabia,3,5,7,8.265
+Kuwait,Oman,3,5,20,6.75
+Saudi Arabia,UAE,3,7,14,6.779
+Oman,Saudi Arabia,3,20,7,6.265
+France,Iran,3,11,845,0.212
+Axios,Strait of Hormuz,3,14,202,1.928
+Abbas Araghchi,US,3,12,725,0.307
+Strait of Hormuz,UAE,3,202,14,1.928
+South Korea,UAE,3,4,14,7.587
+Fujairah,Iran,3,11,845,0.212
+Republican,US,3,9,725,0.722
+Khamenei,Mojtaba Khamenei,3,6,12,7.224
+Mojtaba Khamenei,US,3,12,725,0.307
+Richard Nixon,Vietnam,3,3,4,9.809
+CBS News,US,3,3,725,2.307
+Russia,UK,3,13,90,3.202
+France,Germany,3,11,15,6.028
+Germany,Merz,3,15,9,6.317
+Germany,Nato,3,15,18,5.317
+Iran,Merz,3,845,9,0.501
+Europe,US,3,8,725,0.892
+Fox News,US,3,4,725,1.892
+Indian Ocean,US,3,7,725,1.085
+Indian Ocean,Iranian,3,7,331,2.216
+US,Wall Street Journal,3,725,4,1.892
+Iraq,US,3,10,725,0.57
+Iranian,OFAC,3,331,4,3.023
+Republican,Trump,3,9,373,1.681
+Beijing,Iranian,3,10,331,1.701
+London,Tehran,3,14,160,2.265
+Beijing,Strait of Hormuz,3,10,202,2.414
+Beijing,Iran,3,10,845,0.349
+Iran,Wang,3,845,4,1.671
+Beijing,Trump,3,10,373,1.529
+Hezbollah,Shia,3,97,9,3.624
+Strait of Hormuz,US Navy,3,202,16,1.736
+Maersk,US,3,4,725,1.892
+IRGC,Strait of Hormuz,3,39,202,0.45
+Gulf,Middle East,3,65,59,1.489
+Iranians,Pakistan,3,48,73,1.619
+UN,US,3,10,725,0.57
+India,Indian,3,13,8,6.693
+Friedrich Merz,German,3,3,8,8.809
+Iran,Middle Eastern,3,845,6,1.086
+Touska,US,3,5,725,1.57
+Gaza,Israel,3,12,226,1.989

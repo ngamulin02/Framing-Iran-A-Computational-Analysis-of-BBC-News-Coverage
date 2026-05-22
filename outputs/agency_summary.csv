@@ -1,0 +1,506 @@
+entity,subject,passive_subject,object,total,agency_ratio,patient_ratio,passive_share
+Iran,259,7,54,320,0.809,0.191,0.115
+Trump,248,4,8,260,0.954,0.046,0.333
+US,212,5,27,244,0.869,0.131,0.156
+Israel,105,0,9,114,0.921,0.079,0.0
+Tehran,60,1,7,68,0.882,0.118,0.125
+Strait of Hormuz,14,7,47,68,0.206,0.794,0.13
+Hezbollah,27,6,9,42,0.643,0.357,0.4
+Vance,30,3,5,38,0.789,0.211,0.375
+Centcom,35,0,0,35,1.0,0.0,
+Iranians,28,0,6,34,0.824,0.176,0.0
+Lebanon,12,6,13,31,0.387,0.613,0.316
+Netanyahu,29,0,1,30,0.967,0.033,0.0
+UK,18,4,8,30,0.6,0.4,0.333
+China,16,1,2,19,0.842,0.158,0.333
+Craig Foreman,11,6,1,18,0.611,0.389,0.857
+JD Vance,16,0,1,17,0.941,0.059,0.0
+Pakistan,17,0,0,17,1.0,0.0,
+Lindsay Foreman,12,3,1,16,0.75,0.25,0.75
+Washington,10,0,5,15,0.667,0.333,0.0
+IRGC,13,0,0,13,1.0,0.0,
+Americans,11,0,1,12,0.917,0.083,0.0
+Keir,11,0,0,11,1.0,0.0,
+George Stana,9,2,0,11,0.818,0.182,1.0
+Masoud Pezeshkian,10,0,0,10,1.0,0.0,
+Abbas Araghchi,10,0,0,10,1.0,0.0,
+Hegseth,9,0,0,9,1.0,0.0,
+Pete Hegseth,7,2,0,9,0.778,0.222,1.0
+Araghchi,6,1,2,9,0.667,0.333,0.333
+Marco Rubio,9,0,0,9,1.0,0.0,
+White House,8,0,1,9,0.889,0.111,0.0
+Axios,7,0,1,8,0.875,0.125,0.0
+Keir Starmer,8,0,0,8,1.0,0.0,
+Mr Explosive,6,0,2,8,0.75,0.25,0.0
+Pentagon,5,0,2,7,0.714,0.286,0.0
+US Navy,3,0,4,7,0.429,0.571,0.0
+Shirin,6,1,0,7,0.857,0.143,1.0
+Aoun,6,0,1,7,0.857,0.143,0.0
+Republicans,5,0,2,7,0.714,0.286,0.0
+Esmail Baghaei,7,0,0,7,1.0,0.0,
+Atkinson,6,0,0,6,1.0,0.0,
+BBC Verify,6,0,0,6,1.0,0.0,
+Mohammad Bagher Ghalibaf,6,0,0,6,1.0,0.0,
+Merz,6,0,0,6,1.0,0.0,
+Israelis,5,0,1,6,0.833,0.167,0.0
+Congress,3,0,3,6,0.5,0.5,0.0
+Zeraati,5,1,0,6,0.833,0.167,1.0
+Cooper,6,0,0,6,1.0,0.0,
+Reuters,4,0,2,6,0.667,0.333,0.0
+Azizi,6,0,0,6,1.0,0.0,
+Beijing,3,0,2,5,0.6,0.4,0.0
+Gulf,0,0,5,5,0.0,1.0,0.0
+Germany,3,1,1,5,0.6,0.4,0.5
+Leavitt,5,0,0,5,1.0,0.0,
+France,5,0,0,5,1.0,0.0,
+Operation Epic Fury,2,0,3,5,0.4,0.6,0.0
+Project Freedom,2,0,3,5,0.4,0.6,0.0
+Sahand,5,0,0,5,1.0,0.0,
+Mohammadi,2,3,0,5,0.4,0.6,1.0
+Hamidreza Mohammadi,5,0,0,5,1.0,0.0,
+Islamabad,2,0,2,4,0.5,0.5,0.0
+Higgins,4,0,0,4,1.0,0.0,
+Fox News,0,0,4,4,0.0,1.0,0.0
+Jones,4,0,0,4,1.0,0.0,
+Healey,4,0,0,4,1.0,0.0,
+Democrats,4,0,0,4,1.0,0.0,
+Sri Lanka,4,0,0,4,1.0,0.0,
+Shehbaz Sharif,4,0,0,4,1.0,0.0,
+Karoline Leavitt,4,0,0,4,1.0,0.0,
+Ghalibaf,4,0,0,4,1.0,0.0,
+Kushner,2,1,1,4,0.5,0.5,0.5
+Ministry of Defence,4,0,0,4,1.0,0.0,
+Maersk,4,0,0,4,1.0,0.0,
+Ayatollah Ali Khamenei,2,2,0,4,0.5,0.5,1.0
+Wang,3,0,1,4,0.75,0.25,0.0
+Vanguard,3,0,1,4,0.75,0.25,0.0
+Nord,3,0,1,4,0.75,0.25,0.0
+Badea,3,1,0,4,0.75,0.25,1.0
+Baghaei,3,0,1,4,0.75,0.25,0.0
+UAE,3,0,0,3,1.0,0.0,
+Mordashov,1,2,0,3,0.333,0.667,1.0
+Touska,0,2,1,3,0.0,1.0,0.667
+Mahmoud,3,0,0,3,1.0,0.0,
+International Monetary Fund,3,0,0,3,1.0,0.0,
+Diako,2,0,1,3,0.667,0.333,0.0
+Nato,1,0,2,3,0.333,0.667,0.0
+Andrei,2,0,1,3,0.667,0.333,0.0
+War Powers Resolution,1,2,0,3,0.333,0.667,1.0
+IDF,2,0,1,3,0.667,0.333,0.0
+Scott Bessent,3,0,0,3,1.0,0.0,
+Russia,3,0,0,3,1.0,0.0,
+Xi,3,0,0,3,1.0,0.0,
+Armin,3,0,0,3,1.0,0.0,
+Sana,2,0,1,3,0.667,0.333,0.0
+Emma Barnett,3,0,0,3,1.0,0.0,
+Witkoff,2,0,1,3,0.667,0.333,0.0
+Epaminondas,0,3,0,3,0.0,1.0,1.0
+Steve Witkoff,2,0,1,3,0.667,0.333,0.0
+Narges Mohammadi,0,3,0,3,0.0,1.0,1.0
+Starmer,3,0,0,3,1.0,0.0,
+Middle East,0,0,3,3,0.0,1.0,0.0
+South Korea,3,0,0,3,1.0,0.0,
+John Simpson,3,0,0,3,1.0,0.0,
+John Healey,3,0,0,3,1.0,0.0,
+CNN,0,0,3,3,0.0,1.0,0.0
+Beirut,1,0,2,3,0.333,0.667,0.0
+Abraham Accords,2,0,1,3,0.667,0.333,0.0
+Friedrich Merz,3,0,0,3,1.0,0.0,
+Fujairah,3,0,0,3,1.0,0.0,
+Wall Street Journal,2,0,1,3,0.667,0.333,0.0
+New York Times,1,0,2,3,0.333,0.667,0.0
+Wang Yi,3,0,0,3,1.0,0.0,
+Sherriff,2,0,0,2,1.0,0.0,
+Mick Mulroy,2,0,0,2,1.0,0.0,
+Mark Bednar,2,0,0,2,1.0,0.0,
+Mohammad Ghalibaf,2,0,0,2,1.0,0.0,
+Grant Rumley,2,0,0,2,1.0,0.0,
+Mohammad-Bagher Ghalibaf,1,0,1,2,0.5,0.5,0.0
+Guo,2,0,0,2,1.0,0.0,
+Mojtaba Khamenei,1,1,0,2,0.5,0.5,1.0
+Mustafa,1,0,1,2,0.5,0.5,0.0
+Giorgos Gerapetritis,2,0,0,2,1.0,0.0,
+Pasandideh,2,0,0,2,1.0,0.0,
+India,2,0,0,2,1.0,0.0,
+Narges Mohammadi Foundation,2,0,0,2,1.0,0.0,
+Saffron,2,0,0,2,1.0,0.0,
+Oxfam,2,0,0,2,1.0,0.0,
+Kan News,0,0,2,2,0.0,1.0,0.0
+Orion,2,0,0,2,1.0,0.0,
+Jared Kushner,2,0,0,2,1.0,0.0,
+Oman,1,0,1,2,0.5,0.5,0.0
+Qassem,2,0,0,2,1.0,0.0,
+Liat Zvi,2,0,0,2,1.0,0.0,
+Rachel Reeves,2,0,0,2,1.0,0.0,
+OFAC,2,0,0,2,1.0,0.0,
+Ramezanisadeh,2,0,0,2,1.0,0.0,
+Reeves,1,1,0,2,0.5,0.5,1.0
+MSC-Francesca,0,2,0,2,0.0,1.0,1.0
+Macron,2,0,0,2,1.0,0.0,
+Revolutionary Court,2,0,0,2,1.0,0.0,
+Navy,2,0,0,2,1.0,0.0,
+Khatibzadeh,2,0,0,2,1.0,0.0,
+Richard Meade,2,0,0,2,1.0,0.0,
+IRNA,2,0,0,2,1.0,0.0,
+Robertson,1,0,1,2,0.5,0.5,0.0
+Lebanese,2,0,0,2,1.0,0.0,
+Mohammad,2,0,0,2,1.0,0.0,
+Dorset,2,0,0,2,1.0,0.0,
+UK Maritime Trade Operations (UKMTO,2,0,0,2,1.0,0.0,
+Central Command,2,0,0,2,1.0,0.0,
+BBC London,0,0,2,2,0.0,1.0,0.0
+António Guterres,2,0,0,2,1.0,0.0,
+US Department of Defense,2,0,0,2,1.0,0.0,
+Esmaeil Baghaei,0,2,0,2,0.0,1.0,1.0
+BBC Jersey,0,0,2,2,0.0,1.0,0.0
+BBC InDepth,2,0,0,2,1.0,0.0,
+Burch,2,0,0,2,1.0,0.0,
+World Bank,2,0,0,2,1.0,0.0,
+Araqchi,1,0,1,2,0.5,0.5,0.0
+Ebrahim Rezaei,2,0,0,2,1.0,0.0,
+Arsenio Dominguez,2,0,0,2,1.0,0.0,
+UN,2,0,0,2,1.0,0.0,
+West,0,0,2,2,0.0,1.0,0.0
+Brandon-Smith,2,0,0,2,1.0,0.0,
+Yvette Cooper,2,0,0,2,1.0,0.0,
+United Arab Emirates,1,0,1,2,0.5,0.5,0.0
+Bessent,2,0,0,2,1.0,0.0,
+Abbas Aragchi,2,0,0,2,1.0,0.0,
+navy,2,0,0,2,1.0,0.0,
+Bennett,2,0,0,2,1.0,0.0,
+CBS News,0,0,2,2,0.0,1.0,0.0
+Adm Brad Cooper,2,0,0,2,1.0,0.0,
+Starlink,0,0,2,2,0.0,1.0,0.0
+Caine,2,0,0,2,1.0,0.0,
+Ali,2,0,0,2,1.0,0.0,
+Susan,2,0,0,2,1.0,0.0,
+Ali Vaez,2,0,0,2,1.0,0.0,
+Duncan Atkinson KC,2,0,0,2,1.0,0.0,
+VanLandingham,1,0,0,1,1.0,0.0,
+United States Central Command,1,0,0,1,1.0,0.0,
+PBS,0,0,1,1,0.0,1.0,0.0
+United States Air Force,1,0,0,1,1.0,0.0,
+Urea,1,0,0,1,1.0,0.0,
+Venkatakrishnan,1,0,0,1,1.0,0.0,
+United Kingdom Maritime Transportation Operation (UKMTO,1,0,0,1,1.0,0.0,
+Pakistanis,1,0,0,1,1.0,0.0,
+Palestinians,0,0,1,1,0.0,1.0,0.0
+Party of God,0,1,0,1,0.0,1.0,1.0
+United Nations Resolution 1701,0,1,0,1,0.0,1.0,1.0
+Videos,0,1,0,1,0.0,1.0,1.0
+Paul Adams,1,0,0,1,1.0,0.0,
+United Arab Emirates (UAE,1,0,0,1,1.0,0.0,
+Persian Gulf,0,0,1,1,0.0,1.0,0.0
+Umesh Babu,1,0,0,1,1.0,0.0,
+Peter Burch,1,0,0,1,1.0,0.0,
+Ukraine,0,0,1,1,0.0,1.0,0.0
+Philippines,1,0,0,1,1.0,0.0,
+Oldouz Rezvani,1,0,0,1,1.0,0.0,
+Somerset,0,0,1,1,0.0,1.0,0.0
+Obama,1,0,0,1,1.0,0.0,
+Nandito Badea,1,0,0,1,1.0,0.0,
+Mohammad Akraminia,1,0,0,1,1.0,0.0,
+Mohammad Eslami,1,0,0,1,1.0,0.0,
+Zvi,1,0,0,1,1.0,0.0,
+Zoetic Ltd,0,0,1,1,0.0,1.0,0.0
+Ziad Samir Itani,1,0,0,1,1.0,0.0,
+Zereshk,1,0,0,1,1.0,0.0,
+Montgomery,1,0,0,1,1.0,0.0,
+Morality Police,1,0,0,1,1.0,0.0,
+Zack Polanski,1,0,0,1,1.0,0.0,
+Yasmin,1,0,0,1,1.0,0.0,
+Mukesh Bansal,1,0,0,1,1.0,0.0,
+Murkowski,1,0,0,1,1.0,0.0,
+Naim Qassem,1,0,0,1,1.0,0.0,
+World Health Organization,1,0,0,1,1.0,0.0,
+Viktor Orbán,0,0,1,1,0.0,1.0,0.0
+Narges,0,0,1,1,0.0,1.0,0.0
+Nassim Papayianni,1,0,0,1,1.0,0.0,
+National Farmers' Union,1,0,0,1,1.0,0.0,
+Westminster,1,0,0,1,1.0,0.0,
+Wes Bryant,1,0,0,1,1.0,0.0,
+Washington Post,0,0,1,1,0.0,1.0,0.0
+Warren Davidson,1,0,0,1,1.0,0.0,
+Planet Labs,1,0,0,1,1.0,0.0,
+Nicholas Blanford,1,0,0,1,1.0,0.0,
+Nitya Labh,1,0,0,1,1.0,0.0,
+Wafiq Safa,1,0,0,1,1.0,0.0,
+Nour News,1,0,0,1,1.0,0.0,
+Volodymyr Zelensky,0,0,1,1,0.0,1.0,0.0
+Planet,1,0,0,1,1.0,0.0,
+Ports and Maritime Organisation of the Islamic Republic of Iran,1,0,0,1,1.0,0.0,
+Popular Mobilization Forces,1,0,0,1,1.0,0.0,
+US Treasury,1,0,0,1,1.0,0.0,
+Tasnim,1,0,0,1,1.0,0.0,
+Saudi Arabia,1,0,0,1,1.0,0.0,
+Sattar Hashemi,1,0,0,1,1.0,0.0,
+Tasnim News Agency,1,0,0,1,1.0,0.0,
+Tass,1,0,0,1,1.0,0.0,
+Sanjay Jain,1,0,0,1,1.0,0.0,
+Sanam Vakil,1,0,0,1,1.0,0.0,
+Thailand,1,0,0,1,1.0,0.0,
+Thames Valley,1,0,0,1,1.0,0.0,
+Safa Bleik,1,0,0,1,1.0,0.0,
+Saeed Khatibzadeh,1,0,0,1,1.0,0.0,
+SNSC,1,0,0,1,1.0,0.0,
+Rumley,1,0,0,1,1.0,0.0,
+Ronald Reagan,1,0,0,1,1.0,0.0,
+Thames Valley Air Ambulance,1,0,0,1,1.0,0.0,
+Saudis,1,0,0,1,1.0,0.0,
+Taif Agreement,1,0,0,1,1.0,0.0,
+Sean Parnell,1,0,0,1,1.0,0.0,
+Strait of Hormuz - one,0,0,1,1,0.0,1.0,0.0
+Somerset Air Ambulance,1,0,0,1,1.0,0.0,
+South Pars,0,0,1,1,0.0,1.0,0.0
+SpaceX,0,0,1,1,0.0,1.0,0.0
+Moein Tayari,1,0,0,1,1.0,0.0,
+Singapore,1,0,0,1,1.0,0.0,
+Spain,0,0,1,1,0.0,1.0,0.0
+Shiel,1,0,0,1,1.0,0.0,
+Senate,1,0,0,1,1.0,0.0,
+Shia Muslims,1,0,0,1,1.0,0.0,
+Supreme National Security Council,1,0,0,1,1.0,0.0,
+Shebaz Sharif,1,0,0,1,1.0,0.0,
+Sharif,1,0,0,1,1.0,0.0,
+Serv Surrey,1,0,0,1,1.0,0.0,
+TOUSKA,1,0,0,1,1.0,0.0,
+Thomas Kazakos,1,0,0,1,1.0,0.0,
+Road Less Travelled,0,0,1,1,0.0,1.0,0.0
+Thomas Massie,1,0,0,1,1.0,0.0,
+Qalibaf,1,0,0,1,1.0,0.0,
+Radmehr,1,0,0,1,1.0,0.0,
+US Defense Department,1,0,0,1,1.0,0.0,
+US Department of Defence,1,0,0,1,1.0,0.0,
+Rachel Ledwith,1,0,0,1,1.0,0.0,
+Qatar,1,0,0,1,1.0,0.0,
+US Marines,0,0,1,1,0.0,1.0,0.0
+Pyongyang,1,0,0,1,1.0,0.0,
+Randy George,0,0,1,1,0.0,1.0,0.0
+Putin,1,0,0,1,1.0,0.0,
+Pouria Zeraati,1,0,0,1,1.0,0.0,
+Snow,1,0,0,1,1.0,0.0,
+US State Department,1,0,0,1,1.0,0.0,
+Ports and Maritime Organisation of the Islamic Rep of Iran,1,0,0,1,1.0,0.0,
+US Supreme Court,1,0,0,1,1.0,0.0,
+UNHCR,1,0,0,1,1.0,0.0,
+Raphaël Chenuil-Hazan,1,0,0,1,1.0,0.0,
+Tim Wilkins,1,0,0,1,1.0,0.0,
+Tony Burke,1,0,0,1,1.0,0.0,
+Richard Corbett,1,0,0,1,1.0,0.0,
+Tine Munk,1,0,0,1,1.0,0.0,
+Reyhaneh,1,0,0,1,1.0,0.0,
+Tiyari,1,0,0,1,1.0,0.0,
+Todd Harrison,1,0,0,1,1.0,0.0,
+Revolutionary Courts,1,0,0,1,1.0,0.0,
+Tony Vaughan,1,0,0,1,1.0,0.0,
+Rathke,1,0,0,1,1.0,0.0,
+Trump's Make America Great Again,0,0,1,1,0.0,1.0,0.0
+Turkey,1,0,0,1,1.0,0.0,
+Republican Party,1,0,0,1,1.0,0.0,
+UK Government,1,0,0,1,1.0,0.0,
+Red Sea,0,0,1,1,0.0,1.0,0.0
+Red Crescent,1,0,0,1,1.0,0.0,
+Slopaganda,1,0,0,1,1.0,0.0,
+AFP,0,0,1,1,0.0,1.0,0.0
+MoD,1,0,0,1,1.0,0.0,
+Dems,1,0,0,1,1.0,0.0,
+Emmanuel Macron,1,0,0,1,1.0,0.0,
+Elisa Ewers,1,0,0,1,1.0,0.0,
+Ed Davey,1,0,0,1,1.0,0.0,
+Ebrahim Azizi,1,0,0,1,1.0,0.0,
+Dubai,0,0,1,1,0.0,1.0,0.0
+Dr Emma Briant,1,0,0,1,1.0,0.0,
+Donald Rothwell,1,0,0,1,1.0,0.0,
+DoD,1,0,0,1,1.0,0.0,
+Dilman Mahmoud,1,0,0,1,1.0,0.0,
+Department of Defense,0,0,1,1,0.0,1.0,0.0
+Defence Investment Plan,1,0,0,1,1.0,0.0,
+Chris Sherriff,1,0,0,1,1.0,0.0,
+Dax,1,0,0,1,1.0,0.0,
+David Schultz,1,0,0,1,1.0,0.0,
+David Satterfield,1,0,0,1,1.0,0.0,
+Darren Jones,1,0,0,1,1.0,0.0,
+Dan Caine,1,0,0,1,1.0,0.0,
+Cormac McGarry,1,0,0,1,1.0,0.0,
+Corbett,1,0,0,1,1.0,0.0,
+Control of the Strait of Hormuz,1,0,0,1,1.0,0.0,
+Committee for National Security and Foreign Policy,0,0,1,1,0.0,1.0,0.0
+Clock,1,0,0,1,1.0,0.0,
+Erfan Shakourzadeh,0,1,0,1,0.0,1.0,1.0
+Esmail Baqaei,1,0,0,1,1.0,0.0,
+Esmail Khatib,0,0,1,1,0.0,1.0,0.0
+Ewers,1,0,0,1,1.0,0.0,
+HRW,1,0,0,1,1.0,0.0,
+HMS Dragon,1,0,0,1,1.0,0.0,
+Guo Jiakun,1,0,0,1,1.0,0.0,
+Gulf of Oman,0,0,1,1,0.0,1.0,0.0
+Gregory Meeks,1,0,0,1,1.0,0.0,
+Greer,1,0,0,1,1.0,0.0,
+Getty Images BBC InDepth,1,0,0,1,1.0,0.0,
+Gerapetritis,1,0,0,1,1.0,0.0,
+Georgieva,1,0,0,1,1.0,0.0,
+George HW Bush,1,0,0,1,1.0,0.0,
+George Floyd,0,1,0,1,0.0,1.0,1.0
+Gaza,0,0,1,1,0.0,1.0,0.0
+Gargash,1,0,0,1,1.0,0.0,
+Gal,1,0,0,1,1.0,0.0,
+Fox Business News,0,0,1,1,0.0,1.0,0.0
+"Foreign, Commonwealth & Development Office",1,0,0,1,1.0,0.0,
+Foreign Office,1,0,0,1,1.0,0.0,
+Firozabad,1,0,0,1,1.0,0.0,
+Fatemeh Pasandideh,1,0,0,1,1.0,0.0,
+Fatemeh Mohajerani,1,0,0,1,1.0,0.0,
+Fars News Agency,1,0,0,1,1.0,0.0,
+Christoph Koettl,1,0,0,1,1.0,0.0,
+Charles O Blaha,1,0,0,1,1.0,0.0,
+Ministry of Sustainability,1,0,0,1,1.0,0.0,
+Anwar Gargash,1,0,0,1,1.0,0.0,
+BBC Kent,0,0,1,1,0.0,1.0,0.0
+BBC Gloucestershire,0,0,1,1,0.0,1.0,0.0
+Azerbaijan,1,0,0,1,1.0,0.0,
+Aywar Shekhi,1,0,0,1,1.0,0.0,
+Ayatollah Ruhollah Khomeini,1,0,0,1,1.0,0.0,
+Attaullah Tarar,1,0,0,1,1.0,0.0,
+Atefeh Ramezanisadeh,1,0,0,1,1.0,0.0,
+Assaf Orion,1,0,0,1,1.0,0.0,
+Arun Kumar,1,0,0,1,1.0,0.0,
+Aragchi,1,0,0,1,1.0,0.0,
+Anura Kumara Dissanayake,1,0,0,1,1.0,0.0,
+Charles,1,0,0,1,1.0,0.0,
+Annie Shiel,1,0,0,1,1.0,0.0,
+Anna Kelly,1,0,0,1,1.0,0.0,
+Andrew Peek,1,0,0,1,1.0,0.0,
+Alliance Fairfax,1,0,0,1,1.0,0.0,
+Ali Larijani,0,0,1,1,0.0,1.0,0.0
+Alexandra Snow,1,0,0,1,1.0,0.0,
+Akraminia,1,0,0,1,1.0,0.0,
+Ahmad Vahidi,1,0,0,1,1.0,0.0,
+Adam Smith,1,0,0,1,1.0,0.0,
+Abu Dhabi,1,0,0,1,1.0,0.0,
+BBC World Service,0,0,1,1,0.0,1.0,0.0
+Bab al-Mandab,0,0,1,1,0.0,1.0,0.0
+Babu,1,0,0,1,1.0,0.0,
+Bahrain,1,0,0,1,1.0,0.0,
+Champagne,1,0,0,1,1.0,0.0,
+Carlos Gimenez,1,0,0,1,1.0,0.0,
+Campaign for Nuclear Disarmament (CND,1,0,0,1,1.0,0.0,
+CND,1,0,0,1,1.0,0.0,
+CNBC,0,0,1,1,0.0,1.0,0.0
+CMA CGM,1,0,0,1,1.0,0.0,
+CCTV,1,0,0,1,1.0,0.0,
+CBS,0,0,1,1,0.0,1.0,0.0
+Bushehr,0,0,1,1,0.0,1.0,0.0
+Bryant,1,0,0,1,1.0,0.0,
+British Royal Navy,1,0,0,1,1.0,0.0,
+Briant,1,0,0,1,1.0,0.0,
+Boxes,1,0,0,1,1.0,0.0,
+Bleik,1,0,0,1,1.0,0.0,
+Blanford,1,0,0,1,1.0,0.0,
+Blaha,1,0,0,1,1.0,0.0,
+Bill Greer,1,0,0,1,1.0,0.0,
+Barack Obama,1,0,0,1,1.0,0.0,
+Bansal,1,0,0,1,1.0,0.0,
+Bank,1,0,0,1,1.0,0.0,
+Bangladesh,0,1,0,1,0.0,1.0,1.0
+Haji Ali,1,0,0,1,1.0,0.0,
+Hamas,0,0,1,1,0.0,1.0,0.0
+Hamidreza,1,0,0,1,1.0,0.0,
+Kuwait,1,0,0,1,1.0,0.0,
+London Blood Bikes,1,0,0,1,1.0,0.0,
+London,0,0,1,1,0.0,1.0,0.0
+Lisa Smart,1,0,0,1,1.0,0.0,
+Lindsey German,1,0,0,1,1.0,0.0,
+Lindsay James,1,0,0,1,1.0,0.0,
+Lina Khatib,1,0,0,1,1.0,0.0,
+Lee Kuan Yew,1,0,0,1,1.0,0.0,
+Lee,0,1,0,1,0.0,1.0,1.0
+Ledwith,1,0,0,1,1.0,0.0,
+AI,1,0,0,1,1.0,0.0,
+Kutani,1,0,0,1,1.0,0.0,
+Hamidreza Haji Bababei,1,0,0,1,1.0,0.0,
+Kurdistan Human Rights Network,1,0,0,1,1.0,0.0,
+Kumar,1,0,0,1,1.0,0.0,
+Kristalina Georgieva,1,0,0,1,1.0,0.0,
+Kim Ghattas,1,0,0,1,1.0,0.0,
+Khatib,1,0,0,1,1.0,0.0,
+Kharg Island,0,0,1,1,0.0,1.0,0.0
+Khamenei,0,1,0,1,0.0,1.0,1.0
+Katz,1,0,0,1,1.0,0.0,
+Katie Stevens,1,0,0,1,1.0,0.0,
+Kathleen Brooks,1,0,0,1,1.0,0.0,
+Lt Col Rachel E VanLandingham,1,0,0,1,1.0,0.0,
+Lyse Doucet,1,0,0,1,1.0,0.0,
+Mahmood Amiry-Moghaddam,1,0,0,1,1.0,0.0,
+Maldives,1,0,0,1,1.0,0.0,
+Ministry of External Affairs,1,0,0,1,1.0,0.0,
+Mike Turner,1,0,0,1,1.0,0.0,
+Mike Huckabee,1,0,0,1,1.0,0.0,
+Mike Higgins,1,0,0,1,1.0,0.0,
+Michelle Wiese Bockmann,1,0,0,1,1.0,0.0,
+Michael Young,1,0,0,1,1.0,0.0,
+Mehrab Abdollahzadeh,1,0,0,1,1.0,0.0,
+Mehr,0,0,1,1,0.0,1.0,0.0
+Meeks,1,0,0,1,1.0,0.0,
+McGarry,1,0,0,1,1.0,0.0,
+Mazda,0,0,1,1,0.0,1.0,0.0
+Mary Anne Velasquez de Vera,0,0,1,1,0.0,1.0,0.0
+Marwa Fatafta,1,0,0,1,1.0,0.0,
+Mark Warner,1,0,0,1,1.0,0.0,
+Mark Montgomery,1,0,0,1,1.0,0.0,
+Mark Hunt,1,0,0,1,1.0,0.0,
+Maritime Trade Operations Centre (UKMTO,1,0,0,1,1.0,0.0,
+MarineTraffic,1,0,0,1,1.0,0.0,
+Marine Traffic,1,0,0,1,1.0,0.0,
+Marine,1,0,0,1,1.0,0.0,
+Maor,1,0,0,1,1.0,0.0,
+Kamran Yousef,1,0,0,1,1.0,0.0,
+Josh Hawley,1,0,0,1,1.0,0.0,
+Joseph Aoun,1,0,0,1,1.0,0.0,
+Iran Labour News Agency,0,0,1,1,0.0,1.0,0.0
+Ichiro Kutani,1,0,0,1,1.0,0.0,
+ITV,0,0,1,1,0.0,1.0,0.0
+IRGC Naval Command,1,0,0,1,1.0,0.0,
+Husayn ibn Ali,1,0,0,1,1.0,0.0,
+Hunt,1,0,0,1,1.0,0.0,
+Hung Cao,1,0,0,1,1.0,0.0,
+Human Rights Office,1,0,0,1,1.0,0.0,
+Human Rights Activists News Agency,1,0,0,1,1.0,0.0,
+Human Rights Activists,1,0,0,1,1.0,0.0,
+Hui Chuan - last,1,0,0,1,1.0,0.0,
+Huckabee,1,0,0,1,1.0,0.0,
+House Intelligence Committee,0,0,1,1,0.0,1.0,0.0
+Hormuz Strait,0,1,0,1,0.0,1.0,1.0
+Hormuz,1,0,0,1,1.0,0.0,
+Hong Kong,1,0,0,1,1.0,0.0,
+Hengaw,1,0,0,1,1.0,0.0,
+Heather Brandon-Smith,1,0,0,1,1.0,0.0,
+Hawley,1,0,0,1,1.0,0.0,
+Harrison,1,0,0,1,1.0,0.0,
+Hampshire,1,0,0,1,1.0,0.0,
+Hamish Falconer,1,0,0,1,1.0,0.0,
+International Maritime Organization,0,0,1,1,0.0,1.0,0.0
+Iranian Revolutionary Guard Corps,1,0,0,1,1.0,0.0,
+Jorgen Watne Frydnes,1,0,0,1,1.0,0.0,
+Iranian Students' News Agency,0,0,1,1,0.0,1.0,0.0
+John Kennedy,1,0,0,1,1.0,0.0,
+Joeseph Aoun,1,0,0,1,1.0,0.0,
+Joe Biden,1,0,0,1,1.0,0.0,
+Joe,1,0,0,1,1.0,0.0,
+Jewish People Policy Institute,1,0,0,1,1.0,0.0,
+Jeff Rathke,1,0,0,1,1.0,0.0,
+Jeddah,0,0,1,1,0.0,1.0,0.0
+Jared Golden,1,0,0,1,1.0,0.0,
+Jakob Larsen,1,0,0,1,1.0,0.0,
+J D Vance,1,0,0,1,1.0,0.0,
+Italy,1,0,0,1,1.0,0.0,
+Israel Katz,1,0,0,1,1.0,0.0,
+Israel Defense Forces (IDF,1,0,0,1,1.0,0.0,
+Isle of Wight Air Ambulance,1,0,0,1,1.0,0.0,
+Islamic Revolutionary Guards Corps,1,0,0,1,1.0,0.0,
+Islamic Revolution Guard Corps,1,0,0,1,1.0,0.0,
+Ishaq Dar,1,0,0,1,1.0,0.0,
+Irna news agency,1,0,0,1,1.0,0.0,
+Iris Dena,1,0,0,1,1.0,0.0,
+Irins Bushehr,0,0,1,1,0.0,1.0,0.0
+Iraq,1,0,0,1,1.0,0.0,
+sports ministry,1,0,0,1,1.0,0.0,

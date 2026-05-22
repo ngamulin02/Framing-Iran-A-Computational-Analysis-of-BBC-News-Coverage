@@ -89,6 +89,7 @@ The agency summary for the most active entities is shown below. The table is res
 
 *Table 3. Agency and patient ratios for major entities.*
 
+This table differs from the mention counts in section 3.1 because the two measures count different things. Section 3.1 counts every NER detection of an entity, regardless of grammatical function. The agency analysis counts only those mentions where the dependency parse assigns the entity's root token a clear verb-linked role; active subject, passive subject, or direct object. Mentions in prepositional phrases, possessives, appositives, and other non-argument positions are excluded. For Iran, for example, 919 total mentions reduce to 320 role-bearing appearances. The agency ratios are therefore computed over a subset of total mentions, not the full mention count.
 Trump (0.954), Netanyahu (0.967), and Israel (0.921) have the highest agency ratios among major actors. They are overwhelmingly framed as initiators of action. Iran has a moderately high agency ratio (0.809) but also accumulates the largest absolute patient count (54 direct object appearances), meaning it is simultaneously the most written-about subject and the most written-about target. Lebanon (0.387) and the Strait of Hormuz (0.206) are predominantly patient entities; things that are acted upon rather than actors in their own right.
 
 ## 4. Discussion

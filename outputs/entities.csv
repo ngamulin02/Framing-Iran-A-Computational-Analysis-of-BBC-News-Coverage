@@ -1,365 +1,350 @@
 entity,label,mentions,articles
-Iran,GPE,919,89
-US,GPE,793,85
+Iran,GPE,1475,90
+US,GPE,896,85
 Trump,PERSON,377,69
-Iranian,NORP,345,80
-Israel,GPE,246,61
+Israel,NORP,365,71
 Strait of Hormuz,LOC,206,64
-Tehran,GPE,163,65
-Lebanon,GPE,136,28
-Israeli,NORP,107,41
+Lebanon,NORP,180,28
+Pakistan,GPE,144,48
+UK,GPE,130,39
 Hezbollah,ORG,98,22
-UK,GPE,94,35
-Pakistan,GPE,73,41
 Gulf,LOC,66,37
 Middle East,LOC,59,34
 Centcom,ORG,57,19
 Vance,PERSON,56,10
-Islamabad,GPE,52,25
-Washington,GPE,51,32
 IRGC,ORG,49,18
-Iranians,NORP,48,30
 Netanyahu,PERSON,43,18
 China,GPE,38,15
-American,NORP,36,24
 White House,ORG,25,19
-Lebanese,NORP,24,11
 JD Vance,PERSON,23,19
-Oman,GPE,20,14
-British,NORP,20,13
-Beirut,GPE,20,8
 Craig Foreman,PERSON,20,3
+Oman,GPE,20,14
 Nato,ORG,19,8
 Lindsay Foreman,PERSON,18,3
 Congress,ORG,18,6
 Pentagon,ORG,18,7
-Pakistani,NORP,17,14
 Marco Rubio,PERSON,17,10
-Americans,NORP,16,12
 US Navy,ORG,16,11
-London,GPE,16,11
 Germany,GPE,15,4
 George Stana,PERSON,15,2
-Masoud Pezeshkian,PERSON,14,13
-Hormuz,GPE,14,12
+Zeraati,PERSON,14,2
 French,NORP,14,8
 UAE,GPE,14,9
+Hormuz,GPE,14,12
 Axios,ORG,14,7
-Zeraati,PERSON,14,2
-Russia,GPE,13,9
-Keir,PERSON,13,4
-India,GPE,13,6
-Reuters,ORG,13,12
-Hegseth,PERSON,13,6
+Masoud Pezeshkian,PERSON,14,13
 Araghchi,GPE,13,7
-Starlink,ORG,12,1
-Abbas Araghchi,PERSON,12,12
-Gulf of Oman,LOC,12,9
+Keir,PERSON,13,4
+Reuters,ORG,13,12
+Russia,GPE,13,9
+India,GPE,13,6
+Hegseth,PERSON,13,6
 Gaza,GPE,12,7
+Gulf of Oman,LOC,12,9
+Abbas Araghchi,PERSON,12,12
 Mojtaba Khamenei,PERSON,12,9
-Israelis,NORP,12,5
-Pete Hegseth,PERSON,11,11
-Mohammad Bagher Ghalibaf,PERSON,11,11
-Fujairah,GPE,11,5
-France,GPE,11,9
+Starlink,ORG,12,1
 Russian,NORP,11,3
-Keir Starmer,PERSON,11,11
+France,GPE,11,9
+Mohammad Bagher Ghalibaf,PERSON,11,11
 State,ORG,11,11
-Mr Explosive,PERSON,10,1
+Keir Starmer,PERSON,11,11
+Fujairah,GPE,11,5
+Pete Hegseth,PERSON,11,11
 UN,ORG,10,7
-Beijing,GPE,10,6
-Mohammadi,PERSON,10,2
-Minab,GPE,10,3
 Iraq,GPE,10,8
+Beijing,GPE,10,6
+Minab,GPE,10,3
+Mr Explosive,PERSON,10,1
 Indian,NORP,10,5
-BBC Verify,ORG,9,6
-Shia,NORP,9,4
-Evin,PERSON,9,4
-Republican,NORP,9,5
-Singapore,GPE,9,1
-Sri Lanka,GPE,9,2
-Shirin,PERSON,9,1
-Ayatollah Ali Khamenei,PERSON,9,9
+Mohammadi,PERSON,10,2
 Merz,PERSON,9,1
+Shia,NORP,9,4
 Europe,LOC,9,4
-Instagram,ORG,8,8
-Ukraine,GPE,8,7
+Sri Lanka,GPE,9,2
+Ayatollah Ali Khamenei,PERSON,9,9
+Singapore,GPE,9,1
+Evin,PERSON,9,4
+Shirin,PERSON,9,1
+Republican,NORP,9,5
+BBC Verify,ORG,9,6
 Vanguard,ORG,8,3
-Qatar,GPE,8,6
-Hamas,ORG,8,7
-German,NORP,8,5
-Defence,ORG,8,7
 Arab,NORP,8,6
-North America,LOC,8,8
+Defence,ORG,8,7
 Australia,GPE,8,3
+Instagram,ORG,8,8
+German,NORP,8,5
+Qatar,GPE,8,6
+North America,LOC,8,8
+Ukraine,GPE,8,7
+Hamas,ORG,8,7
+Aoun,PERSON,7,1
+Democratic,NORP,7,3
+Azizi,PERSON,7,1
 Democrats,NORP,7,4
+Nord,ORG,7,1
+Indian Ocean,LOC,7,6
 House,ORG,7,2
 Facebook,ORG,7,7
-Azizi,PERSON,7,1
-Saudi Arabia,GPE,7,6
-European,NORP,7,6
-Nord,ORG,7,1
-Navy,ORG,7,5
-Anthony Zurcher,PERSON,7,7
-Democratic,NORP,7,3
-Republicans,NORP,7,5
-Esmail Baghaei,PERSON,7,7
-Chinese,NORP,7,5
 Steve Witkoff,PERSON,7,7
+Chinese,NORP,7,5
 Jared Kushner,PERSON,7,7
+Navy,ORG,7,5
 Persian,NORP,7,4
-Indian Ocean,LOC,7,6
-Aoun,PERSON,7,1
+Esmail Baghaei,PERSON,7,7
+Republicans,NORP,7,5
+European,NORP,7,6
+Anthony Zurcher,PERSON,7,7
+Saudi Arabia,GPE,7,6
+Atkinson,PERSON,6,2
 Yemen,GPE,6,6
 Project Freedom,ORG,6,4
-Brent,PERSON,6,5
-Cooper,ORG,6,2
 International Monetary Fund,ORG,6,6
-Asia,LOC,6,5
 Ghalibaf,PERSON,6,5
-Epaminondas,PERSON,6,3
 CBS,ORG,6,4
-Sahand,PERSON,6,1
-Middle Eastern,LOC,6,5
-Greek,NORP,6,3
+Asia,LOC,6,5
 New York Times,ORG,6,5
-Lego,ORG,6,1
+Sahand,PERSON,6,1
+Cooper,ORG,6,2
+Middle Eastern,LOC,6,5
 United Arab Emirates,ORG,6,6
-Atkinson,PERSON,6,2
+Lego,ORG,6,1
+Brent,PERSON,6,5
 Khamenei,PERSON,6,4
-Touska,ORG,5,3
-Obama,PERSON,5,5
-Xi Jinping,PERSON,5,5
-Adnoc,ORG,5,4
-Firozabad,GPE,5,1
-MarineTraffic,ORG,5,3
-Badea,ORG,5,2
-Democrat,NORP,5,4
-Senate,ORG,5,3
-Westminster,GPE,5,4
-Kuwait,GPE,5,3
+Epaminondas,PERSON,6,3
+Greek,NORP,6,3
+Shehbaz Sharif,PERSON,5,5
 WhatsApp,ORG,5,5
+Senate,ORG,5,3
+IDF,ORG,5,4
+Asian,NORP,5,4
+Leavitt,PERSON,5,2
+Touska,ORG,5,3
+Firozabad,GPE,5,1
+Kuwait,GPE,5,3
+Operation Epic Fury,ORG,5,5
 Hamidreza Mohammadi,PERSON,5,2
 Lyse Doucet,PERSON,5,5
-IDF,ORG,5,4
-Operation Epic Fury,ORG,5,5
-Shehbaz Sharif,PERSON,5,5
 Bahrain,GPE,5,3
-Asian,NORP,5,4
+Democrat,NORP,5,4
+Adnoc,ORG,5,4
+Badea,ORG,5,2
+Xi Jinping,PERSON,5,5
+Westminster,GPE,5,4
+Obama,PERSON,5,5
 Ministry of Defence,ORG,5,4
+MarineTraffic,ORG,5,3
 Persian Gulf,LOC,5,5
-Leavitt,PERSON,5,2
-Witkoff,ORG,4,3
+Italy,GPE,4,2
 Narges Mohammadi,PERSON,4,2
-Amnesty International,ORG,4,2
+Wang,ORG,4,1
+CNN,ORG,4,4
+Persian Service,ORG,4,4
+OFAC,ORG,4,1
+Maersk,ORG,4,2
+World Bank,ORG,4,2
+Andrei,PERSON,4,2
+Wall Street Journal,ORG,4,3
+Red Sea,LOC,4,3
+Baghaei,ORG,4,2
+LNG,ORG,4,4
 Mordashov,PERSON,4,1
 Jones,PERSON,4,1
-Supreme,ORG,4,4
-CNN,ORG,4,4
-Kushner,PERSON,4,3
-Persian Service,ORG,4,4
-Vietnam,GPE,4,3
-Sana,PERSON,4,1
-Washington DC,GPE,4,3
-Karoline Leavitt,PERSON,4,4
-Abraham Accords,ORG,4,2
-World Bank,ORG,4,2
 navy,ORG,4,4
+Sana,PERSON,4,1
 Gloucestershire,GPE,4,1
-Fox News,ORG,4,4
 Emmanuel Macron,PERSON,4,4
+Karoline Leavitt,PERSON,4,4
+Supreme,ORG,4,4
 Higgins,PERSON,4,1
-Baghaei,ORG,4,2
-Rachel Reeves,PERSON,4,3
-Andrei,PERSON,4,2
-Maersk,ORG,4,2
-OFAC,ORG,4,1
-Romanian,NORP,4,3
-Red Sea,LOC,4,3
-Wang,ORG,4,1
-Wall Street Journal,ORG,4,3
-Healey,ORG,4,1
-Italy,GPE,4,2
-Romania,GPE,4,2
+Witkoff,ORG,4,3
+Abraham Accords,ORG,4,2
 Islamic,NORP,4,4
+Amnesty International,ORG,4,2
+Washington DC,GPE,4,3
+Healey,ORG,4,1
+Romanian,NORP,4,3
+Kushner,PERSON,4,3
 Woolwich Crown Court,ORG,4,2
+Rachel Reeves,PERSON,4,3
+Romania,GPE,4,2
 South Korea,GPE,4,3
-LNG,ORG,4,4
-Robertson,PERSON,3,1
-Parliament,ORG,3,3
-Ebrahim Rezaei,PERSON,3,3
-Hampshire,GPE,3,1
-State Department,ORG,3,3
-Iris Dena,ORG,3,1
-Politics Essential,ORG,3,3
-Afghanistan,GPE,3,2
-Mahsa Amini,PERSON,3,3
-non-US,NORP,3,2
-Friedrich Merz,PERSON,3,3
-Tasnim,PERSON,3,3
-Diako,PERSON,3,1
-East Sussex,GPE,3,3
-Gulf Arab,LOC,3,3
-Joint Maritime Information Centre,ORG,3,2
-Human Rights Activists News Agency,ORG,3,3
-Armin,PERSON,3,1
-Florida,GPE,3,3
+Fox News,ORG,4,4
+Vietnam,GPE,4,3
 Foreign Office,ORG,3,2
-Epstein,PERSON,3,1
-United Arab Emirates (UAE,GPE,3,3
-Wang Yi,PERSON,3,1
-Spain,GPE,3,1
+War Powers Resolution,ORG,3,2
+Richard Nixon,PERSON,3,3
+Joe Bennett,PERSON,3,3
+Putin,PERSON,3,1
+Friedrich Merz,PERSON,3,3
+Diako,PERSON,3,1
+Afghanistan,GPE,3,2
+RAF Fairford,ORG,3,1
+BST,ORG,3,3
+Tasnim,PERSON,3,3
+East Sussex,GPE,3,3
+Dan Caine,PERSON,3,3
+Parliament,ORG,3,3
+Scott Bessent,PERSON,3,3
+CBS News,ORG,3,3
+Joint Maritime Information Centre,ORG,3,2
 US Treasury,ORG,3,3
 Treasury,ORG,3,2
-Scott Bessent,PERSON,3,3
-Dan Caine,PERSON,3,3
-Richard Nixon,PERSON,3,3
-BST,ORG,3,3
-Joe Bennett,PERSON,3,3
-War Powers Resolution,ORG,3,2
-CBS News,ORG,3,3
-Thailand,GPE,3,1
+Wang Yi,PERSON,3,1
+State Department,ORG,3,3
+Hampshire,GPE,3,1
+Spain,GPE,3,1
+non-US,NORP,3,2
+Mazda,ORG,3,2
 Joe,PERSON,3,1
-non-Iranian,NORP,3,3
-Putin,PERSON,3,1
-Xi,PERSON,3,2
-MSC-Francesca,ORG,3,1
-Australian,NORP,3,2
-Mahmoud,PERSON,3,1
-Sea of Oman,LOC,3,3
-Mohammad,PERSON,3,1
-John Healey,PERSON,3,3
+Planet,ORG,3,1
+United Arab Emirates (UAE,GPE,3,3
+Thailand,GPE,3,1
+Florida,GPE,3,3
+Armin,PERSON,3,1
 Nandito Badea,PERSON,3,2
-Mustafa,PERSON,3,1
-Tel Aviv,GPE,3,2
+Human Rights Activists News Agency,ORG,3,3
+Epstein,PERSON,3,1
+Ebrahim Rezaei,PERSON,3,3
+MSC-Francesca,ORG,3,1
+Gulf Arab,LOC,3,3
+Mahsa Amini,PERSON,3,3
+Ali,PERSON,3,1
+Zanjan,PERSON,3,3
+John Healey,PERSON,3,3
+non-Iranian,NORP,3,3
 Mohammad Ghalibaf,PERSON,3,3
 Bessent,PERSON,3,1
-Planet,ORG,3,1
-Starmer,PERSON,3,2
 Shia Muslim,NORP,3,3
-Mazda,ORG,3,2
+Starmer,PERSON,3,2
 Emirati,NORP,3,2
-Zanjan,PERSON,3,3
-John Simpson,PERSON,3,3
-RAF Fairford,ORG,3,1
-Norway,GPE,3,3
-Ali,PERSON,3,1
+Mohammad,PERSON,3,1
+Xi,PERSON,3,2
+Politics Essential,ORG,3,3
+Robertson,PERSON,3,1
+Iris Dena,ORG,3,1
 Emma Barnett,PERSON,3,3
-BBC InDepth,ORG,2,2
-United States Armed Forces,ORG,2,2
-Qassem,PERSON,2,1
+John Simpson,PERSON,3,3
+Norway,GPE,3,3
+Australian,NORP,3,2
+Mustafa,PERSON,3,1
+Sea of Oman,LOC,3,3
+Mahmoud,PERSON,3,1
+Tel Aviv,GPE,3,2
+Husayn ibn Ali,PERSON,2,1
 Hamidreza Haji Bababei,PERSON,2,2
-Panama,GPE,2,1
-TOUSKA,ORG,2,1
-Central Bank,LOC,2,2
-Gulf region,LOC,2,2
-Charles,PERSON,2,2
-UK Maritime Trade Operations,ORG,2,2
-Axis of Resistance,ORG,2,2
-Kayleen Devlin,PERSON,2,2
-Access Now,ORG,2,1
-Miami,GPE,2,2
-Maxar,ORG,2,1
-Tabriz,GPE,2,1
+South East Asia,LOC,2,1
+New York,GPE,2,2
+SpaceX,ORG,2,1
+Telegram,ORG,2,1
 YouTube,GPE,2,2
-Naim Qassem,PERSON,2,2
-Explosive Media,ORG,2,1
+Access Now,ORG,2,1
+António Guterres,PERSON,2,2
+Somerset,GPE,2,1
+Jersey,GPE,2,1
+Central Bank,LOC,2,2
+Joseph Aoun,PERSON,2,2
 Ohio,GPE,2,2
 Jewish,NORP,2,2
-Kan News,ORG,2,2
-Esmaeil Baghaei,PERSON,2,2
-Oxfam,ORG,2,1
-New York,GPE,2,2
-Joseph Aoun,PERSON,2,2
-Bekaa Valley,LOC,2,2
-Chatham House,ORG,2,2
-Reeves,PERSON,2,2
-Telegram,ORG,2,1
-Susan,PERSON,2,1
-Mossad,ORG,2,2
-AI,ORG,2,2
-IMF,ORG,2,1
-SNSC,ORG,2,1
-UFC,ORG,2,2
-Husayn ibn Ali,PERSON,2,1
-Supreme National Security Council,ORG,2,2
-Islamic Revolutionary Guards Corps,ORG,2,2
-SpaceX,ORG,2,1
-Sunni,NORP,2,2
-University of Tehran,ORG,2,2
-IHR,ORG,2,1
-Army,ORG,2,2
-South East Asia,LOC,2,1
-Venezuela,GPE,2,2
-US Department of Defense,ORG,2,2
-House of Representatives,ORG,2,2
-Kharg Island,LOC,2,2
-Israel Katz,PERSON,2,2
-X. Iranian,ORG,2,2
-Uttar Pradesh,GPE,2,1
-Ramezanisadeh,PERSON,2,1
-Jersey,GPE,2,1
-António Guterres,PERSON,2,2
-Pasandideh,GPE,2,1
-Bab al-Mandab,PERSON,2,1
-Fars News Agency,ORG,2,2
-Orion,ORG,2,1
-Mohammad-Bagher Ghalibaf,PERSON,2,1
-Mark Bednar,PERSON,2,1
-Strip,LOC,2,1
-Nahariya,ORG,2,1
-Turkish,NORP,2,1
+BBC Jersey,GPE,2,1
 Marine Traffic,ORG,2,2
-Somerset,GPE,2,1
-Abbas Aragchi,PERSON,2,2
+Chatham House,ORG,2,2
+Bab al-Mandab,PERSON,2,1
 West Bank,GPE,2,2
 Palestinian,NORP,2,1
-Turkey,GPE,2,2
-Zvi,PERSON,2,1
-IRNA,ORG,2,2
-Giorgos Gerapetritis,PERSON,2,2
+Miami,GPE,2,2
+Kharg Island,LOC,2,2
+Reeves,PERSON,2,2
+BBC InDepth,ORG,2,2
+Kan News,ORG,2,2
+Pasandideh,GPE,2,1
+Fars News Agency,ORG,2,2
+UFC,ORG,2,2
+Esmaeil Baghaei,PERSON,2,2
+Nahariya,ORG,2,1
+X. Iranian,ORG,2,2
+Turkish,NORP,2,1
+Abbas Aragchi,PERSON,2,2
+Tabriz,GPE,2,1
+Bekaa Valley,LOC,2,2
+Axis of Resistance,ORG,2,2
+Qassem,PERSON,2,1
 Richard Meade,PERSON,2,2
-Brandon-Smith,PERSON,2,1
-West,LOC,2,2
+Susan,PERSON,2,1
+Mossad,ORG,2,2
+Israel Katz,PERSON,2,2
+Sunni,NORP,2,2
+Naim Qassem,PERSON,2,2
 ITV,ORG,2,1
-Arabs,NORP,2,1
-Islamic Revolutionary Guards,ORG,2,2
-Jews,NORP,2,1
-Hebrew University of Jerusalem,ORG,2,1
-Philippines,GPE,2,2
-BBC Jersey,GPE,2,1
-Sattar Hashemi,PERSON,2,2
-Liat Zvi,PERSON,2,1
-Brisbane,GPE,2,2
-Guo,PERSON,2,1
+United States Armed Forces,ORG,2,2
+AI,ORG,2,2
+Planet Labs,ORG,2,1
+Army,ORG,2,2
 Joe Biden,PERSON,2,2
+UK Maritime Trade Operations,ORG,2,2
 International Maritime Organisation,ORG,2,2
 Arsenio Dominguez,PERSON,2,2
-Diego Garcia,ORG,2,2
+Arabs,NORP,2,1
 US Energy Information Administration,ORG,2,2
-Planet Labs,ORG,2,1
+Panama,GPE,2,1
+IHR,ORG,2,1
+Supreme National Security Council,ORG,2,2
+Diego Garcia,ORG,2,2
+Hebrew University of Jerusalem,ORG,2,1
+Giorgos Gerapetritis,PERSON,2,2
+University of Tehran,ORG,2,2
+Venezuela,GPE,2,2
+West,LOC,2,2
+US Department of Defense,ORG,2,2
+House of Representatives,ORG,2,2
+Islamic Revolutionary Guards,ORG,2,2
+Sattar Hashemi,PERSON,2,2
+Uttar Pradesh,GPE,2,1
+Jews,NORP,2,1
+Brisbane,GPE,2,2
 Dubai,GPE,2,1
+Mohammad-Bagher Ghalibaf,PERSON,2,1
+Orion,ORG,2,1
+Explosive Media,ORG,2,1
+Mark Bednar,PERSON,2,1
+IMF,ORG,2,1
+IRNA,ORG,2,2
+SNSC,ORG,2,1
+Guo,PERSON,2,1
+Islamic Revolutionary Guards Corps,ORG,2,2
+Brandon-Smith,PERSON,2,1
+Turkey,GPE,2,2
+Maxar,ORG,2,1
+Liat Zvi,PERSON,2,1
+Philippines,GPE,2,2
+Gulf region,LOC,2,2
+TOUSKA,ORG,2,1
+Charles,PERSON,2,2
+Zvi,PERSON,2,1
+Strip,LOC,2,1
+Kayleen Devlin,PERSON,2,2
+Oxfam,ORG,2,1
+Ramezanisadeh,PERSON,2,1
 Khatibzadeh,ORG,2,1
 David Andrei,PERSON,2,2
-Oldouz Rezvani,PERSON,2,1
+Iranian Parliament,ORG,2,2
 Caine,PERSON,2,2
 CMA CGM,ORG,2,2
 Macron,ORG,2,2
 Narges Mohammadi Foundation,ORG,2,2
 Araqchi,PERSON,2,1
 Iranian Revolutionary Guard Corps,ORG,2,2
-Iranian Parliament,ORG,2,2
 Kurdish,NORP,2,2
+Iran International,ORG,2,1
 Bucharest,GPE,2,1
 Adm Brad Cooper,PERSON,2,2
 Anwar Gargash,PERSON,2,2
 Marine,ORG,2,2
 Rumley,PERSON,2,1
 Folkestone,GPE,2,2
-Sharjah,GPE,2,2
 Paris,GPE,2,2
-Iran International,ORG,2,1
 Hengaw,ORG,2,1
+Downing Street,ORG,2,2
 International Crisis Group,ORG,2,2
 Bennett,PERSON,2,2
 Fars,NORP,2,2
@@ -375,10 +360,11 @@ Narges,GPE,2,2
 Baltic,LOC,2,2
 International Maritime Council,ORG,2,2
 Central Command,ORG,2,2
-Downing Street,ORG,2,2
+Sharjah,GPE,2,2
 Hamidreza,PERSON,2,2
-Isfahan,GPE,2,2
+Oldouz Rezvani,PERSON,2,1
 BBC London,ORG,2,2
+Isfahan,GPE,2,2
 Hemroc Ltd,ORG,2,1
 Wimbledon,GPE,2,2
 Geneva,GPE,2,2
@@ -386,7 +372,6 @@ Mehrab Abdollahzadeh,PERSON,2,1
 BBC Radio London,ORG,2,2
 UK Maritime Trade Operations (UKMTO,ORG,2,2
 Japan,GPE,2,2
-Pakistanis,NORP,2,2
 Kurdistan Human Rights Network,ORG,2,1
 Barack Obama,PERSON,2,2
 Dorset,GPE,2,1
@@ -399,6 +384,6 @@ Biden,PERSON,2,2
 Wiltshire,GPE,2,2
 Labour,ORG,2,2
 Sherriff,ORG,2,1
-Yvette Cooper,PERSON,2,2
 Burch,ORG,2,1
+Yvette Cooper,PERSON,2,2
 US State Department,ORG,2,2

@@ -1,1504 +1,1487 @@
-entity,verb,role,count
-AFP,tell,object,1
-AI,enable,subject,1
-Abbas Aragchi,hold,subject,1
-Abbas Aragchi,say,subject,1
-Abbas Araghchi,say,subject,4
-Abbas Araghchi,accuse,subject,1
-Abbas Araghchi,tell,subject,1
-Abbas Araghchi,hail,subject,1
-Abbas Araghchi,arrive,subject,1
-Abbas Araghchi,continue,subject,1
-Abbas Araghchi,follow,subject,1
-Abraham Accords,declare,object,1
-Abraham Accords,be,subject,1
-Abraham Accords,normalise,subject,1
-Abu Dhabi,call,subject,1
-Adam Smith,tell,subject,1
-Adm Brad Cooper,say,subject,2
-Ahmad Vahidi,lead,subject,1
-Akraminia,say,subject,1
-Alexandra Snow,say,subject,1
-Ali,recount,subject,1
-Ali,announce,subject,1
-Ali Larijani,include,object,1
-Ali Vaez,think,subject,1
-Ali Vaez,assess,subject,1
-Alliance Fairfax,exit,subject,1
-Americans,be,subject,2
-Americans,gain,subject,1
-Americans,grant,subject,1
-Americans,disregard,subject,1
-Americans,face,subject,1
-Americans,have,subject,1
-Americans,travel,subject,1
-Americans,feel,subject,1
-Americans,expect,subject,1
-Americans,tell,object,1
-Americans,use,subject,1
-Andrei,show,object,1
-Andrei,wait,subject,1
-Andrei,carry,subject,1
-Andrew Peek,say,subject,1
-Anna Kelly,confirm,subject,1
-Annie Shiel,say,subject,1
-António Guterres,say,subject,1
-António Guterres,be,subject,1
-Anura Kumara Dissanayake,say,subject,1
-Anwar Gargash,describe,subject,1
-Aoun,take,subject,1
-Aoun,vow,subject,1
-Aoun,appear,subject,1
-Aoun,propose,subject,1
-Aoun,defend,subject,1
-Aoun,warn,subject,1
-Aoun,ask,object,1
-Aragchi,call,subject,1
-Araghchi,say,subject,1
-Araghchi,tell,object,1
-Araghchi,share,subject,1
-Araghchi,write,subject,1
-Araghchi,expect,passive_subject,1
-Araghchi,meet,subject,1
-Araghchi,plan,subject,1
-Araghchi,rebuke,object,1
-Araghchi,stress,subject,1
-Araqchi,tell,object,1
-Araqchi,tell,subject,1
-Armin,tell,subject,1
-Armin,explain,subject,1
-Armin,be,subject,1
-Arsenio Dominguez,tell,subject,2
-Arun Kumar,say,subject,1
-Assaf Orion,say,subject,1
-Atefeh Ramezanisadeh,be,subject,1
-Atkinson,say,subject,6
-Attaullah Tarar,say,subject,1
-Axios,report,subject,5
-Axios,describe,subject,1
-Axios,say,subject,1
-Axios,tell,object,1
-Ayatollah Ali Khamenei,kill,passive_subject,2
-Ayatollah Ali Khamenei,report,subject,1
-Ayatollah Ali Khamenei,make,subject,1
-Ayatollah Ruhollah Khomeini,report,subject,1
-Aywar Shekhi,tell,subject,1
-Azerbaijan,accuse,subject,1
-Azizi,reflect,subject,1
-Azizi,emphasise,subject,1
-Azizi,dismiss,subject,1
-Azizi,scoff,subject,1
-Azizi,say,subject,1
-Azizi,repeat,subject,1
-BBC Gloucestershire,follow,object,1
-BBC InDepth,be,subject,2
-BBC Jersey,tell,object,1
-BBC Jersey,follow,object,1
-BBC Kent,follow,object,1
-BBC London,follow,object,2
-BBC Verify,check,subject,1
-BBC Verify,put,subject,1
-BBC Verify,analyse,subject,1
-BBC Verify,see,subject,1
-BBC Verify,use,subject,1
-BBC Verify,rely,subject,1
-BBC World Service,tell,object,1
-Bab al-Mandab,block,object,1
-Babu,say,subject,1
-Badea,deny,subject,2
-Badea,fly,subject,1
-Badea,allege,passive_subject,1
-Baghaei,say,subject,1
-Baghaei,ask,object,1
-Baghaei,underline,subject,1
-Baghaei,recall,subject,1
-Bahrain,report,subject,1
-Bangladesh,cut,passive_subject,1
-Bank,rush,subject,1
-Bansal,say,subject,1
-Barack Obama,argue,subject,1
-Beijing,be,subject,1
-Beijing,urge,subject,1
-Beijing,credit,object,1
-Beijing,call,subject,1
-Beijing,force,object,1
-Beirut,hit,object,1
-Beirut,overlook,object,1
-Beirut,say,subject,1
-Bennett,tell,subject,1
-Bennett,add,subject,1
-Bessent,hold,subject,1
-Bessent,be,subject,1
-Bill Greer,found,subject,1
-Blaha,spend,subject,1
-Blanford,say,subject,1
-Bleik,say,subject,1
-Boxes,label,subject,1
-Brandon-Smith,add,subject,1
-Brandon-Smith,state,subject,1
-Briant,say,subject,1
-British Royal Navy,send,subject,1
-Bryant,say,subject,1
-Burch,suffer,subject,1
-Burch,work,subject,1
-Bushehr,operate,object,1
-CBS,tell,object,1
-CBS News,tell,object,2
-CCTV,show,subject,1
-CMA CGM,confirm,subject,1
-CNBC,tell,object,1
-CND,call,subject,1
-CNN,tell,object,3
-Caine,add,subject,1
-Caine,say,subject,1
-Campaign for Nuclear Disarmament (CND,organise,subject,1
-Carlos Gimenez,say,subject,1
-Centcom,say,subject,24
-Centcom,accuse,subject,1
-Centcom,describe,subject,1
-Centcom,seek,subject,1
-Centcom,post,subject,1
-Centcom,deny,subject,1
-Centcom,prepare,subject,1
-Centcom,share,subject,1
-Centcom,release,subject,1
-Centcom,announce,subject,1
-Centcom,confirm,subject,1
-Centcom,add,subject,1
-Central Command,post,subject,1
-Central Command,announce,subject,1
-Champagne,say,subject,1
-Charles,arrive,subject,1
-Charles O Blaha,say,subject,1
-China,believe,subject,2
-China,be,subject,2
-China,hop,subject,1
-China,appreciate,subject,1
-China,import,subject,1
-China,challenge,subject,1
-China,visit,object,1
-China,estimate,passive_subject,1
-China,describe,subject,1
-China,call,subject,1
-China,pressure,object,1
-China,urge,subject,1
-China,prepare,subject,1
-China,take,subject,1
-China,report,subject,1
-China,watch,subject,1
-China,push,subject,1
-Chris Sherriff,say,subject,1
-Christoph Koettl,say,subject,1
-Clock,be,subject,1
-Committee for National Security and Foreign Policy,head,object,1
-Congress,notify,object,3
-Congress,make,subject,1
-Congress,block,subject,1
-Congress,pass,subject,1
-Control of the Strait of Hormuz,become,subject,1
-Cooper,say,subject,4
-Cooper,tell,subject,1
-Cooper,deliver,subject,1
-Corbett,say,subject,1
-Cormac McGarry,say,subject,1
-Craig Foreman,say,subject,5
-Craig Foreman,arrest,passive_subject,1
-Craig Foreman,believe,passive_subject,1
-Craig Foreman,wait,subject,1
-Craig Foreman,return,object,1
-Craig Foreman,detain,passive_subject,1
-Craig Foreman,be,subject,1
-Craig Foreman,tell,subject,1
-Craig Foreman,warn,subject,1
-Craig Foreman,return,passive_subject,1
-Craig Foreman,hold,passive_subject,1
-Craig Foreman,jump,subject,1
-Craig Foreman,assess,subject,1
-Craig Foreman,interrogate,passive_subject,1
-Dan Caine,say,subject,1
-Darren Jones,tell,subject,1
-David Satterfield,tell,subject,1
-David Schultz,tell,subject,1
-Dax,be,subject,1
-Defence Investment Plan,be,subject,1
-Democrats,vow,subject,2
-Democrats,write,subject,1
-Democrats,urge,subject,1
-Dems,propose,subject,1
-Department of Defense,suspend,object,1
-Diako,be,subject,1
-Diako,meet,object,1
-Diako,want,subject,1
-Dilman Mahmoud,say,subject,1
-DoD,say,subject,1
-Donald Rothwell,say,subject,1
-Dorset,say,subject,2
-Dr Emma Briant,say,subject,1
-Dubai,leave,object,1
-Duncan Atkinson KC,say,subject,1
-Duncan Atkinson KC,tell,subject,1
-Ebrahim Azizi,tell,subject,1
-Ebrahim Rezaei,write,subject,2
-Ed Davey,say,subject,1
-Elisa Ewers,agree,subject,1
-Emma Barnett,bring,subject,3
-Emmanuel Macron,say,subject,1
-Epaminondas,seize,passive_subject,1
-Epaminondas,attack,passive_subject,1
-Epaminondas,detain,passive_subject,1
-Erfan Shakourzadeh,hang,passive_subject,1
-Esmaeil Baghaei,quote,passive_subject,2
-Esmail Baghaei,say,subject,2
-Esmail Baghaei,insist,subject,1
-Esmail Baghaei,tell,subject,1
-Esmail Baghaei,deny,subject,1
-Esmail Baghaei,end,subject,1
-Esmail Baghaei,criticise,subject,1
-Esmail Baqaei,say,subject,1
-Esmail Khatib,include,object,1
-Ewers,say,subject,1
-Fars News Agency,say,subject,1
-Fatemeh Mohajerani,say,subject,1
-Fatemeh Pasandideh,be,subject,1
-Firozabad,produce,subject,1
-Foreign Office,say,subject,1
-"Foreign, Commonwealth & Development Office",say,subject,1
-Fox Business News,tell,object,1
-Fox News,tell,object,4
-France,lead,subject,2
-France,announce,subject,1
-France,envisage,subject,1
-France,co,subject,1
-Friedrich Merz,call,subject,1
-Friedrich Merz,criticise,subject,1
-Friedrich Merz,say,subject,1
-Fujairah,be,subject,1
-Fujairah,come,subject,1
-Fujairah,lie,subject,1
-Gal,say,subject,1
-Gargash,say,subject,1
-Gaza,do,object,1
-George Floyd,see,passive_subject,1
-George HW Bush,seek,subject,1
-George Stana,deny,subject,3
-George Stana,be,subject,2
-George Stana,fly,subject,1
-George Stana,drive,subject,1
-George Stana,wait,subject,1
-George Stana,say,passive_subject,1
-George Stana,stop,passive_subject,1
-George Stana,leave,subject,1
-Georgieva,warn,subject,1
-Gerapetritis,tell,subject,1
-Germany,do,subject,1
-Germany,be,subject,1
-Germany,accuse,object,1
-Germany,project,passive_subject,1
-Germany,stand,subject,1
-Getty Images BBC InDepth,be,subject,1
-Ghalibaf,say,subject,2
-Ghalibaf,emerge,subject,1
-Ghalibaf,address,subject,1
-Giorgos Gerapetritis,confirm,subject,1
-Giorgos Gerapetritis,say,subject,1
-Grant Rumley,tell,subject,1
-Grant Rumley,say,subject,1
-Greer,observe,subject,1
-Gregory Meeks,tell,subject,1
-Gulf,exit,object,2
-Gulf,connect,object,2
-Gulf,enter,object,1
-Gulf of Oman,face,object,1
-Guo,tell,subject,1
-Guo,say,subject,1
-Guo Jiakun,say,subject,1
-HMS Dragon,be,subject,1
-HRW,issue,subject,1
-Haji Ali,sink,subject,1
-Hamas,include,object,1
-Hamidreza,tell,subject,1
-Hamidreza Haji Bababei,claim,subject,1
-Hamidreza Mohammadi,tell,subject,2
-Hamidreza Mohammadi,say,subject,2
-Hamidreza Mohammadi,warn,subject,1
-Hamish Falconer,describe,subject,1
-Hampshire,say,subject,1
-Harrison,say,subject,1
-Hawley,say,subject,1
-Healey,say,subject,3
-Healey,offer,subject,1
-Heather Brandon-Smith,say,subject,1
-Hegseth,say,subject,5
-Hegseth,speak,subject,1
-Hegseth,spar,subject,1
-Hegseth,warn,subject,1
-Hegseth,insist,subject,1
-Hengaw,say,subject,1
-Hezbollah,be,subject,5
-Hezbollah,fire,subject,4
-Hezbollah,disarm,object,3
-Hezbollah,carry,subject,2
-Hezbollah,weaken,passive_subject,2
-Hezbollah,strike,object,2
-Hezbollah,break,subject,1
-Hezbollah,begin,subject,1
-Hezbollah,continue,subject,1
-Hezbollah,receive,subject,1
-Hezbollah,defeat,passive_subject,1
-Hezbollah,accuse,object,1
-Hezbollah,create,passive_subject,1
-Hezbollah,manage,subject,1
-Hezbollah,agree,subject,1
-Hezbollah,hold,subject,1
-Hezbollah,have,subject,1
-Hezbollah,respond,subject,1
-Hezbollah,debate,subject,1
-Hezbollah,insist,subject,1
-Hezbollah,give,subject,1
-Hezbollah,kill,subject,1
-Hezbollah,scupper,subject,1
-Hezbollah,target,object,1
-Hezbollah,fight,object,1
-Hezbollah,weaken,object,1
-Hezbollah,join,subject,1
-Hezbollah,take,passive_subject,1
-Hezbollah,disarm,passive_subject,1
-Hezbollah,say,subject,1
-Higgins,say,subject,3
-Higgins,add,subject,1
-Hong Kong,seize,subject,1
-Hormuz,be,subject,1
-Hormuz Strait,block,passive_subject,1
-House Intelligence Committee,chair,object,1
-Huckabee,say,subject,1
-Hui Chuan - last,broadcast,subject,1
-Human Rights Activists,report,subject,1
-Human Rights Activists News Agency,report,subject,1
-Human Rights Office,warn,subject,1
-Hung Cao,serve,subject,1
-Hunt,explain,subject,1
-Husayn ibn Ali,be,subject,1
-IDF,say,subject,2
-IDF,harm,object,1
-IRGC,deny,subject,2
-IRGC,say,subject,2
-IRGC,be,subject,2
-IRGC,share,subject,1
-IRGC,open,subject,1
-IRGC,target,subject,1
-IRGC,hail,subject,1
-IRGC,mention,subject,1
-IRGC,add,subject,1
-IRGC,designate,subject,1
-IRGC Naval Command,say,subject,1
-IRNA,report,subject,1
-IRNA,say,subject,1
-ITV,tell,object,1
-Ichiro Kutani,say,subject,1
-India,say,subject,1
-India,host,subject,1
-International Maritime Organization,visit,object,1
-International Monetary Fund,warn,subject,2
-International Monetary Fund,predict,subject,1
-Iran,say,subject,23
-Iran,agree,subject,18
-Iran,have,subject,15
-Iran,be,subject,13
-Iran,attack,object,12
-Iran,accuse,object,8
-Iran,deny,subject,8
-Iran,continue,subject,7
-Iran,insist,subject,6
-Iran,want,subject,6
-Iran,announce,subject,5
-Iran,respond,subject,5
-Iran,decide,subject,5
-Iran,seek,subject,4
-Iran,launch,subject,4
-Iran,remain,subject,4
-Iran,threaten,subject,4
-Iran,end,subject,4
-Iran,attack,subject,4
-Iran,call,subject,4
-Iran,give,subject,4
-Iran,infuriate,object,3
-Iran,try,subject,3
-Iran,urge,object,3
-Iran,do,subject,3
-Iran,fire,subject,3
-Iran,make,subject,3
-Iran,restrict,subject,3
-Iran,demand,subject,3
-Iran,lay,subject,2
-Iran,control,subject,2
-Iran,warn,subject,2
-Iran,enter,object,2
-Iran,warn,object,2
-Iran,pressure,object,2
-Iran,show,subject,2
-Iran,limit,subject,2
-Iran,begin,subject,2
-Iran,close,subject,2
-Iran,hold,subject,2
-Iran,describe,subject,2
-Iran,accuse,subject,2
-Iran,accuse,passive_subject,2
-Iran,attend,subject,2
-Iran,blackmail,subject,2
-Iran,refuse,subject,2
-Iran,block,subject,2
-Iran,back,subject,2
-Iran,offer,subject,2
-Iran,charge,subject,2
-Iran,know,passive_subject,1
-Iran,keep,subject,1
-Iran,turn,subject,1
-Iran,carry,subject,1
-Iran,obtain,subject,1
-Iran,hit,subject,1
-Iran,act,subject,1
-Iran,retaliate,subject,1
-Iran,remains,subject,1
-Iran,expect,passive_subject,1
-Iran,trifle,subject,1
-Iran,review,subject,1
-Iran,deliver,subject,1
-Iran,blockade,subject,1
-Iran,impose,subject,1
-Iran,come,subject,1
-Iran,choose,subject,1
-Iran,demonstrate,subject,1
-Iran,enrich,subject,1
-Iran,start,object,1
-Iran,receive,subject,1
-Iran,send,subject,1
-Iran,pay,object,1
-Iran,target,subject,1
-Iran,stop,object,1
-Iran,see,object,1
-Iran,export,subject,1
-Iran,use,subject,1
-Iran,blame,object,1
-Iran,get,subject,1
-Iran,die,subject,1
-Iran,tick,subject,1
-Iran,return,object,1
-Iran,re,subject,1
-Iran,open,subject,1
-Iran,sweep,object,1
-Iran,comment,subject,1
-Iran,reopen,subject,1
-Iran,remove,object,1
-Iran,dismiss,subject,1
-Iran,complain,subject,1
-Iran,accept,subject,1
-Iran,condemn,subject,1
-Iran,violate,subject,1
-Iran,designate,subject,1
-Iran,thank,object,1
-Iran,require,subject,1
-Iran,hit,passive_subject,1
-Iran,destroy,object,1
-Iran,maintain,subject,1
-Iran,manage,subject,1
-Iran,order,object,1
-Iran,live,subject,1
-Iran,work,subject,1
-Iran,arm,subject,1
-Iran,leave,object,1
-Iran,capitulate,subject,1
-Iran,arrange,subject,1
-Iran,shut,subject,1
-Iran,starve,object,1
-Iran,force,object,1
-Iran,weaken,passive_subject,1
-Iran,strike,object,1
-Iran,resume,object,1
-Iran,feel,subject,1
-Iran,persuade,object,1
-Iran,execute,subject,1
-Iran,survive,subject,1
-Iran,cut,subject,1
-Iran,start,subject,1
-Iran,meet,subject,1
-Iran,overplay,subject,1
-Iran,indicate,subject,1
-Iran,reach,subject,1
-Iran,resist,subject,1
-Iran,stand,subject,1
-Iran,enable,object,1
-Iran,rank,passive_subject,1
-Iran,prevent,object,1
-Iran,do,object,1
-Iran,abandon,subject,1
-Iran,satisfy,object,1
-Iran,seem,subject,1
-Iran,exercise,subject,1
-Iran,suffer,subject,1
-Iran,bomb,object,1
-Iran,tell,subject,1
-Iran,let,subject,1
-Iran,abide,subject,1
-Iran,provide,subject,1
-Iran,need,subject,1
-Iran Labour News Agency,include,object,1
-Iranian Revolutionary Guard Corps,allude,subject,1
-Iranian Students' News Agency,tell,object,1
-Iranians,be,subject,7
-Iranians,push,object,3
-Iranians,bow,subject,2
-Iranians,have,subject,2
-Iranians,want,subject,2
-Iranians,seize,subject,2
-Iranians,object,subject,1
-Iranians,face,subject,1
-Iranians,circumvent,subject,1
-Iranians,fund,subject,1
-Iranians,suffer,subject,1
-Iranians,lose,subject,1
-Iranians,hear,object,1
-Iranians,show,subject,1
-Iranians,use,subject,1
-Iranians,live,subject,1
-Iranians,blow,object,1
-Iranians,go,subject,1
-Iranians,believe,subject,1
-Iranians,keep,subject,1
-Iranians,like,subject,1
-Iranians,bomb,object,1
-Iraq,ship,subject,1
-Irins Bushehr,take,object,1
-Iris Dena,return,subject,1
-Irna news agency,report,subject,1
-Ishaq Dar,urge,subject,1
-Islamabad,leave,object,2
-Islamabad,wait,subject,1
-Islamabad,host,subject,1
-Islamic Revolution Guard Corps,blame,subject,1
-Islamic Revolutionary Guards Corps,lay,subject,1
-Isle of Wight Air Ambulance,say,subject,1
-Israel,launch,subject,18
-Israel,attack,subject,13
-Israel,say,subject,10
-Israel,continue,subject,7
-Israel,begin,subject,4
-Israel,be,subject,4
-Israel,agree,subject,3
-Israel,kill,subject,2
-Israel,carry,subject,2
-Israel,target,subject,2
-Israel,hit,subject,2
-Israel,see,subject,2
-Israel,recognise,subject,2
-Israel,insist,subject,2
-Israel,react,subject,1
-Israel,send,subject,1
-Israel,appear,subject,1
-Israel,break,subject,1
-Israel,strike,object,1
-Israel,inflict,subject,1
-Israel,go,subject,1
-Israel,help,object,1
-Israel,see,object,1
-Israel,suspect,subject,1
-Israel,wait,subject,1
-Israel,accuse,object,1
-Israel,support,subject,1
-Israel,consider,subject,1
-Israel,include,object,1
-Israel,avoid,subject,1
-Israel,respond,subject,1
-Israel,ignore,subject,1
-Israel,withdraw,subject,1
-Israel,abide,subject,1
-Israel,downgrade,subject,1
-Israel,attack,object,1
-Israel,warn,subject,1
-Israel,have,subject,1
-Israel,take,object,1
-Israel,want,subject,1
-Israel,preserve,subject,1
-Israel,maintain,subject,1
-Israel,resume,subject,1
-Israel,argue,subject,1
-Israel,allow,subject,1
-Israel,escalate,subject,1
-Israel,ignite,subject,1
-Israel,do,subject,1
-Israel,translate,subject,1
-Israel,turn,object,1
-Israel,threaten,object,1
-Israel,fight,subject,1
-Israel,wag,subject,1
-Israel,behave,subject,1
-Israel,call,subject,1
-Israel Defense Forces (IDF,say,subject,1
-Israel Katz,describe,subject,1
-Israelis,send,subject,1
-Israelis,see,subject,1
-Israelis,say,subject,1
-Israelis,agree,subject,1
-Israelis,vote,subject,1
-Israelis,promise,object,1
-Italy,be,subject,1
-J D Vance,say,subject,1
-JD Vance,lead,subject,4
-JD Vance,head,subject,3
-JD Vance,be,subject,2
-JD Vance,meet,subject,1
-JD Vance,go,subject,1
-JD Vance,tell,subject,1
-JD Vance,accuse,subject,1
-JD Vance,remain,subject,1
-JD Vance,board,subject,1
-JD Vance,blame,object,1
-JD Vance,stand,subject,1
-Jakob Larsen,tell,subject,1
-Jared Golden,be,subject,1
-Jared Kushner,waste,subject,1
-Jared Kushner,join,subject,1
-Jeddah,have,object,1
-Jeff Rathke,say,subject,1
-Jewish People Policy Institute,publish,subject,1
-Joe,say,subject,1
-Joe Biden,reverse,subject,1
-Joeseph Aoun,say,subject,1
-John Healey,announce,subject,1
-John Healey,co,subject,1
-John Healey,say,subject,1
-John Kennedy,condemn,subject,1
-John Simpson,bring,subject,3
-Jones,say,subject,2
-Jones,tell,subject,1
-Jones,lead,subject,1
-Jorgen Watne Frydnes,echo,subject,1
-Joseph Aoun,describe,subject,1
-Josh Hawley,call,subject,1
-Kamran Yousef,declare,subject,1
-Kan News,tell,object,2
-Karoline Leavitt,say,subject,1
-Karoline Leavitt,clarify,subject,1
-Karoline Leavitt,confirm,subject,1
-Karoline Leavitt,tell,subject,1
-Kathleen Brooks,say,subject,1
-Katie Stevens,say,subject,1
-Katz,say,subject,1
-Keir,say,subject,5
-Keir,lead,subject,1
-Keir,discuss,subject,1
-Keir,confirm,subject,1
-Keir,rule,subject,1
-Keir,underline,subject,1
-Keir,warn,subject,1
-Keir Starmer,say,subject,7
-Keir Starmer,chair,subject,1
-Khamenei,kill,passive_subject,1
-Kharg Island,include,object,1
-Khatib,argue,subject,1
-Khatibzadeh,say,subject,2
-Kim Ghattas,tell,subject,1
-Kristalina Georgieva,tell,subject,1
-Kumar,say,subject,1
-Kurdistan Human Rights Network,obtain,subject,1
-Kushner,send,object,1
-Kushner,lead,subject,1
-Kushner,do,subject,1
-Kushner,add,passive_subject,1
-Kutani,say,subject,1
-Kuwait,say,subject,1
-Leavitt,say,subject,4
-Leavitt,add,subject,1
-Lebanese,be,subject,1
-Lebanese,feel,subject,1
-Lebanon,include,object,4
-Lebanon,include,passive_subject,4
-Lebanon,have,subject,3
-Lebanon,hit,object,2
-Lebanon,agree,subject,2
-Lebanon,recognise,subject,2
-Lebanon,cover,passive_subject,2
-Lebanon,continue,subject,1
-Lebanon,be,subject,1
-Lebanon,remove,object,1
-Lebanon,use,object,1
-Lebanon,divide,object,1
-Lebanon,recognise,object,1
-Lebanon,fight,subject,1
-Lebanon,target,object,1
-Lebanon,include,subject,1
-Lebanon,cover,object,1
-Lebanon,experience,subject,1
-Lebanon,name,object,1
-Ledwith,ask,subject,1
-Lee,credit,passive_subject,1
-Lee Kuan Yew,credit,subject,1
-Liat Zvi,voice,subject,1
-Liat Zvi,say,subject,1
-Lina Khatib,say,subject,1
-Lindsay Foreman,be,subject,3
-Lindsay Foreman,say,subject,3
-Lindsay Foreman,arrest,passive_subject,1
-Lindsay Foreman,pause,subject,1
-Lindsay Foreman,return,object,1
-Lindsay Foreman,detain,passive_subject,1
-Lindsay Foreman,return,passive_subject,1
-Lindsay Foreman,admit,subject,1
-Lindsay Foreman,read,subject,1
-Lindsay Foreman,feel,subject,1
-Lindsay Foreman,ask,subject,1
-Lindsay Foreman,spend,subject,1
-Lindsay James,say,subject,1
-Lindsey German,say,subject,1
-Lisa Smart,say,subject,1
-London,hit,object,1
-London Blood Bikes,say,subject,1
-Lt Col Rachel E VanLandingham,say,subject,1
-Lyse Doucet,say,subject,1
-MSC-Francesca,seize,passive_subject,1
-MSC-Francesca,target,passive_subject,1
-Macron,say,subject,2
-Maersk,say,subject,2
-Maersk,confirm,subject,1
-Maersk,tell,subject,1
-Mahmood Amiry-Moghaddam,note,subject,1
-Mahmoud,say,subject,1
-Mahmoud,add,subject,1
-Mahmoud,get,subject,1
-Maldives,seize,subject,1
-Maor,say,subject,1
-Marco Rubio,say,subject,7
-Marco Rubio,speak,subject,1
-Marco Rubio,tell,subject,1
-Marine,be,subject,1
-Marine Traffic,show,subject,1
-MarineTraffic,show,subject,1
-Maritime Trade Operations Centre (UKMTO,say,subject,1
-Mark Bednar,say,subject,2
-Mark Hunt,say,subject,1
-Mark Montgomery,tell,subject,1
-Mark Warner,tell,subject,1
-Marwa Fatafta,tell,subject,1
-Mary Anne Velasquez de Vera,kill,object,1
-Masoud Pezeshkian,say,subject,5
-Masoud Pezeshkian,reference,subject,2
-Masoud Pezeshkian,apologise,subject,1
-Masoud Pezeshkian,post,subject,1
-Masoud Pezeshkian,denounce,subject,1
-Mazda,drive,object,1
-McGarry,add,subject,1
-Meeks,indicate,subject,1
-Mehr,tell,object,1
-Mehrab Abdollahzadeh,describe,subject,1
-Merz,say,subject,2
-Merz,make,subject,1
-Merz,think,subject,1
-Merz,focus,subject,1
-Merz,have,subject,1
-Michael Young,tell,subject,1
-Michelle Wiese Bockmann,say,subject,1
-Mick Mulroy,say,subject,1
-Mick Mulroy,tell,subject,1
-Middle East,engulf,object,2
-Middle East,reshape,object,1
-Mike Higgins,say,subject,1
-Mike Huckabee,say,subject,1
-Mike Turner,say,subject,1
-Ministry of Defence,say,subject,3
-Ministry of Defence,pay,subject,1
-Ministry of External Affairs,call,subject,1
-Ministry of Sustainability,say,subject,1
-MoD,say,subject,1
-Moein Tayari,run,subject,1
-Mohammad,add,subject,1
-Mohammad,declare,subject,1
-Mohammad Akraminia,say,subject,1
-Mohammad Bagher Ghalibaf,say,subject,3
-Mohammad Bagher Ghalibaf,lead,subject,2
-Mohammad Bagher Ghalibaf,sound,subject,1
-Mohammad Eslami,explain,subject,1
-Mohammad Ghalibaf,respond,subject,1
-Mohammad Ghalibaf,write,subject,1
-Mohammad-Bagher Ghalibaf,head,subject,1
-Mohammad-Bagher Ghalibaf,step,object,1
-Mohammadi,sentence,passive_subject,2
-Mohammadi,be,subject,1
-Mohammadi,spend,subject,1
-Mohammadi,arrest,passive_subject,1
-Mojtaba Khamenei,assume,subject,1
-Mojtaba Khamenei,see,passive_subject,1
-Montgomery,say,subject,1
-Morality Police,arrest,subject,1
-Mordashov,list,passive_subject,1
-Mordashov,make,subject,1
-Mordashov,target,passive_subject,1
-Mr Explosive,admit,subject,2
-Mr Explosive,ask,object,2
-Mr Explosive,accept,subject,1
-Mr Explosive,defend,subject,1
-Mr Explosive,reject,subject,1
-Mr Explosive,claim,subject,1
-Mukesh Bansal,say,subject,1
-Murkowski,add,subject,1
-Mustafa,say,subject,1
-Mustafa,spot,object,1
-Naim Qassem,reject,subject,1
-Nandito Badea,be,subject,1
-Narges,tell,object,1
-Narges Mohammadi,transfer,passive_subject,1
-Narges Mohammadi,award,passive_subject,1
-Narges Mohammadi,arrest,passive_subject,1
-Narges Mohammadi Foundation,say,subject,2
-Nassim Papayianni,say,subject,1
-National Farmers' Union,say,subject,1
-Nato,criticise,object,2
-Nato,offer,subject,1
-Navy,warn,subject,1
-Navy,publish,subject,1
-Netanyahu,say,subject,13
-Netanyahu,be,subject,2
-Netanyahu,oppose,subject,1
-Netanyahu,reveal,subject,1
-Netanyahu,write,subject,1
-Netanyahu,cave,subject,1
-Netanyahu,point,subject,1
-Netanyahu,convene,subject,1
-Netanyahu,bow,subject,1
-Netanyahu,know,subject,1
-Netanyahu,make,subject,1
-Netanyahu,cite,subject,1
-Netanyahu,agree,subject,1
-Netanyahu,have,subject,1
-Netanyahu,ask,object,1
-Netanyahu,promise,subject,1
-Netanyahu,tell,subject,1
-New York Times,tell,object,2
-New York Times,report,subject,1
-Nicholas Blanford,tell,subject,1
-Nitya Labh,say,subject,1
-Nord,leave,subject,1
-Nord,gain,subject,1
-Nord,have,subject,1
-Nord,seize,object,1
-Nour News,say,subject,1
-OFAC,say,subject,2
-Obama,say,subject,1
-Oldouz Rezvani,say,subject,1
-Oman,visit,object,1
-Oman,report,subject,1
-Operation Epic Fury,say,object,2
-Operation Epic Fury,be,subject,1
-Operation Epic Fury,begin,subject,1
-Operation Epic Fury,launch,object,1
-Orion,say,subject,2
-Oxfam,tell,subject,1
-Oxfam,plan,subject,1
-PBS,tell,object,1
-Pakistan,say,subject,4
-Pakistan,mediate,subject,2
-Pakistan,make,subject,2
-Pakistan,be,subject,2
-Pakistan,play,subject,1
-Pakistan,prove,subject,1
-Pakistan,give,subject,1
-Pakistan,continue,subject,1
-Pakistan,announce,subject,1
-Pakistan,confirm,subject,1
-Pakistan,insist,subject,1
-Pakistanis,try,subject,1
-Palestinians,sideline,object,1
-Party of God,create,passive_subject,1
-Pasandideh,thank,subject,1
-Pasandideh,say,subject,1
-Paul Adams,say,subject,1
-Pentagon,criticise,object,1
-Pentagon,say,subject,1
-Pentagon,release,subject,1
-Pentagon,comment,subject,1
-Pentagon,leave,object,1
-Pentagon,take,subject,1
-Pentagon,dismiss,subject,1
-Persian Gulf,exit,object,1
-Pete Hegseth,ask,passive_subject,2
-Pete Hegseth,say,subject,2
-Pete Hegseth,focus,subject,1
-Pete Hegseth,contend,subject,1
-Pete Hegseth,defend,subject,1
-Pete Hegseth,ask,subject,1
-Pete Hegseth,put,subject,1
-Peter Burch,be,subject,1
-Philippines,shorten,subject,1
-Planet,suspend,subject,1
-Planet Labs,introduce,subject,1
-Popular Mobilization Forces,say,subject,1
-Ports and Maritime Organisation of the Islamic Rep of Iran,announce,subject,1
-Ports and Maritime Organisation of the Islamic Republic of Iran,announce,subject,1
-Pouria Zeraati,tell,subject,1
-Project Freedom,pause,object,1
-Project Freedom,roll,object,1
-Project Freedom,have,subject,1
-Project Freedom,support,object,1
-Project Freedom,be,subject,1
-Putin,host,subject,1
-Pyongyang,continue,subject,1
-Qalibaf,refer,subject,1
-Qassem,say,subject,2
-Qatar,condemn,subject,1
-Rachel Ledwith,say,subject,1
-Rachel Reeves,say,subject,1
-Rachel Reeves,plan,subject,1
-Radmehr,tell,subject,1
-Ramezanisadeh,thank,subject,1
-Ramezanisadeh,say,subject,1
-Randy George,ask,object,1
-Raphaël Chenuil-Hazan,say,subject,1
-Rathke,say,subject,1
-Red Crescent,report,subject,1
-Red Sea,up,object,1
-Reeves,be,subject,1
-Reeves,confront,passive_subject,1
-Republican Party,pay,subject,1
-Republicans,oppose,subject,2
-Republicans,face,subject,1
-Republicans,tell,object,1
-Republicans,express,subject,1
-Republicans,include,object,1
-Republicans,suggest,subject,1
-Reuters,tell,object,2
-Reuters,quote,subject,1
-Reuters,report,subject,1
-Reuters,see,subject,1
-Reuters,be,subject,1
-Revolutionary Court,sentence,subject,2
-Revolutionary Courts,hand,subject,1
-Reyhaneh,hold,subject,1
-Richard Corbett,say,subject,1
-Richard Meade,show,subject,1
-Richard Meade,say,subject,1
-Road Less Travelled,read,object,1
-Robertson,lead,object,1
-Robertson,choose,subject,1
-Ronald Reagan,receive,subject,1
-Rumley,say,subject,1
-Russia,launch,subject,2
-Russia,be,subject,1
-SNSC,say,subject,1
-Saeed Khatibzadeh,say,subject,1
-Safa Bleik,happen,subject,1
-Saffron,be,subject,2
-Sahand,say,subject,4
-Sahand,advise,subject,1
-Sana,be,subject,1
-Sana,meet,object,1
-Sana,feel,subject,1
-Sanam Vakil,describe,subject,1
-Sanjay Jain,say,subject,1
-Sattar Hashemi,call,subject,1
-Saudi Arabia,report,subject,1
-Saudis,pump,subject,1
-Scott Bessent,say,subject,1
-Scott Bessent,pop,subject,1
-Scott Bessent,tell,subject,1
-Sean Parnell,tell,subject,1
-Senate,reject,subject,1
-Serv Surrey,say,subject,1
-Sharif,say,subject,1
-Shebaz Sharif,say,subject,1
-Shehbaz Sharif,declare,subject,1
-Shehbaz Sharif,post,subject,1
-Shehbaz Sharif,speak,subject,1
-Shehbaz Sharif,announce,subject,1
-Sherriff,say,subject,2
-Shia Muslims,be,subject,1
-Shiel,say,subject,1
-Shirin,be,subject,2
-Shirin,suffer,subject,1
-Shirin,interrogate,passive_subject,1
-Shirin,lose,subject,1
-Shirin,worry,subject,1
-Shirin,expect,subject,1
-Singapore,join,subject,1
-Slopaganda,be,subject,1
-Snow,work,subject,1
-Somerset,follow,object,1
-Somerset Air Ambulance,say,subject,1
-South Korea,report,subject,2
-South Korea,launch,subject,1
-South Pars,target,object,1
-SpaceX,contact,object,1
-Spain,suspend,object,1
-Sri Lanka,take,subject,1
-Sri Lanka,allow,subject,1
-Sri Lanka,intervene,subject,1
-Sri Lanka,maintain,subject,1
-Starlink,activate,object,1
-Starlink,use,object,1
-Starmer,underline,subject,1
-Starmer,have,subject,1
-Starmer,agree,subject,1
-Steve Witkoff,waste,subject,1
-Steve Witkoff,join,subject,1
-Steve Witkoff,include,object,1
-Strait of Hormuz,reopen,object,11
-Strait of Hormuz,remain,subject,6
-Strait of Hormuz,be,subject,5
-Strait of Hormuz,transit,object,5
-Strait of Hormuz,block,object,4
-Strait of Hormuz,close,object,4
-Strait of Hormuz,open,object,4
-Strait of Hormuz,open,passive_subject,3
-Strait of Hormuz,control,object,2
-Strait of Hormuz,approach,object,2
-Strait of Hormuz,unblock,object,2
-Strait of Hormuz,reopen,passive_subject,2
-Strait of Hormuz,leave,object,2
-Strait of Hormuz,reopen,subject,2
-Strait of Hormuz,cross,object,2
-Strait of Hormuz,make,object,1
-Strait of Hormuz,block,passive_subject,1
-Strait of Hormuz,exit,object,1
-Strait of Hormuz,enter,object,1
-Strait of Hormuz,secure,object,1
-Strait of Hormuz,restore,object,1
-Strait of Hormuz,promise,object,1
-Strait of Hormuz,become,subject,1
-Strait of Hormuz,shut,object,1
-Strait of Hormuz,keep,object,1
-Strait of Hormuz,describe,object,1
-Strait of Hormuz,close,passive_subject,1
-Strait of Hormuz - one,control,object,1
-Supreme National Security Council,say,subject,1
-Susan,be,subject,1
-Susan,want,subject,1
-TOUSKA,be,subject,1
-Taif Agreement,mandate,subject,1
-Tasnim,post,subject,1
-Tasnim News Agency,call,subject,1
-Tass,report,subject,1
-Tehran,respond,subject,6
-Tehran,block,subject,4
-Tehran,say,subject,3
-Tehran,confirm,subject,3
-Tehran,have,subject,3
-Tehran,share,subject,2
-Tehran,deny,subject,2
-Tehran,warn,subject,2
-Tehran,remain,subject,2
-Tehran,show,subject,2
-Tehran,deem,subject,2
-Tehran,target,subject,2
-Tehran,be,subject,2
-Tehran,retaliate,subject,1
-Tehran,allow,passive_subject,1
-Tehran,criticise,subject,1
-Tehran,anger,object,1
-Tehran,inch,subject,1
-Tehran,close,subject,1
-Tehran,comment,subject,1
-Tehran,return,subject,1
-Tehran,receive,subject,1
-Tehran,secure,subject,1
-Tehran,focus,subject,1
-Tehran,suspect,object,1
-Tehran,restrict,subject,1
-Tehran,produce,subject,1
-Tehran,represent,object,1
-Tehran,announce,object,1
-Tehran,decide,subject,1
-Tehran,refuse,subject,1
-Tehran,agree,subject,1
-Tehran,hand,object,1
-Tehran,see,subject,1
-Tehran,accuse,object,1
-Tehran,review,subject,1
-Tehran,promise,subject,1
-Tehran,want,subject,1
-Tehran,reject,subject,1
-Tehran,choke,subject,1
-Tehran,suggest,subject,1
-Tehran,encourage,object,1
-Tehran,deliver,subject,1
-Tehran,try,subject,1
-Tehran,ask,subject,1
-Tehran,send,subject,1
-Thailand,implement,subject,1
-Thames Valley,say,subject,1
-Thames Valley Air Ambulance,say,subject,1
-Thomas Kazakos,say,subject,1
-Thomas Massie,be,subject,1
-Tim Wilkins,tell,subject,1
-Tine Munk,characterise,subject,1
-Tiyari,say,subject,1
-Todd Harrison,tell,subject,1
-Tony Burke,say,subject,1
-Tony Vaughan,urge,subject,1
-Touska,intercept,passive_subject,1
-Touska,approach,object,1
-Touska,seize,passive_subject,1
-Trump,say,subject,88
-Trump,tell,subject,12
-Trump,announce,subject,12
-Trump,write,subject,5
-Trump,warn,subject,4
-Trump,threaten,subject,4
-Trump,confirm,subject,4
-Trump,hop,subject,4
-Trump,respond,subject,4
-Trump,pull,subject,4
-Trump,make,subject,4
-Trump,agree,subject,4
-Trump,suggest,subject,3
-Trump,reject,subject,3
-Trump,repeat,subject,3
-Trump,dismiss,subject,3
-Trump,insist,subject,3
-Trump,be,subject,3
-Trump,do,subject,3
-Trump,give,subject,3
-Trump,call,subject,2
-Trump,criticise,subject,2
-Trump,accuse,subject,2
-Trump,post,subject,2
-Trump,declare,subject,2
-Trump,retreat,subject,2
-Trump,claim,subject,2
-Trump,describe,subject,2
-Trump,order,subject,2
-Trump,go,subject,2
-Trump,have,subject,2
-Trump,address,subject,1
-Trump,launch,subject,1
-Trump,predict,subject,1
-Trump,change,subject,1
-Trump,express,subject,1
-Trump,maintain,subject,1
-Trump,persuade,object,1
-Trump,pause,subject,1
-Trump,set,passive_subject,1
-Trump,want,subject,1
-Trump,ask,passive_subject,1
-Trump,seem,subject,1
-Trump,dump,subject,1
-Trump,add,subject,1
-Trump,require,passive_subject,1
-Trump,commit,subject,1
-Trump,point,subject,1
-Trump,constrain,object,1
-Trump,consider,subject,1
-Trump,propose,subject,1
-Trump,assure,subject,1
-Trump,anger,passive_subject,1
-Trump,meet,object,1
-Trump,instruct,subject,1
-Trump,urge,subject,1
-Trump,opt,subject,1
-Trump,cancel,subject,1
-Trump,decide,subject,1
-Trump,set,subject,1
-Trump,postpone,subject,1
-Trump,hate,subject,1
-Trump,hate,object,1
-Trump,avoid,subject,1
-Trump,manage,subject,1
-Trump,extend,subject,1
-Trump,attempt,subject,1
-Trump,love,subject,1
-Trump,offer,subject,1
-Trump,double,subject,1
-Trump,float,subject,1
-Trump,find,subject,1
-Trump,travel,subject,1
-Trump,pick,subject,1
-Trump,joke,subject,1
-Trump,watch,subject,1
-Trump,die,object,1
-Trump,fall,subject,1
-Trump,fund,subject,1
-Trump,task,subject,1
-Trump,back,object,1
-Trump,let,subject,1
-Trump,tap,subject,1
-Trump,hand,subject,1
-Trump,throw,subject,1
-Trump,try,subject,1
-Trump,boast,subject,1
-Trump,speak,subject,1
-Trump,need,subject,1
-Trump,lampoon,object,1
-Trump,expect,subject,1
-Trump,demand,subject,1
-Trump,ask,subject,1
-Trump,promise,subject,1
-Trump,veer,subject,1
-Trump,include,object,1
-Trump's Make America Great Again,satisfy,object,1
-Turkey,say,subject,1
-UAE,remain,subject,1
-UAE,double,subject,1
-UAE,report,subject,1
-UK,remain,subject,3
-UK,leave,object,2
-UK,say,subject,2
-UK,drag,passive_subject,2
-UK,support,subject,2
-UK,hit,object,2
-UK,involve,passive_subject,2
-UK,announce,subject,1
-UK,be,subject,1
-UK,continue,subject,1
-UK,face,subject,1
-UK,show,object,1
-UK,lead,subject,1
-UK,defend,object,1
-UK,have,subject,1
-UK,co,subject,1
-UK,send,subject,1
-UK,see,subject,1
-UK,refuse,subject,1
-UK,criticise,object,1
-UK,involve,object,1
-UK,chair,subject,1
-UK Government,take,subject,1
-UK Maritime Trade Operations (UKMTO,say,subject,2
-UN,say,subject,1
-UN,fear,subject,1
-UNHCR,say,subject,1
-US,say,subject,16
-US,attack,subject,14
-US,launch,subject,13
-US,be,subject,9
-US,enforce,subject,8
-US,have,subject,8
-US,announce,subject,8
-US,begin,subject,7
-US,intercept,subject,6
-US,agree,subject,6
-US,accuse,object,5
-US,impose,subject,5
-US,come,subject,4
-US,continue,subject,4
-US,target,subject,3
-US,carry,subject,3
-US,start,subject,3
-US,pull,object,3
-US,feel,subject,3
-US,blackmail,object,3
-US,remove,subject,2
-US,maintain,subject,2
-US,destroy,subject,2
-US,surrender,subject,2
-US,lead,subject,2
-US,contact,subject,2
-US,want,subject,2
-US,go,subject,2
-US,strike,subject,2
-US,ask,object,2
-US,seize,subject,2
-US,hit,subject,2
-US,use,subject,2
-US,achieve,subject,2
-US,stop,subject,2
-US,involve,passive_subject,2
-US,insist,subject,2
-US,prompt,object,2
-US,reject,subject,2
-US,warn,object,1
-US,tell,object,1
-US,fail,subject,1
-US,claim,subject,1
-US,issue,subject,1
-US,fire,subject,1
-US,signal,subject,1
-US,opt,subject,1
-US,threaten,subject,1
-US,advise,subject,1
-US,urge,object,1
-US,sanction,subject,1
-US,challenge,object,1
-US,attempt,subject,1
-US,pause,subject,1
-US,jeopardise,subject,1
-US,allow,subject,1
-US,inflict,subject,1
-US,show,subject,1
-US,kill,subject,1
-US,start,object,1
-US,ask,passive_subject,1
-US,deny,subject,1
-US,help,object,1
-US,help,subject,1
-US,step,subject,1
-US,warn,subject,1
-US,reach,object,1
-US,institute,subject,1
-US,study,subject,1
-US,humiliate,passive_subject,1
-US,punish,subject,1
-US,seek,subject,1
-US,resume,subject,1
-US,see,object,1
-US,mean,object,1
-US,invite,subject,1
-US,prepare,subject,1
-US,operate,subject,1
-US,cause,subject,1
-US,increase,subject,1
-US,suspect,subject,1
-US,wait,subject,1
-US,condemn,subject,1
-US,denounce,object,1
-US,talk,subject,1
-US,hold,subject,1
-US,consider,subject,1
-US,lift,subject,1
-US,get,subject,1
-US,give,subject,1
-US,end,subject,1
-US,put,subject,1
-US,work,subject,1
-US,see,subject,1
-US,downgrade,subject,1
-US,propose,subject,1
-US,back,subject,1
-US,pressure,object,1
-US,bring,subject,1
-US,determine,subject,1
-US,blockade,subject,1
-US,drag,passive_subject,1
-US,recognise,subject,1
-US,seem,subject,1
-US,leave,object,1
-US,instal,subject,1
-US,ignite,subject,1
-US,do,subject,1
-US,translate,subject,1
-US,need,subject,1
-US,accuse,subject,1
-US,wag,subject,1
-US,choose,subject,1
-US,withdraw,subject,1
-US Defense Department,announce,subject,1
-US Department of Defence,say,subject,1
-US Department of Defense,decline,subject,1
-US Department of Defense,release,subject,1
-US Marines,deploy,object,1
-US Navy,order,object,3
-US Navy,seize,subject,2
-US Navy,fire,subject,1
-US Navy,warn,object,1
-US State Department,say,subject,1
-US Supreme Court,find,subject,1
-US Treasury,announce,subject,1
-Ukraine,do,object,1
-Umesh Babu,spend,subject,1
-United Arab Emirates,visit,object,1
-United Arab Emirates,say,subject,1
-United Arab Emirates (UAE,look,subject,1
-United Kingdom Maritime Transportation Operation (UKMTO,report,subject,1
-United Nations Resolution 1701,implement,passive_subject,1
-United States Air Force,use,subject,1
-United States Central Command,define,subject,1
-Urea,double,subject,1
-VanLandingham,be,subject,1
-Vance,tell,subject,3
-Vance,be,subject,3
-Vance,have,subject,2
-Vance,expect,passive_subject,1
-Vance,board,subject,1
-Vance,give,subject,1
-Vance,leave,subject,1
-Vance,land,subject,1
-Vance,back,subject,1
-Vance,handle,subject,1
-Vance,lead,subject,1
-Vance,speak,subject,1
-Vance,warn,subject,1
-Vance,watch,object,1
-Vance,need,subject,1
-Vance,face,subject,1
-Vance,signal,subject,1
-Vance,collaborate,subject,1
-Vance,tamp,subject,1
-Vance,tell,object,1
-Vance,try,subject,1
-Vance,work,subject,1
-Vance,make,subject,1
-Vance,position,subject,1
-Vance,agree,subject,1
-Vance,put,object,1
-Vance,publish,subject,1
-Vance,call,subject,1
-Vance,tap,object,1
-Vance,choose,passive_subject,1
-Vance,involve,passive_subject,1
-Vance,command,subject,1
-Vance,forget,object,1
-Vanguard,identify,subject,1
-Vanguard,tell,object,1
-Vanguard,say,subject,1
-Vanguard,tell,subject,1
-Venkatakrishnan,be,subject,1
-Videos,say,passive_subject,1
-Viktor Orbán,make,object,1
-Volodymyr Zelensky,accuse,object,1
-Wafiq Safa,tell,subject,1
-Wall Street Journal,report,subject,1
-Wall Street Journal,cite,subject,1
-Wall Street Journal,publish,object,1
-Wang,reiterate,subject,1
-Wang,add,subject,1
-Wang,tell,object,1
-Wang,emphasise,subject,1
-Wang Yi,call,subject,1
-Wang Yi,tell,subject,1
-Wang Yi,say,subject,1
-War Powers Resolution,define,subject,1
-War Powers Resolution,adhere,passive_subject,1
-War Powers Resolution,pass,passive_subject,1
-Warren Davidson,vote,subject,1
-Washington,receive,subject,2
-Washington,leave,object,2
-Washington,set,subject,1
-Washington,inch,subject,1
-Washington,seek,subject,1
-Washington,withdraw,subject,1
-Washington,ask,object,1
-Washington,struggle,subject,1
-Washington,urge,object,1
-Washington,be,subject,1
-Washington,fail,subject,1
-Washington,hop,subject,1
-Washington,accuse,object,1
-Washington Post,tell,object,1
-Wes Bryant,tell,subject,1
-West,trust,object,1
-West,target,object,1
-Westminster,resolve,subject,1
-White House,say,subject,4
-White House,believe,subject,2
-White House,tell,subject,1
-White House,contact,object,1
-White House,confirm,subject,1
-Witkoff,send,object,1
-Witkoff,lead,subject,1
-Witkoff,do,subject,1
-World Bank,surge,subject,1
-World Bank,readie,subject,1
-World Health Organization,report,subject,1
-Xi,make,subject,1
-Xi,be,subject,1
-Xi,challenge,subject,1
-Yasmin,tell,subject,1
-Yvette Cooper,act,subject,1
-Yvette Cooper,call,subject,1
-Zack Polanski,say,subject,1
-Zeraati,say,subject,2
-Zeraati,describe,subject,1
-Zeraati,add,subject,1
-Zeraati,take,passive_subject,1
-Zeraati,see,subject,1
-Zereshk,increase,subject,1
-Ziad Samir Itani,say,subject,1
-Zoetic Ltd,run,object,1
-Zvi,ask,subject,1
-navy,say,subject,2
-sports ministry,say,subject,1
+entity,predicate,predicate_class,role,count,articles,example_sent
+AFP,tell,communicative,object,1,1,59:37
+AI,enable,other,subject,1,1,84:29
+Abbas Aragchi,hold,action,subject,1,1,45:3
+Abbas Aragchi,say,communicative,subject,1,1,65:40
+Abbas Araghchi,say,communicative,subject,4,4,8:5
+Abbas Araghchi,accuse,communicative,subject,1,1,17:1
+Abbas Araghchi,tell,communicative,subject,1,1,26:17
+Abbas Araghchi,hail,other,subject,1,1,42:27
+Abbas Araghchi,arrive,other,subject,1,1,47:3
+Abbas Araghchi,continue,other,subject,1,1,48:22
+Abbas Araghchi,follow,other,subject,1,1,50:50
+Abraham Accords,declare,communicative,object,1,1,8:8
+Abraham Accords,be,other,subject,1,1,8:9
+Abraham Accords,normalise,other,subject,1,1,87:18
+Abu Dhabi,call,communicative,subject,1,1,27:28
+Adam Smith,tell,communicative,subject,1,1,40:36
+Adm Brad Cooper,say,communicative,subject,2,2,24:12
+Ahmad Vahidi,lead,other,subject,1,1,48:31
+Akraminia,say,communicative,subject,1,1,14:24
+Alexandra Snow,say,communicative,subject,1,1,43:2
+Ali,recount,other,subject,1,1,51:52
+Ali,announce,communicative,subject,1,1,51:57
+Ali Larijani,include,other,object,1,1,50:9
+Ali Vaez,think,mental,subject,1,1,21:28
+Ali Vaez,assess,other,subject,1,1,87:13
+Alliance Fairfax,exit,other,subject,1,1,27:20
+Andrei,show,other,object,1,1,2:35
+Andrei,wait,other,subject,1,1,2:37
+Andrei,carry,other,subject,1,1,4:21
+Andrew Peek,say,communicative,subject,1,1,52:33
+Anna Kelly,confirm,communicative,subject,1,1,86:22
+Annie Shiel,say,communicative,subject,1,1,40:40
+António Guterres,say,communicative,subject,1,1,74:5
+António Guterres,be,other,subject,1,1,93:13
+Anura Kumara Dissanayake,say,communicative,subject,1,1,72:14
+Anwar Gargash,describe,communicative,subject,1,1,60:15
+Aoun,take,other,subject,1,1,67:2
+Aoun,vow,communicative,subject,1,1,67:3
+Aoun,appear,other,subject,1,1,67:4
+Aoun,propose,other,subject,1,1,67:14
+Aoun,defend,other,subject,1,1,67:29
+Aoun,warn,communicative,subject,1,1,67:32
+Aoun,ask,communicative,object,1,1,67:34
+Aragchi,call,communicative,subject,1,1,65:41
+Araghchi,say,communicative,subject,1,1,17:2
+Araghchi,tell,communicative,object,1,1,42:28
+Araghchi,share,other,subject,1,1,42:29
+Araghchi,write,communicative,subject,1,1,45:18
+Araghchi,expect,mental,passive_subject,1,1,45:21
+Araghchi,meet,other,subject,1,1,47:3
+Araghchi,plan,mental,subject,1,1,47:12
+Araghchi,rebuke,other,object,1,1,60:25
+Araghchi,stress,communicative,subject,1,1,60:28
+Araqchi,tell,communicative,object,1,1,23:3
+Araqchi,tell,communicative,subject,1,1,23:10
+Armin,tell,communicative,subject,1,1,29:56
+Armin,explain,communicative,subject,1,1,29:60
+Armin,be,other,subject,1,1,29:63
+Arsenio Dominguez,tell,communicative,subject,2,2,38:18
+Arun Kumar,say,communicative,subject,1,1,41:26
+Assaf Orion,say,communicative,subject,1,1,86:57
+Atefeh Ramezanisadeh,be,other,subject,1,1,68:2
+Atkinson,say,communicative,subject,6,2,2:25
+Attaullah Tarar,say,communicative,subject,1,1,55:24
+Axios,report,communicative,subject,5,3,20:10
+Axios,describe,communicative,subject,1,1,20:6
+Axios,say,communicative,subject,1,1,38:7
+Axios,tell,communicative,object,1,1,45:9
+Ayatollah Ali Khamenei,kill,action,passive_subject,2,2,49:34
+Ayatollah Ali Khamenei,report,communicative,subject,1,1,70:25
+Ayatollah Ali Khamenei,make,other,subject,1,1,87:39
+Ayatollah Ruhollah Khomeini,report,communicative,subject,1,1,70:25
+Aywar Shekhi,tell,communicative,subject,1,1,5:44
+Azerbaijan,accuse,communicative,subject,1,1,50:39
+Azizi,reflect,other,subject,1,1,60:10
+Azizi,emphasise,communicative,subject,1,1,60:19
+Azizi,dismiss,other,subject,1,1,60:29
+Azizi,scoff,other,subject,1,1,60:38
+Azizi,say,communicative,subject,1,1,60:42
+Azizi,repeat,other,subject,1,1,60:45
+BBC Gloucestershire,follow,other,object,1,1,46:25
+BBC InDepth,be,other,subject,2,2,67:95
+BBC Jersey,tell,communicative,object,1,1,75:6
+BBC Jersey,follow,other,object,1,1,75:17
+BBC Kent,follow,other,object,1,1,9:19
+BBC London,follow,other,object,2,2,13:35
+BBC Verify,check,other,subject,1,1,7:3
+BBC Verify,put,other,subject,1,1,22:6
+BBC Verify,analyse,other,subject,1,1,49:18
+BBC Verify,see,mental,subject,1,1,71:7
+BBC Verify,use,other,subject,1,1,85:11
+BBC Verify,rely,other,subject,1,1,85:30
+BBC World Service,tell,communicative,object,1,1,32:53
+Bab al-Mandab,block,action,object,1,1,89:55
+Babu,say,communicative,subject,1,1,41:49
+Badea,deny,communicative,subject,2,2,2:45
+Badea,fly,other,subject,1,1,2:5
+Badea,allege,other,passive_subject,1,1,4:5
+Baghaei,say,communicative,subject,1,1,11:13
+Baghaei,ask,communicative,object,1,1,55:9
+Baghaei,underline,other,subject,1,1,55:11
+Baghaei,recall,other,subject,1,1,55:18
+Bahrain,report,communicative,subject,1,1,50:32
+Bangladesh,cut,other,passive_subject,1,1,62:15
+Bank,rush,other,subject,1,1,62:49
+Bansal,say,communicative,subject,1,1,41:23
+Barack Obama,argue,communicative,subject,1,1,34:19
+Beijing,be,other,subject,1,1,23:4
+Beijing,urge,communicative,subject,1,1,23:8
+Beijing,credit,other,object,1,1,23:11
+Beijing,call,communicative,subject,1,1,23:14
+Beijing,force,other,object,1,1,38:47
+Bennett,tell,communicative,subject,1,1,1:22
+Bennett,add,communicative,subject,1,1,9:5
+Bessent,hold,action,subject,1,1,62:29
+Bessent,be,other,subject,1,1,62:34
+Bill Greer,found,other,subject,1,1,85:20
+Blaha,spend,other,subject,1,1,40:46
+Blanford,say,communicative,subject,1,1,67:66
+Bleik,say,communicative,subject,1,1,92:24
+Boxes,label,communicative,subject,1,1,51:8
+Brandon-Smith,add,communicative,subject,1,1,35:30
+Brandon-Smith,state,communicative,subject,1,1,35:32
+Briant,say,communicative,subject,1,1,84:29
+British Royal Navy,send,action,subject,1,1,14:26
+Bryant,say,communicative,subject,1,1,40:24
+Burch,suffer,other,subject,1,1,19:23
+Burch,work,other,subject,1,1,19:26
+Bushehr,operate,other,object,1,1,72:12
+CBS,tell,communicative,object,1,1,21:22
+CBS News,tell,communicative,object,2,2,63:18
+CCTV,show,other,subject,1,1,2:35
+CMA CGM,confirm,communicative,subject,1,1,59:37
+CNBC,tell,communicative,object,1,1,55:27
+CND,call,communicative,subject,1,1,46:7
+CNN,tell,communicative,object,3,3,52:24
+Caine,add,communicative,subject,1,1,22:21
+Caine,say,communicative,subject,1,1,25:36
+Campaign for Nuclear Disarmament (CND,organise,other,subject,1,1,46:2
+Carlos Gimenez,say,communicative,subject,1,1,35:54
+Centcom,say,communicative,subject,24,13,17:11
+Centcom,accuse,communicative,subject,1,1,17:21
+Centcom,describe,communicative,subject,1,1,18:12
+Centcom,seek,mental,subject,1,1,18:14
+Centcom,post,communicative,subject,1,1,22:15
+Centcom,deny,communicative,subject,1,1,24:25
+Centcom,prepare,other,subject,1,1,38:6
+Centcom,share,other,subject,1,1,57:8
+Centcom,release,action,subject,1,1,59:11
+Centcom,announce,communicative,subject,1,1,71:27
+Centcom,confirm,communicative,subject,1,1,80:6
+Centcom,add,communicative,subject,1,1,80:7
+Central Command,post,communicative,subject,1,1,22:12
+Central Command,announce,communicative,subject,1,1,81:15
+Champagne,say,communicative,subject,1,1,62:54
+Charles,arrive,other,subject,1,1,54:14
+Charles O Blaha,say,communicative,subject,1,1,40:45
+China,believe,mental,subject,2,2,23:6
+China,be,other,subject,2,2,23:15
+China,hop,other,subject,1,1,23:7
+China,appreciate,other,subject,1,1,23:9
+China,import,other,subject,1,1,23:16
+China,challenge,other,subject,1,1,23:18
+China,visit,other,object,1,1,25:41
+China,estimate,other,passive_subject,1,1,38:45
+China,describe,communicative,subject,1,1,74:26
+China,call,communicative,subject,1,1,76:1
+China,pressure,other,object,1,1,76:5
+China,urge,communicative,subject,1,1,76:11
+China,prepare,other,subject,1,1,76:12
+China,impose,action,prep_target,1,1,76:14
+China,take,other,subject,1,1,76:14
+China,report,communicative,subject,1,1,78:32
+China,watch,other,subject,1,1,89:85
+China,push,other,subject,1,1,89:86
+Chris Sherriff,say,communicative,subject,1,1,16:3
+Christoph Koettl,say,communicative,subject,1,1,85:38
+Clock,be,other,subject,1,1,3:26
+Committee for National Security and Foreign Policy,head,other,object,1,1,60:6
+Congress,notify,other,object,3,3,30:27
+Congress,make,other,subject,1,1,35:20
+Congress,block,action,subject,1,1,37:24
+Congress,pass,other,subject,1,1,66:21
+Control of the Strait of Hormuz,become,other,subject,1,1,26:14
+Cooper,say,communicative,subject,4,2,24:31
+Cooper,tell,communicative,subject,1,1,91:15
+Cooper,deliver,other,subject,1,1,91:18
+Corbett,say,communicative,subject,1,1,19:8
+Cormac McGarry,say,communicative,subject,1,1,63:26
+Craig Foreman,say,communicative,subject,5,2,1:15
+Craig Foreman,arrest,action,passive_subject,1,1,1:2
+Craig Foreman,believe,mental,passive_subject,1,1,1:5
+Craig Foreman,wait,other,subject,1,1,1:9
+Craig Foreman,return,other,object,1,1,1:19
+Craig Foreman,detain,action,passive_subject,1,1,9:2
+Craig Foreman,be,other,subject,1,1,9:4
+Craig Foreman,tell,communicative,subject,1,1,9:5
+Craig Foreman,warn,communicative,subject,1,1,9:10
+Craig Foreman,return,other,passive_subject,1,1,9:18
+Craig Foreman,hold,action,passive_subject,1,1,36:29
+Craig Foreman,jump,other,subject,1,1,36:33
+Craig Foreman,assess,other,subject,1,1,36:42
+Craig Foreman,interrogate,other,passive_subject,1,1,36:46
+Dan Caine,say,communicative,subject,1,1,24:49
+Darren Jones,tell,communicative,subject,1,1,44:2
+David Satterfield,tell,communicative,subject,1,1,78:20
+David Schultz,tell,communicative,subject,1,1,34:21
+Dax,be,other,subject,1,1,39:31
+Defence Investment Plan,be,other,subject,1,1,73:22
+Democrats,vow,communicative,subject,2,2,35:45
+Democrats,write,communicative,subject,1,1,40:28
+Democrats,urge,communicative,subject,1,1,44:26
+Dems,propose,other,subject,1,1,44:28
+Department of Defense,suspend,other,object,1,1,85:5
+Diako,be,other,subject,1,1,29:13
+Diako,meet,other,object,1,1,29:17
+Diako,want,mental,subject,1,1,29:18
+Dilman Mahmoud,say,communicative,subject,1,1,13:4
+DoD,say,communicative,subject,1,1,49:5
+Donald Rothwell,say,communicative,subject,1,1,38:19
+Dorset,say,communicative,subject,2,1,19:3
+Dr Emma Briant,say,communicative,subject,1,1,84:12
+Dubai,leave,other,object,1,1,42:8
+Duncan Atkinson KC,say,communicative,subject,1,1,2:23
+Duncan Atkinson KC,tell,communicative,subject,1,1,4:7
+Ebrahim Azizi,tell,communicative,subject,1,1,60:3
+Ebrahim Rezaei,write,communicative,subject,2,2,20:15
+Ed Davey,say,communicative,subject,1,1,91:34
+Elisa Ewers,agree,communicative,subject,1,1,35:35
+Emma Barnett,bring,other,subject,3,3,67:96
+Emmanuel Macron,say,communicative,subject,1,1,27:31
+Epaminondas,seize,action,passive_subject,1,1,49:19
+Epaminondas,attack,action,passive_subject,1,1,52:23
+Epaminondas,detain,action,passive_subject,1,1,53:12
+Erfan Shakourzadeh,hang,other,passive_subject,1,1,5:38
+Esmaeil Baghaei,quote,other,passive_subject,2,2,28:37
+Esmail Baghaei,say,communicative,subject,2,2,11:6
+Esmail Baghaei,insist,communicative,subject,1,1,3:28
+Esmail Baghaei,tell,communicative,subject,1,1,20:14
+Esmail Baghaei,deny,communicative,subject,1,1,65:35
+Esmail Baghaei,end,other,subject,1,1,70:29
+Esmail Baghaei,criticise,communicative,subject,1,1,83:23
+Esmail Baqaei,say,communicative,subject,1,1,47:3
+Esmail Khatib,include,other,object,1,1,50:9
+Ewers,say,communicative,subject,1,1,35:36
+Fars News Agency,say,communicative,subject,1,1,53:4
+Fatemeh Mohajerani,say,communicative,subject,1,1,32:51
+Fatemeh Pasandideh,be,other,subject,1,1,68:2
+Firozabad,produce,other,subject,1,1,41:3
+Foreign Office,say,communicative,subject,1,1,1:4
+"Foreign, Commonwealth & Development Office",say,communicative,subject,1,1,9:15
+Fox Business News,tell,communicative,object,1,1,70:12
+Fox News,tell,communicative,object,4,4,38:12
+France,lead,other,subject,2,2,63:29
+France,announce,communicative,subject,1,1,10:11
+France,envisage,other,subject,1,1,14:29
+France,co,other,subject,1,1,80:14
+French,deployment,action_nominal,nominal_agent,1,1,14:28
+Friedrich Merz,call,communicative,subject,1,1,27:33
+Friedrich Merz,criticise,communicative,subject,1,1,37:2
+Friedrich Merz,say,communicative,subject,1,1,64:18
+Fujairah,be,other,subject,1,1,26:38
+Fujairah,come,other,subject,1,1,27:35
+Fujairah,lie,other,subject,1,1,27:36
+Gal,say,communicative,subject,1,1,69:5
+Gargash,say,communicative,subject,1,1,8:19
+Gaza,do,other,object,1,1,86:68
+George Floyd,see,mental,passive_subject,1,1,84:11
+George HW Bush,seek,mental,subject,1,1,34:15
+George Stana,deny,communicative,subject,3,2,2:4
+George Stana,be,other,subject,2,1,4:3
+George Stana,fly,other,subject,1,1,2:5
+George Stana,drive,other,subject,1,1,2:22
+George Stana,wait,other,subject,1,1,2:37
+George Stana,say,communicative,passive_subject,1,1,4:5
+George Stana,stop,other,passive_subject,1,1,4:15
+George Stana,leave,other,subject,1,1,4:18
+Georgieva,warn,communicative,subject,1,1,62:19
+Gerapetritis,tell,communicative,subject,1,1,52:24
+Germany,do,other,subject,1,1,37:15
+Germany,be,other,subject,1,1,37:18
+Germany,accuse,communicative,object,1,1,37:25
+Germany,project,other,passive_subject,1,1,37:26
+Germany,stand,other,subject,1,1,64:18
+Getty Images BBC InDepth,be,other,subject,1,1,86:80
+Ghalibaf,say,communicative,subject,2,2,11:7
+Ghalibaf,emerge,other,subject,1,1,48:40
+Ghalibaf,address,other,subject,1,1,82:16
+Giorgos Gerapetritis,confirm,communicative,subject,1,1,52:23
+Giorgos Gerapetritis,say,communicative,subject,1,1,53:12
+Grant Rumley,tell,communicative,subject,1,1,21:19
+Grant Rumley,say,communicative,subject,1,1,24:40
+Greer,observe,other,subject,1,1,85:23
+Gregory Meeks,tell,communicative,subject,1,1,66:14
+Gulf,exit,other,object,2,2,24:21
+Gulf,connect,other,object,2,2,61:24
+Gulf,enter,other,object,1,1,58:1
+Gulf of Oman,face,other,object,1,1,26:37
+Guo,tell,communicative,subject,1,1,76:12
+Guo,say,communicative,subject,1,1,76:14
+Guo Jiakun,say,communicative,subject,1,1,76:10
+HMS Dragon,be,other,subject,1,1,10:14
+HRW,issue,other,subject,1,1,15:46
+Haji Ali,sink,other,subject,1,1,7:9
+Hamas,include,other,object,1,1,67:57
+Hamidreza,tell,communicative,subject,1,1,31:3
+Hamidreza Haji Bababei,claim,communicative,subject,1,1,49:10
+Hamidreza Mohammadi,tell,communicative,subject,2,2,12:12
+Hamidreza Mohammadi,say,communicative,subject,2,2,12:27
+Hamidreza Mohammadi,warn,communicative,subject,1,1,12:31
+Hamish Falconer,describe,communicative,subject,1,1,1:21
+Hampshire,say,communicative,subject,1,1,19:5
+Harrison,say,communicative,subject,1,1,85:42
+Hawley,say,communicative,subject,1,1,30:32
+Healey,say,communicative,subject,3,1,10:4
+Healey,offer,other,subject,1,1,10:16
+Heather Brandon-Smith,say,communicative,subject,1,1,35:25
+Hegseth,say,communicative,subject,5,2,22:21
+Hegseth,speak,communicative,subject,1,1,22:26
+Hegseth,spar,other,subject,1,1,35:52
+Hegseth,warn,communicative,subject,1,1,47:7
+Hegseth,insist,communicative,subject,1,1,47:13
+Hengaw,say,communicative,subject,1,1,5:43
+Hezbollah,be,other,subject,5,1,67:26
+Hezbollah,fire,action,subject,4,4,45:25
+Hezbollah,disarm,other,object,3,3,67:41
+Hezbollah,carry,other,subject,2,2,20:38
+Hezbollah,weaken,other,passive_subject,2,2,67:3
+Hezbollah,strike,action,object,2,1,92:9
+Hezbollah,break,other,subject,1,1,17:17
+Hezbollah,begin,other,subject,1,1,20:36
+Hezbollah,continue,other,subject,1,1,20:37
+Hezbollah,receive,other,subject,1,1,65:12
+Hezbollah,defeat,action,passive_subject,1,1,65:16
+Hezbollah,accuse,communicative,object,1,1,67:11
+Hezbollah,create,other,passive_subject,1,1,67:19
+Hezbollah,manage,other,subject,1,1,67:22
+Hezbollah,agree,communicative,subject,1,1,67:30
+Hezbollah,hold,action,subject,1,1,67:31
+Hezbollah,have,other,subject,1,1,67:48
+Hezbollah,respond,communicative,subject,1,1,67:52
+Hezbollah,debate,other,subject,1,1,67:54
+Hezbollah,insist,communicative,subject,1,1,69:20
+Hezbollah,give,other,subject,1,1,77:27
+Hezbollah,kill,action,subject,1,1,77:36
+Hezbollah,scupper,other,subject,1,1,89:67
+Hezbollah,target,action,object,1,1,89:76
+Hezbollah,fight,other,object,1,1,91:26
+Hezbollah,weaken,other,object,1,1,92:7
+Hezbollah,join,other,subject,1,1,92:18
+Hezbollah,take,other,passive_subject,1,1,92:28
+Hezbollah,disarm,other,passive_subject,1,1,92:45
+Hezbollah,say,communicative,subject,1,1,93:8
+Higgins,say,communicative,subject,3,1,75:4
+Higgins,add,communicative,subject,1,1,75:13
+Hong Kong,seize,action,subject,1,1,42:22
+Hormuz,be,other,subject,1,1,48:25
+Hormuz Strait,block,action,passive_subject,1,1,24:8
+House Intelligence Committee,chair,other,object,1,1,81:17
+Huckabee,say,communicative,subject,1,1,8:13
+Hui Chuan - last,broadcast,other,subject,1,1,7:3
+Human Rights Activists,report,communicative,subject,1,1,50:16
+Human Rights Activists News Agency,report,communicative,subject,1,1,84:43
+Human Rights Office,warn,communicative,subject,1,1,5:16
+Hung Cao,serve,other,subject,1,1,52:28
+Hunt,explain,communicative,subject,1,1,43:10
+Husayn ibn Ali,be,other,subject,1,1,84:58
+IDF,say,communicative,subject,2,1,92:31
+IDF,harm,other,object,1,1,20:35
+IRGC,deny,communicative,subject,2,2,24:22
+IRGC,say,communicative,subject,2,2,49:17
+IRGC,be,other,subject,2,2,49:17
+IRGC,share,other,subject,1,1,49:18
+IRGC,open,other,subject,1,1,53:2
+IRGC,target,action,subject,1,1,53:6
+IRGC,hail,other,subject,1,1,53:18
+IRGC,mention,other,subject,1,1,53:20
+IRGC,add,communicative,subject,1,1,61:7
+IRGC,designate,other,subject,1,1,63:8
+IRGC Naval Command,say,communicative,subject,1,1,53:7
+IRNA,report,communicative,subject,1,1,35:6
+IRNA,say,communicative,subject,1,1,59:22
+ITV,tell,communicative,object,1,1,91:8
+Ichiro Kutani,say,communicative,subject,1,1,90:30
+India,say,communicative,subject,1,1,59:41
+India,host,other,subject,1,1,72:7
+International Maritime Organization,visit,other,object,1,1,91:28
+International Monetary Fund,warn,communicative,subject,2,2,38:49
+International Monetary Fund,predict,other,subject,1,1,44:14
+Iran,say,communicative,subject,26,22,3:19
+Iran,be,other,subject,22,18,3:11
+Iran,have,other,subject,20,17,11:19
+Iran,agree,communicative,subject,19,13,14:37
+Iran,attack,action,object,12,11,5:14
+Iran,respond,communicative,subject,11,10,13:12
+Iran,attack,action_nominal,nominal_agent,10,8,8:11
+Iran,deny,communicative,subject,10,8,22:19
+Iran,accuse,communicative,object,9,9,11:18
+Iran,want,mental,subject,9,7,26:7
+Iran,continue,other,subject,7,7,3:18
+Iran,launch,action,prep_target,6,6,13:11
+Iran,remain,other,subject,6,6,15:67
+Iran,insist,communicative,subject,6,5,24:33
+Iran,block,action,subject,6,6,38:3
+Iran,decide,other,subject,6,5,52:33
+Iran,announce,communicative,subject,5,5,20:28
+Iran,show,other,subject,5,5,26:31
+Iran,seek,mental,subject,4,4,3:34
+Iran,launch,action,subject,4,4,8:15
+Iran,response,action_nominal,nominal_agent,4,3,13:30
+Iran,warn,communicative,subject,4,3,14:22
+Iran,threaten,communicative,subject,4,4,18:24
+Iran,end,other,subject,4,4,20:28
+Iran,try,other,subject,4,4,21:33
+Iran,attack,action,subject,4,4,24:27
+Iran,call,communicative,subject,4,4,27:18
+Iran,give,other,subject,4,4,33:28
+Iran,restrict,other,subject,4,4,39:10
+Iran,infuriate,other,object,3,3,10:6
+Iran,confirm,communicative,subject,3,3,18:28
+Iran,close,action,subject,3,3,22:2
+Iran,urge,communicative,object,3,3,23:8
+Iran,do,other,subject,3,3,24:26
+Iran,fire,action,subject,3,3,24:49
+Iran,make,other,subject,3,3,26:18
+Iran,target,action,subject,3,3,33:15
+Iran,refuse,other,subject,3,3,57:14
+Iran,demand,communicative,subject,3,3,69:24
+Iran,push,other,object,3,3,78:4
+Iran,retaliate,action,subject,2,2,3:10
+Iran,keep,other,subject,2,2,3:32
+Iran,lay,other,subject,2,2,8:24
+Iran,control,other,subject,2,2,10:5
+Iran,bow,other,subject,2,2,17:2
+Iran,enter,other,object,2,2,17:12
+Iran,share,other,subject,2,2,18:20
+Iran,warn,communicative,object,2,2,18:23
+Iran,review,other,subject,2,2,20:14
+Iran,deliver,other,subject,2,2,20:16
+Iran,threat,action_nominal,nominal_agent,2,2,22:3
+Iran,pressure,other,object,2,2,25:12
+Iran,comment,communicative,subject,2,2,25:17
+Iran,receive,other,subject,2,2,28:30
+Iran,limit,other,subject,2,2,30:13
+Iran,send,action,subject,2,2,30:16
+Iran,begin,other,subject,2,2,33:26
+Iran,suffer,other,subject,2,2,36:54
+Iran,use,other,subject,2,2,38:52
+Iran,hold,action,subject,2,2,42:4
+Iran,describe,communicative,subject,2,2,49:6
+Iran,accuse,communicative,subject,2,2,50:17
+Iran,accuse,communicative,passive_subject,2,1,50:29
+Iran,seize,action,subject,2,2,52:24
+Iran,deem,mental,subject,2,2,53:33
+Iran,attend,other,subject,2,2,57:23
+Iran,blackmail,other,subject,2,2,59:32
+Iran,live,other,subject,2,2,60:36
+Iran,back,action,subject,2,2,67:2
+Iran,offer,other,subject,2,2,83:15
+Iran,charge,other,subject,2,2,88:22
+Iran,bomb,action,object,2,1,89:67
+Iran,know,mental,passive_subject,1,1,3:12
+Iran,turn,other,subject,1,1,4:10
+Iran,carry,other,subject,1,1,5:24
+Iran,allow,other,passive_subject,1,1,6:10
+Iran,obtain,other,subject,1,1,6:19
+Iran,hit,action,subject,1,1,8:4
+Iran,criticise,communicative,subject,1,1,8:4
+Iran,act,other,subject,1,1,11:13
+Iran,remains,other,subject,1,1,15:66
+Iran,expect,mental,passive_subject,1,1,17:5
+Iran,anger,other,object,1,1,17:10
+Iran,trifle,other,subject,1,1,18:3
+Iran,blockade,action,subject,1,1,20:27
+Iran,inch,other,subject,1,1,21:13
+Iran,impose,action,subject,1,1,23:13
+Iran,come,other,subject,1,1,24:6
+Iran,object,other,subject,1,1,25:15
+Iran,choose,other,subject,1,1,25:32
+Iran,face,other,subject,1,1,26:5
+Iran,demonstrate,other,subject,1,1,26:16
+Iran,enrich,other,subject,1,1,26:47
+Iran,start,other,object,1,1,26:47
+Iran,return,other,subject,1,1,27:33
+Iran,circumvent,other,subject,1,1,32:31
+Iran,fund,action,subject,1,1,32:39
+Iran,pay,other,object,1,1,33:1
+Iran,stop,other,object,1,1,35:47
+Iran,secure,other,subject,1,1,38:10
+Iran,see,mental,object,1,1,38:19
+Iran,export,other,subject,1,1,38:45
+Iran,lose,other,subject,1,1,39:23
+Iran,blame,other,object,1,1,40:45
+Iran,focus,other,subject,1,1,42:26
+Iran,suspect,other,object,1,1,45:22
+Iran,hear,other,object,1,1,47:10
+Iran,produce,other,subject,1,1,48:7
+Iran,represent,other,object,1,1,48:22
+Iran,get,other,subject,1,1,49:8
+Iran,die,other,subject,1,1,49:25
+Iran,tick,other,subject,1,1,49:28
+Iran,return,other,object,1,1,49:32
+Iran,shoot,action,prep_target,1,1,50:21
+Iran,strike,action_nominal,nominal_agent,1,1,50:26
+Iran,re,other,subject,1,1,50:47
+Iran,announce,communicative,object,1,1,50:50
+Iran,open,other,subject,1,1,50:80
+Iran,sweep,other,object,1,1,51:48
+Iran,reopen,other,subject,1,1,53:29
+Iran,remove,other,object,1,1,54:14
+Iran,dismiss,other,subject,1,1,54:15
+Iran,complain,other,subject,1,1,54:19
+Iran,accept,other,subject,1,1,55:4
+Iran,condemn,communicative,subject,1,1,55:13
+Iran,violate,other,subject,1,1,55:15
+Iran,designate,other,subject,1,1,55:18
+Iran,thank,other,object,1,1,55:19
+Iran,require,other,subject,1,1,55:20
+Iran,hit,action,passive_subject,1,1,56:1
+Iran,destroy,action,object,1,1,57:2
+Iran,maintain,other,subject,1,1,57:10
+Iran,hand,other,object,1,1,60:8
+Iran,manage,other,subject,1,1,60:8
+Iran,see,mental,subject,1,1,60:11
+Iran,order,other,object,1,1,60:36
+Iran,work,other,subject,1,1,63:18
+Iran,promise,other,subject,1,1,64:13
+Iran,support,action_nominal,nominal_agent,1,1,65:30
+Iran,arm,action,subject,1,1,67:20
+Iran,leave,other,object,1,1,70:10
+Iran,reject,communicative,subject,1,1,70:31
+Iran,capitulate,other,subject,1,1,70:33
+Iran,choke,other,subject,1,1,71:14
+Iran,blow,other,object,1,1,71:16
+Iran,arrange,other,subject,1,1,72:9
+Iran,shut,action,subject,1,1,74:8
+Iran,starve,other,object,1,1,74:9
+Iran,suggest,communicative,subject,1,1,74:21
+Iran,force,other,object,1,1,76:4
+Iran,encourage,other,object,1,1,76:5
+Iran,go,other,subject,1,1,76:17
+Iran,weaken,other,passive_subject,1,1,77:10
+Iran,strike,action,object,1,1,77:15
+Iran,resume,other,object,1,1,77:18
+Iran,feel,mental,subject,1,1,78:18
+Iran,believe,mental,subject,1,1,78:23
+Iran,persuade,other,object,1,1,78:32
+Iran,execute,action,subject,1,1,79:1
+Iran,survive,other,subject,1,1,79:15
+Iran,cut,other,subject,1,1,80:19
+Iran,start,other,subject,1,1,80:26
+Iran,meet,other,subject,1,1,81:7
+Iran,overplay,other,subject,1,1,82:9
+Iran,indicate,other,subject,1,1,83:25
+Iran,reach,other,subject,1,1,83:27
+Iran,resist,other,subject,1,1,84:8
+Iran,stand,other,subject,1,1,84:11
+Iran,enable,other,object,1,1,84:29
+Iran,rank,other,passive_subject,1,1,84:51
+Iran,prevent,other,object,1,1,86:50
+Iran,do,other,object,1,1,86:68
+Iran,abandon,other,subject,1,1,88:10
+Iran,satisfy,other,object,1,1,88:13
+Iran,seem,other,subject,1,1,88:19
+Iran,exercise,other,subject,1,1,88:31
+Iran,like,other,subject,1,1,88:35
+Iran,tell,communicative,subject,1,1,89:69
+Iran,let,other,subject,1,1,89:87
+Iran,ask,communicative,subject,1,1,93:7
+Iran,abide,other,subject,1,1,93:19
+Iran,provide,other,subject,1,1,93:20
+Iran,need,other,subject,1,1,93:22
+Iran Labour News Agency,include,other,object,1,1,56:20
+Iranian Revolutionary Guard Corps,allude,other,subject,1,1,20:26
+Iranian Students' News Agency,tell,communicative,object,1,1,20:14
+Iraq,ship,other,subject,1,1,62:14
+Irins Bushehr,take,other,object,1,1,72:4
+Iris Dena,return,other,subject,1,1,72:7
+Irna news agency,report,communicative,subject,1,1,14:23
+Ishaq Dar,urge,communicative,subject,1,1,83:26
+Islamic Revolution Guard Corps,blame,other,subject,1,1,61:3
+Islamic Revolutionary Guards Corps,lay,other,subject,1,1,71:27
+Isle of Wight Air Ambulance,say,communicative,subject,1,1,19:5
+Israel,launch,action,subject,18,17,13:11
+Israel,attack,action_nominal,nominal_agent,16,13,3:29
+Israel,attack,action,subject,13,12,5:14
+Israel,strike,action_nominal,nominal_agent,13,10,20:38
+Israel,say,communicative,subject,11,8,17:16
+Israel,fire,action,prep_target,8,5,3:10
+Israel,continue,other,subject,7,5,20:37
+Israel,offensive,action_nominal,nominal_agent,5,5,18:26
+Israel,campaign,action_nominal,nominal_agent,4,4,15:54
+Israel,begin,other,subject,4,4,20:27
+Israel,agree,communicative,subject,4,4,50:66
+Israel,be,other,subject,4,4,50:69
+Israel,see,mental,subject,3,3,65:29
+Israel,send,action,subject,2,2,8:11
+Israel,kill,action,subject,2,2,26:32
+Israel,carry,other,subject,2,2,33:39
+Israel,target,action,subject,2,1,50:11
+Israel,hit,action,subject,2,2,56:21
+Israel,recognise,other,subject,2,1,67:92
+Israel,operation,action_nominal,nominal_agent,2,2,69:24
+Israel,insist,communicative,subject,2,2,70:16
+Israel,react,other,subject,1,1,6:17
+Israel,appear,other,subject,1,1,8:14
+Israel,break,other,subject,1,1,17:17
+Israel,strike,action,object,1,1,20:36
+Israel,inflict,other,subject,1,1,26:25
+Israel,go,other,subject,1,1,26:30
+Israel,help,other,object,1,1,29:54
+Israel,see,mental,object,1,1,38:19
+Israel,suspect,other,subject,1,1,45:22
+Israel,wait,other,subject,1,1,49:33
+Israel,accuse,communicative,object,1,1,50:17
+Israel,support,action,subject,1,1,50:53
+Israel,consider,mental,subject,1,1,50:74
+Israel,include,other,object,1,1,55:5
+Israel,retaliate,action,prep_target,1,1,63:15
+Israel,avoid,other,subject,1,1,65:7
+Israel,withdrawal,action_nominal,nominal_agent,1,1,65:18
+Israel,bombing,action_nominal,nominal_agent,1,1,67:13
+Israel,respond,communicative,subject,1,1,67:13
+Israel,ignore,other,subject,1,1,67:15
+Israel,withdraw,action,subject,1,1,67:23
+Israel,abide,other,subject,1,1,67:52
+Israel,downgrade,other,subject,1,1,67:58
+Israel,attack,action,object,1,1,67:61
+Israel,warn,communicative,subject,1,1,67:61
+Israel,have,other,subject,1,1,69:11
+Israel,take,other,object,1,1,69:12
+Israel,want,mental,subject,1,1,69:15
+Israel,preserve,other,subject,1,1,69:31
+Israel,maintain,other,subject,1,1,76:24
+Israel,resume,other,subject,1,1,77:18
+Israel,argue,communicative,subject,1,1,77:29
+Israel,vote,other,subject,1,1,77:37
+Israel,allow,other,subject,1,1,85:30
+Israel,escalate,other,subject,1,1,89:2
+Israel,ignite,other,subject,1,1,89:33
+Israel,do,other,subject,1,1,89:35
+Israel,translate,other,subject,1,1,89:39
+Israel,promise,other,object,1,1,89:64
+Israel,turn,other,object,1,1,89:65
+Israel,threaten,communicative,object,1,1,89:66
+Israel,fight,other,subject,1,1,91:26
+Israel,wag,other,subject,1,1,91:32
+Israel,behave,other,subject,1,1,91:36
+Israel,call,communicative,subject,1,1,93:3
+Israel Defense Forces (IDF,say,communicative,subject,1,1,92:16
+Israel Katz,describe,communicative,subject,1,1,50:67
+Italy,be,other,subject,1,1,37:9
+J D Vance,say,communicative,subject,1,1,57:15
+JD Vance,lead,other,subject,4,4,47:17
+JD Vance,head,other,subject,3,3,55:8
+JD Vance,be,other,subject,2,2,45:14
+JD Vance,meet,other,subject,1,1,17:18
+JD Vance,go,other,subject,1,1,57:26
+JD Vance,tell,communicative,subject,1,1,74:22
+JD Vance,accuse,communicative,subject,1,1,76:15
+JD Vance,remain,other,subject,1,1,82:1
+JD Vance,board,action,subject,1,1,83:10
+JD Vance,blame,other,object,1,1,86:2
+JD Vance,stand,other,subject,1,1,87:1
+Jakob Larsen,tell,communicative,subject,1,1,71:18
+Jared Golden,be,other,subject,1,1,66:12
+Jared Kushner,waste,other,subject,1,1,45:2
+Jared Kushner,join,other,subject,1,1,57:19
+Jeddah,have,other,object,1,1,53:21
+Jeff Rathke,say,communicative,subject,1,1,86:18
+Jewish People Policy Institute,publish,other,subject,1,1,77:21
+Joe,say,communicative,subject,1,1,36:21
+Joe Biden,reverse,other,subject,1,1,37:24
+Joeseph Aoun,say,communicative,subject,1,1,93:6
+John Healey,announce,communicative,subject,1,1,10:2
+John Healey,co,other,subject,1,1,14:36
+John Healey,say,communicative,subject,1,1,91:23
+John Kennedy,condemn,communicative,subject,1,1,40:33
+John Simpson,bring,other,subject,3,3,67:96
+Jones,say,communicative,subject,2,1,44:15
+Jones,tell,communicative,subject,1,1,44:6
+Jones,lead,other,subject,1,1,44:10
+Jorgen Watne Frydnes,echo,other,subject,1,1,31:13
+Joseph Aoun,describe,communicative,subject,1,1,92:37
+Josh Hawley,call,communicative,subject,1,1,30:31
+Kamran Yousef,declare,communicative,subject,1,1,83:30
+Kan News,tell,communicative,object,2,2,28:33
+Karoline Leavitt,say,communicative,subject,1,1,47:2
+Karoline Leavitt,clarify,other,subject,1,1,52:7
+Karoline Leavitt,confirm,communicative,subject,1,1,70:36
+Karoline Leavitt,tell,communicative,subject,1,1,93:25
+Kathleen Brooks,say,communicative,subject,1,1,39:33
+Katie Stevens,say,communicative,subject,1,1,16:18
+Katz,say,communicative,subject,1,1,49:33
+Keir,say,communicative,subject,5,2,80:8
+Keir,lead,other,subject,1,1,10:17
+Keir,discuss,other,subject,1,1,10:20
+Keir,confirm,communicative,subject,1,1,64:12
+Keir,rule,other,subject,1,1,80:11
+Keir,underline,other,subject,1,1,80:24
+Keir,warn,communicative,subject,1,1,80:27
+Keir Starmer,say,communicative,subject,7,7,14:27
+Keir Starmer,chair,other,subject,1,1,44:9
+Khamenei,kill,action,passive_subject,1,1,33:36
+Kharg Island,include,other,object,1,1,50:12
+Khatib,argue,communicative,subject,1,1,65:25
+Khatibzadeh,say,communicative,subject,2,1,93:11
+Kim Ghattas,tell,communicative,subject,1,1,67:75
+Kristalina Georgieva,tell,communicative,subject,1,1,62:13
+Kumar,say,communicative,subject,1,1,41:41
+Kurdistan Human Rights Network,obtain,other,subject,1,1,5:6
+Kushner,send,action,object,1,1,47:10
+Kushner,lead,other,subject,1,1,86:65
+Kushner,do,other,subject,1,1,86:68
+Kushner,add,communicative,passive_subject,1,1,87:26
+Kutani,say,communicative,subject,1,1,90:32
+Kuwait,say,communicative,subject,1,1,14:33
+Leavitt,say,communicative,subject,4,2,47:10
+Leavitt,add,communicative,subject,1,1,47:11
+Lebanon,include,other,object,4,3,50:54
+Lebanon,include,other,passive_subject,4,3,65:8
+Lebanon,hit,action,object,3,3,20:38
+Lebanon,have,other,subject,3,2,65:12
+Lebanon,agree,communicative,subject,2,2,50:66
+Lebanon,be,other,subject,2,2,65:24
+Lebanon,recognise,other,subject,2,1,67:92
+Lebanon,cover,other,passive_subject,2,2,91:3
+Lebanon,continue,other,subject,1,1,65:21
+Lebanon,remove,other,object,1,1,65:25
+Lebanon,use,other,object,1,1,65:27
+Lebanon,overlook,other,object,1,1,67:1
+Lebanon,divide,other,object,1,1,67:4
+Lebanon,feel,mental,subject,1,1,67:86
+Lebanon,recognise,other,object,1,1,67:93
+Lebanon,fight,other,subject,1,1,77:27
+Lebanon,target,action,object,1,1,89:77
+Lebanon,include,other,subject,1,1,91:25
+Lebanon,cover,other,object,1,1,91:26
+Lebanon,say,communicative,subject,1,1,93:5
+Lebanon,experience,other,subject,1,1,93:6
+Lebanon,name,other,object,1,1,93:12
+Ledwith,ask,communicative,subject,1,1,16:16
+Lee,credit,other,passive_subject,1,1,90:8
+Lee Kuan Yew,credit,other,subject,1,1,90:5
+Liat Zvi,voice,other,subject,1,1,77:1
+Liat Zvi,say,communicative,subject,1,1,77:22
+Lina Khatib,say,communicative,subject,1,1,65:21
+Lindsay Foreman,be,other,subject,3,2,9:17
+Lindsay Foreman,say,communicative,subject,3,1,36:1
+Lindsay Foreman,arrest,action,passive_subject,1,1,1:2
+Lindsay Foreman,pause,other,subject,1,1,1:6
+Lindsay Foreman,return,other,object,1,1,1:19
+Lindsay Foreman,detain,action,passive_subject,1,1,9:2
+Lindsay Foreman,return,other,passive_subject,1,1,9:18
+Lindsay Foreman,admit,communicative,subject,1,1,36:3
+Lindsay Foreman,read,other,subject,1,1,36:24
+Lindsay Foreman,feel,mental,subject,1,1,36:27
+Lindsay Foreman,ask,communicative,subject,1,1,36:39
+Lindsay Foreman,spend,other,subject,1,1,36:45
+Lindsay James,say,communicative,subject,1,1,39:19
+Lindsey German,say,communicative,subject,1,1,46:15
+Lisa Smart,say,communicative,subject,1,1,44:27
+London Blood Bikes,say,communicative,subject,1,1,16:17
+Lt Col Rachel E VanLandingham,say,communicative,subject,1,1,40:8
+Lyse Doucet,say,communicative,subject,1,1,57:24
+MSC-Francesca,seize,action,passive_subject,1,1,53:7
+MSC-Francesca,target,action,passive_subject,1,1,53:17
+Macron,say,communicative,subject,2,2,14:29
+Maersk,say,communicative,subject,2,1,27:7
+Maersk,confirm,communicative,subject,1,1,24:21
+Maersk,tell,communicative,subject,1,1,27:4
+Mahmood Amiry-Moghaddam,note,communicative,subject,1,1,79:19
+Mahmoud,say,communicative,subject,1,1,13:5
+Mahmoud,add,communicative,subject,1,1,13:13
+Mahmoud,get,other,subject,1,1,13:25
+Maldives,seize,action,subject,1,1,42:22
+Maor,say,communicative,subject,1,1,69:7
+Marco Rubio,say,communicative,subject,7,6,17:6
+Marco Rubio,speak,communicative,subject,1,1,22:26
+Marco Rubio,tell,communicative,subject,1,1,25:10
+Marine,be,other,subject,1,1,86:16
+Marine Traffic,show,other,subject,1,1,42:16
+MarineTraffic,show,other,subject,1,1,61:21
+Maritime Trade Operations Centre (UKMTO,say,communicative,subject,1,1,14:31
+Mark Bednar,say,communicative,subject,2,1,86:44
+Mark Hunt,say,communicative,subject,1,1,43:8
+Mark Montgomery,tell,communicative,subject,1,1,78:3
+Mark Warner,tell,communicative,subject,1,1,81:16
+Marwa Fatafta,tell,communicative,subject,1,1,32:53
+Mary Anne Velasquez de Vera,kill,action,object,1,1,77:4
+Masoud Pezeshkian,say,communicative,subject,5,5,45:16
+Masoud Pezeshkian,reference,other,subject,2,2,13:33
+Masoud Pezeshkian,apologise,other,subject,1,1,50:42
+Masoud Pezeshkian,post,communicative,subject,1,1,88:8
+Masoud Pezeshkian,denounce,other,subject,1,1,92:48
+Mazda,drive,other,object,1,1,4:5
+McGarry,add,communicative,subject,1,1,63:28
+Meeks,indicate,other,subject,1,1,66:15
+Mehr,tell,communicative,object,1,1,17:24
+Mehrab Abdollahzadeh,describe,communicative,subject,1,1,5:45
+Merz,say,communicative,subject,2,1,37:19
+Merz,make,other,subject,1,1,37:10
+Merz,think,mental,subject,1,1,37:14
+Merz,focus,other,subject,1,1,37:17
+Merz,have,other,subject,1,1,37:28
+Michael Young,tell,communicative,subject,1,1,67:41
+Michelle Wiese Bockmann,say,communicative,subject,1,1,78:25
+Mick Mulroy,say,communicative,subject,1,1,21:31
+Mick Mulroy,tell,communicative,subject,1,1,24:14
+Middle East,engulf,other,object,2,2,82:22
+Middle East,reshape,other,object,1,1,89:64
+Mike Higgins,say,communicative,subject,1,1,75:2
+Mike Huckabee,say,communicative,subject,1,1,8:11
+Mike Turner,say,communicative,subject,1,1,81:17
+Ministry of Defence,say,communicative,subject,3,3,8:16
+Ministry of Defence,pay,other,subject,1,1,73:22
+Ministry of External Affairs,call,communicative,subject,1,1,7:15
+Ministry of Sustainability,say,communicative,subject,1,1,90:15
+MoD,say,communicative,subject,1,1,10:14
+Moein Tayari,run,other,subject,1,1,13:16
+Mohammad,add,communicative,subject,1,1,51:10
+Mohammad,declare,communicative,subject,1,1,51:12
+Mohammad Akraminia,say,communicative,subject,1,1,14:23
+Mohammad Bagher Ghalibaf,say,communicative,subject,3,3,49:14
+Mohammad Bagher Ghalibaf,lead,other,subject,2,2,60:34
+Mohammad Bagher Ghalibaf,sound,other,subject,1,1,82:15
+Mohammad Eslami,explain,communicative,subject,1,1,60:12
+Mohammad Ghalibaf,respond,communicative,subject,1,1,8:26
+Mohammad Ghalibaf,write,communicative,subject,1,1,11:3
+Mohammad-Bagher Ghalibaf,head,other,subject,1,1,48:23
+Mohammad-Bagher Ghalibaf,step,other,object,1,1,48:39
+Mohammadi,sentence,other,passive_subject,2,2,12:26
+Mohammadi,be,other,subject,1,1,12:7
+Mohammadi,spend,other,subject,1,1,12:19
+Mohammadi,arrest,action,passive_subject,1,1,12:22
+Mojtaba Khamenei,assume,other,subject,1,1,48:3
+Mojtaba Khamenei,see,mental,passive_subject,1,1,48:9
+Montgomery,say,communicative,subject,1,1,78:9
+Morality Police,arrest,action,subject,1,1,15:23
+Mordashov,list,other,passive_subject,1,1,42:6
+Mordashov,make,other,subject,1,1,42:11
+Mordashov,target,action,passive_subject,1,1,42:21
+Mr Explosive,admit,communicative,subject,2,1,84:7
+Mr Explosive,ask,communicative,object,2,1,84:18
+Mr Explosive,accept,other,subject,1,1,84:24
+Mr Explosive,defend,other,subject,1,1,84:44
+Mr Explosive,reject,communicative,subject,1,1,84:46
+Mr Explosive,claim,communicative,subject,1,1,84:50
+Mukesh Bansal,say,communicative,subject,1,1,41:19
+Murkowski,add,communicative,subject,1,1,30:38
+Mustafa,say,communicative,subject,1,1,51:15
+Mustafa,spot,other,object,1,1,51:76
+Naim Qassem,reject,communicative,subject,1,1,67:31
+Nandito Badea,be,other,subject,1,1,4:3
+Narges,tell,communicative,object,1,1,12:12
+Narges Mohammadi,transfer,other,passive_subject,1,1,12:1
+Narges Mohammadi,award,other,passive_subject,1,1,31:4
+Narges Mohammadi,arrest,action,passive_subject,1,1,31:19
+Narges Mohammadi Foundation,say,communicative,subject,2,2,12:7
+Nassim Papayianni,say,communicative,subject,1,1,5:20
+National Farmers' Union,say,communicative,subject,1,1,44:23
+Nato,criticise,communicative,object,2,1,64:4
+Nato,offer,other,subject,1,1,80:16
+Navy,warn,communicative,subject,1,1,61:5
+Navy,publish,other,subject,1,1,71:25
+Netanyahu,say,communicative,subject,13,9,6:18
+Netanyahu,be,other,subject,2,2,69:26
+Netanyahu,oppose,other,subject,1,1,6:19
+Netanyahu,reveal,other,subject,1,1,8:5
+Netanyahu,write,communicative,subject,1,1,20:35
+Netanyahu,cave,other,subject,1,1,65:9
+Netanyahu,point,other,subject,1,1,65:15
+Netanyahu,convene,other,subject,1,1,69:13
+Netanyahu,bow,other,subject,1,1,69:15
+Netanyahu,know,mental,subject,1,1,69:18
+Netanyahu,make,other,subject,1,1,69:19
+Netanyahu,cite,other,subject,1,1,77:12
+Netanyahu,agree,communicative,subject,1,1,77:33
+Netanyahu,have,other,subject,1,1,89:62
+Netanyahu,ask,communicative,object,1,1,89:70
+Netanyahu,promise,other,subject,1,1,89:90
+Netanyahu,tell,communicative,subject,1,1,91:4
+New York Times,tell,communicative,object,2,2,40:33
+New York Times,report,communicative,subject,1,1,48:12
+Nicholas Blanford,tell,communicative,subject,1,1,67:59
+Nitya Labh,say,communicative,subject,1,1,24:44
+Nord,leave,other,subject,1,1,42:8
+Nord,gain,other,subject,1,1,42:10
+Nord,have,other,subject,1,1,42:20
+Nord,seize,action,object,1,1,42:22
+Nour News,say,communicative,subject,1,1,53:2
+OFAC,say,communicative,subject,2,1,33:3
+Obama,say,communicative,subject,1,1,34:26
+Oldouz Rezvani,say,communicative,subject,1,1,2:43
+Oman,visit,other,object,1,1,45:21
+Oman,report,communicative,subject,1,1,50:32
+Operation Epic Fury,say,communicative,object,2,2,18:26
+Operation Epic Fury,be,other,subject,1,1,21:8
+Operation Epic Fury,begin,other,subject,1,1,25:25
+Operation Epic Fury,launch,action,object,1,1,88:24
+Orion,say,communicative,subject,2,1,86:67
+Oxfam,tell,communicative,subject,1,1,85:25
+Oxfam,plan,mental,subject,1,1,85:29
+PBS,tell,communicative,object,1,1,21:12
+Pakistan,say,communicative,subject,4,4,28:29
+Pakistan,leave,other,object,2,2,45:1
+Pakistan,mediate,other,subject,2,2,45:17
+Pakistan,make,other,subject,2,1,55:7
+Pakistan,be,other,subject,2,2,55:24
+Pakistan,play,other,subject,1,1,6:7
+Pakistan,try,other,subject,1,1,26:6
+Pakistan,intervention,action_nominal,nominal_agent,1,1,50:49
+Pakistan,wait,other,subject,1,1,54:5
+Pakistan,prove,other,subject,1,1,54:9
+Pakistan,give,other,subject,1,1,54:11
+Pakistan,continue,other,subject,1,1,54:12
+Pakistan,announce,communicative,subject,1,1,55:16
+Pakistan,confirm,communicative,subject,1,1,55:23
+Pakistan,host,other,subject,1,1,55:34
+Pakistan,insist,communicative,subject,1,1,65:8
+Palestinians,sideline,other,object,1,1,87:18
+Party of God,create,other,passive_subject,1,1,67:19
+Pasandideh,thank,other,subject,1,1,68:4
+Pasandideh,say,communicative,subject,1,1,68:9
+Paul Adams,say,communicative,subject,1,1,38:15
+Pentagon,criticise,communicative,object,1,1,40:1
+Pentagon,say,communicative,subject,1,1,40:4
+Pentagon,release,action,subject,1,1,40:7
+Pentagon,comment,communicative,subject,1,1,40:20
+Pentagon,leave,other,object,1,1,40:24
+Pentagon,take,other,subject,1,1,40:27
+Pentagon,dismiss,other,subject,1,1,49:23
+Persian Gulf,exit,other,object,1,1,27:22
+Pete Hegseth,ask,communicative,passive_subject,2,2,24:46
+Pete Hegseth,say,communicative,subject,2,2,47:6
+Pete Hegseth,focus,other,subject,1,1,22:20
+Pete Hegseth,contend,other,subject,1,1,34:11
+Pete Hegseth,defend,other,subject,1,1,35:15
+Pete Hegseth,ask,communicative,subject,1,1,52:27
+Pete Hegseth,put,other,subject,1,1,89:32
+Peter Burch,be,other,subject,1,1,19:21
+Philippines,shorten,other,subject,1,1,90:24
+Planet,suspend,other,subject,1,1,85:26
+Planet Labs,introduce,other,subject,1,1,85:2
+Popular Mobilization Forces,say,communicative,subject,1,1,50:36
+Ports and Maritime Organisation of the Islamic Rep of Iran,announce,communicative,subject,1,1,63:7
+Ports and Maritime Organisation of the Islamic Republic of Iran,announce,communicative,subject,1,1,65:41
+Pouria Zeraati,tell,communicative,subject,1,1,2:2
+Project Freedom,pause,other,object,1,1,20:24
+Project Freedom,roll,other,object,1,1,21:19
+Project Freedom,have,other,subject,1,1,21:27
+Project Freedom,support,action,object,1,1,22:12
+Project Freedom,be,other,subject,1,1,25:12
+Putin,host,other,subject,1,1,42:27
+Pyongyang,continue,other,subject,1,1,65:51
+Qalibaf,refer,other,subject,1,1,88:42
+Qassem,say,communicative,subject,2,1,67:52
+Qatar,condemn,communicative,subject,1,1,27:38
+Rachel Ledwith,say,communicative,subject,1,1,16:14
+Rachel Reeves,say,communicative,subject,1,1,73:6
+Rachel Reeves,plan,mental,subject,1,1,80:28
+Radmehr,tell,communicative,subject,1,1,17:24
+Ramezanisadeh,thank,other,subject,1,1,68:4
+Ramezanisadeh,say,communicative,subject,1,1,68:9
+Randy George,ask,communicative,object,1,1,52:27
+Raphaël Chenuil-Hazan,say,communicative,subject,1,1,79:18
+Rathke,say,communicative,subject,1,1,86:77
+Red Crescent,report,communicative,subject,1,1,15:55
+Red Sea,up,other,object,1,1,70:34
+Reeves,be,other,subject,1,1,62:61
+Reeves,confront,other,passive_subject,1,1,73:8
+Republican Party,pay,other,subject,1,1,81:29
+Republicans,oppose,other,subject,2,2,35:46
+Republicans,face,other,subject,1,1,3:9
+Republicans,tell,communicative,object,1,1,20:11
+Republicans,express,other,subject,1,1,35:54
+Republicans,include,other,object,1,1,40:32
+Republicans,suggest,communicative,subject,1,1,66:18
+Reuters,tell,communicative,object,2,2,61:19
+Reuters,quote,other,subject,1,1,8:10
+Reuters,report,communicative,subject,1,1,21:13
+Reuters,see,mental,subject,1,1,38:60
+Reuters,be,other,subject,1,1,86:80
+Revolutionary Court,sentence,other,subject,2,2,12:26
+Revolutionary Courts,hand,other,subject,1,1,79:14
+Reyhaneh,hold,action,subject,1,1,51:69
+Richard Corbett,say,communicative,subject,1,1,19:6
+Richard Meade,show,other,subject,1,1,71:21
+Richard Meade,say,communicative,subject,1,1,78:27
+Road Less Travelled,read,other,object,1,1,36:24
+Robertson,lead,other,object,1,1,73:16
+Robertson,choose,other,subject,1,1,73:18
+Ronald Reagan,receive,other,subject,1,1,34:14
+Rumley,say,communicative,subject,1,1,21:25
+Russia,launch,action,subject,2,2,42:21
+Russia,invasion,action_nominal,nominal_agent,1,1,39:29
+Russia,support,action_nominal,nominal_agent,1,1,42:31
+Russia,be,other,subject,1,1,89:85
+Russian,invasion,action_nominal,nominal_agent,1,1,42:24
+SNSC,say,communicative,subject,1,1,61:12
+Saeed Khatibzadeh,say,communicative,subject,1,1,93:2
+Safa Bleik,happen,other,subject,1,1,92:20
+Saffron,be,other,subject,2,1,13:2
+Sahand,say,communicative,subject,4,1,32:1
+Sahand,advise,other,subject,1,1,32:36
+Sana,be,other,subject,1,1,29:13
+Sana,meet,other,object,1,1,29:17
+Sana,feel,mental,subject,1,1,29:25
+Sanam Vakil,describe,communicative,subject,1,1,83:20
+Sanjay Jain,say,communicative,subject,1,1,41:10
+Sattar Hashemi,call,communicative,subject,1,1,51:32
+Saudi Arabia,report,communicative,subject,1,1,50:32
+Saudis,pump,other,subject,1,1,89:56
+Scott Bessent,say,communicative,subject,1,1,33:14
+Scott Bessent,pop,other,subject,1,1,62:8
+Scott Bessent,tell,communicative,subject,1,1,74:25
+Sean Parnell,tell,communicative,subject,1,1,49:24
+Senate,reject,communicative,subject,1,1,66:17
+Serv Surrey,say,communicative,subject,1,1,16:17
+Sharif,say,communicative,subject,1,1,92:11
+Shebaz Sharif,say,communicative,subject,1,1,45:20
+Shehbaz Sharif,declare,communicative,subject,1,1,50:52
+Shehbaz Sharif,post,communicative,subject,1,1,54:12
+Shehbaz Sharif,speak,communicative,subject,1,1,59:26
+Shehbaz Sharif,announce,communicative,subject,1,1,92:10
+Sherriff,say,communicative,subject,2,1,16:6
+Shia Muslims,be,other,subject,1,1,67:76
+Shiel,say,communicative,subject,1,1,40:41
+Shirin,be,other,subject,2,1,15:6
+Shirin,suffer,other,subject,1,1,15:15
+Shirin,interrogate,other,passive_subject,1,1,15:38
+Shirin,lose,other,subject,1,1,15:47
+Shirin,worry,other,subject,1,1,15:63
+Shirin,expect,mental,subject,1,1,15:65
+Singapore,join,other,subject,1,1,90:3
+Slopaganda,be,other,subject,1,1,84:12
+Snow,work,other,subject,1,1,43:7
+Somerset,follow,other,object,1,1,43:18
+Somerset Air Ambulance,say,communicative,subject,1,1,19:15
+South Korea,report,communicative,subject,2,1,27:2
+South Korea,launch,action,subject,1,1,90:29
+South Pars,target,action,object,1,1,50:13
+SpaceX,contact,other,object,1,1,32:17
+Spain,suspend,other,object,1,1,37:30
+Sri Lanka,take,other,subject,1,1,72:4
+Sri Lanka,allow,other,subject,1,1,72:13
+Sri Lanka,intervene,action,subject,1,1,72:15
+Sri Lanka,maintain,other,subject,1,1,72:16
+Starlink,activate,other,object,1,1,32:34
+Starlink,use,other,object,1,1,32:47
+Starmer,underline,other,subject,1,1,63:30
+Starmer,have,other,subject,1,1,91:11
+Starmer,agree,communicative,subject,1,1,91:12
+Steve Witkoff,waste,other,subject,1,1,45:2
+Steve Witkoff,join,other,subject,1,1,57:19
+Steve Witkoff,include,other,object,1,1,82:20
+Strait of Hormuz,reopen,other,object,11,10,6:10
+Strait of Hormuz,remain,other,subject,6,6,7:18
+Strait of Hormuz,be,other,subject,5,5,23:13
+Strait of Hormuz,transit,other,object,5,2,24:16
+Strait of Hormuz,block,action,object,4,3,8:21
+Strait of Hormuz,close,action,object,4,4,35:13
+Strait of Hormuz,open,other,object,4,4,50:47
+Strait of Hormuz,open,other,passive_subject,3,3,38:38
+Strait of Hormuz,control,other,object,2,2,3:18
+Strait of Hormuz,approach,other,object,2,2,17:22
+Strait of Hormuz,unblock,other,object,2,2,21:14
+Strait of Hormuz,reopen,other,passive_subject,2,2,23:1
+Strait of Hormuz,leave,other,object,2,2,38:44
+Strait of Hormuz,reopen,other,subject,2,2,63:1
+Strait of Hormuz,cross,other,object,2,2,71:1
+Strait of Hormuz,make,other,object,1,1,26:18
+Strait of Hormuz,block,action,passive_subject,1,1,27:8
+Strait of Hormuz,exit,other,object,1,1,27:20
+Strait of Hormuz,enter,other,object,1,1,28:1
+Strait of Hormuz,secure,other,object,1,1,38:10
+Strait of Hormuz,restore,other,object,1,1,60:12
+Strait of Hormuz,promise,other,object,1,1,64:13
+Strait of Hormuz,become,other,subject,1,1,71:14
+Strait of Hormuz,shut,action,object,1,1,74:8
+Strait of Hormuz,keep,other,object,1,1,80:8
+Strait of Hormuz,describe,communicative,object,1,1,91:18
+Strait of Hormuz,close,action,passive_subject,1,1,93:25
+Strait of Hormuz - one,control,other,object,1,1,10:5
+Strip,send,action,prep_target,1,1,85:30
+Supreme National Security Council,say,communicative,subject,1,1,61:11
+Susan,be,other,subject,1,1,29:43
+Susan,want,mental,subject,1,1,29:49
+TOUSKA,be,other,subject,1,1,59:9
+Taif Agreement,mandate,other,subject,1,1,67:21
+Tasnim,post,communicative,subject,1,1,52:20
+Tasnim News Agency,call,communicative,subject,1,1,63:10
+Tass,report,communicative,subject,1,1,42:28
+Thailand,implement,other,subject,1,1,90:27
+Thames Valley,say,communicative,subject,1,1,19:3
+Thames Valley Air Ambulance,say,communicative,subject,1,1,19:11
+Thomas Kazakos,say,communicative,subject,1,1,71:23
+Thomas Massie,be,other,subject,1,1,66:12
+Tim Wilkins,tell,communicative,subject,1,1,24:16
+Tine Munk,characterise,communicative,subject,1,1,84:32
+Tiyari,say,communicative,subject,1,1,13:23
+Todd Harrison,tell,communicative,subject,1,1,85:32
+Tony Burke,say,communicative,subject,1,1,68:14
+Tony Vaughan,urge,communicative,subject,1,1,1:20
+Touska,intercept,action,passive_subject,1,1,28:28
+Touska,approach,other,object,1,1,38:34
+Touska,seize,action,passive_subject,1,1,59:2
+Trump,say,communicative,subject,88,42,3:1
+Trump,tell,communicative,subject,12,12,20:11
+Trump,announce,communicative,subject,12,10,24:1
+Trump,write,communicative,subject,5,5,14:37
+Trump,warn,communicative,subject,4,4,3:26
+Trump,threaten,communicative,subject,4,4,20:17
+Trump,confirm,communicative,subject,4,4,28:39
+Trump,hop,other,subject,4,4,33:17
+Trump,respond,communicative,subject,4,3,33:29
+Trump,pull,other,subject,4,4,35:50
+Trump,make,other,subject,4,4,63:12
+Trump,agree,communicative,subject,4,3,69:26
+Trump,suggest,communicative,subject,3,3,3:33
+Trump,reject,communicative,subject,3,3,8:25
+Trump,repeat,other,subject,3,3,11:21
+Trump,dismiss,other,subject,3,3,13:30
+Trump,insist,communicative,subject,3,3,34:1
+Trump,be,other,subject,3,3,34:17
+Trump,do,other,subject,3,3,34:21
+Trump,give,other,subject,3,2,70:28
+Trump,call,communicative,subject,2,2,3:13
+Trump,criticise,communicative,subject,2,2,11:11
+Trump,accuse,communicative,subject,2,2,11:18
+Trump,post,communicative,subject,2,2,14:9
+Trump,declare,communicative,subject,2,2,22:2
+Trump,retreat,other,subject,2,2,24:39
+Trump,claim,communicative,subject,2,2,25:14
+Trump,describe,communicative,subject,2,2,48:7
+Trump,order,other,subject,2,2,49:4
+Trump,go,other,subject,2,2,60:26
+Trump,threat,action_nominal,nominal_agent,2,2,70:20
+Trump,have,other,subject,2,2,81:1
+Trump,address,other,subject,1,1,11:14
+Trump,launch,action,subject,1,1,17:9
+Trump,predict,other,subject,1,1,20:1
+Trump,change,other,subject,1,1,21:6
+Trump,express,other,subject,1,1,21:9
+Trump,maintain,other,subject,1,1,21:23
+Trump,persuade,other,object,1,1,21:28
+Trump,pause,other,subject,1,1,22:26
+Trump,set,other,passive_subject,1,1,23:5
+Trump,want,mental,subject,1,1,25:32
+Trump,ask,communicative,passive_subject,1,1,25:37
+Trump,seem,other,subject,1,1,26:44
+Trump,dump,other,subject,1,1,26:46
+Trump,add,communicative,subject,1,1,28:18
+Trump,require,other,passive_subject,1,1,34:8
+Trump,commit,other,subject,1,1,34:22
+Trump,point,other,subject,1,1,34:24
+Trump,constrain,other,object,1,1,35:44
+Trump,consider,mental,subject,1,1,35:51
+Trump,propose,other,subject,1,1,37:23
+Trump,assure,other,subject,1,1,37:27
+Trump,anger,other,passive_subject,1,1,37:28
+Trump,meet,other,object,1,1,39:3
+Trump,instruct,other,subject,1,1,39:7
+Trump,urge,communicative,subject,1,1,39:24
+Trump,opt,other,subject,1,1,39:27
+Trump,cancel,other,subject,1,1,45:1
+Trump,decide,other,subject,1,1,47:10
+Trump,set,other,subject,1,1,50:47
+Trump,postpone,other,subject,1,1,50:80
+Trump,hate,other,subject,1,1,51:57
+Trump,hate,other,object,1,1,51:57
+Trump,avoid,other,subject,1,1,52:32
+Trump,manage,other,subject,1,1,52:34
+Trump,extend,other,subject,1,1,53:5
+Trump,attempt,other,subject,1,1,55:27
+Trump,hit,action,prep_target,1,1,60:40
+Trump,love,other,subject,1,1,65:49
+Trump,offer,other,subject,1,1,66:5
+Trump,double,other,subject,1,1,70:12
+Trump,blockade,action_nominal,nominal_agent,1,1,70:33
+Trump,float,other,subject,1,1,78:5
+Trump,find,other,subject,1,1,81:20
+Trump,travel,other,subject,1,1,81:30
+Trump,pick,other,subject,1,1,82:20
+Trump,joke,other,subject,1,1,82:24
+Trump,watch,other,subject,1,1,82:28
+Trump,die,other,object,1,1,84:2
+Trump,fall,other,subject,1,1,84:10
+Trump,fund,action,subject,1,1,84:45
+Trump,task,other,subject,1,1,86:21
+Trump,back,action,object,1,1,86:48
+Trump,let,other,subject,1,1,86:49
+Trump,tap,other,subject,1,1,86:53
+Trump,hand,other,subject,1,1,86:54
+Trump,throw,other,subject,1,1,86:75
+Trump,try,other,subject,1,1,86:79
+Trump,boast,other,subject,1,1,87:18
+Trump,speak,communicative,subject,1,1,89:3
+Trump,need,other,subject,1,1,89:6
+Trump,lampoon,other,object,1,1,89:9
+Trump,expect,mental,subject,1,1,89:25
+Trump,demand,communicative,subject,1,1,89:67
+Trump,ask,communicative,subject,1,1,89:70
+Trump,promise,other,subject,1,1,89:90
+Trump,veer,other,subject,1,1,89:92
+Trump,include,other,object,1,1,92:13
+Trump Administration,response,action_nominal,nominal_agent,1,1,62:27
+Trump's Make America Great Again,satisfy,other,object,1,1,86:14
+Turkey,say,communicative,subject,1,1,50:38
+UAE,remain,other,subject,1,1,8:18
+UAE,double,other,subject,1,1,26:34
+UAE,report,communicative,subject,1,1,27:2
+UK,remain,other,subject,3,2,16:4
+UK,hit,action,object,3,3,38:50
+UK,leave,other,object,2,2,4:18
+UK,say,communicative,subject,2,2,10:1
+UK,drag,other,passive_subject,2,2,10:22
+UK,support,action,subject,2,2,10:23
+UK,involve,other,passive_subject,2,1,80:1
+UK,announce,communicative,subject,1,1,10:11
+UK,deployment,action_nominal,nominal_agent,1,1,14:28
+UK,be,other,subject,1,1,19:17
+UK,continue,other,subject,1,1,27:32
+UK,face,other,subject,1,1,62:49
+UK,show,other,object,1,1,62:61
+UK,lead,other,subject,1,1,64:1
+UK,defend,other,object,1,1,73:18
+UK,have,other,subject,1,1,80:10
+UK,co,other,subject,1,1,80:14
+UK,send,action,subject,1,1,80:18
+UK,see,mental,subject,1,1,91:5
+UK,refuse,other,subject,1,1,91:6
+UK,criticise,communicative,object,1,1,91:7
+UK,involve,other,object,1,1,91:8
+UK,chair,other,subject,1,1,91:29
+UK Government,take,other,subject,1,1,9:17
+UK Maritime Trade Operations (UKMTO,say,communicative,subject,2,2,25:20
+UN,say,communicative,subject,1,1,5:14
+UN,fear,mental,subject,1,1,5:26
+UNHCR,say,communicative,subject,1,1,33:21
+US,say,communicative,subject,16,15,17:16
+US,attack,action,subject,14,13,5:14
+US,launch,action,subject,13,13,13:11
+US,be,other,subject,12,11,14:24
+US,have,other,subject,9,8,14:25
+US,enforce,action,subject,8,7,3:20
+US,announce,communicative,subject,8,8,20:28
+US,begin,other,subject,7,6,20:27
+US,accuse,communicative,object,6,6,17:1
+US,intercept,action,subject,6,6,38:22
+US,agree,communicative,subject,6,6,50:4
+US,impose,action,subject,5,5,20:29
+US,come,other,subject,4,4,24:6
+US,continue,other,subject,4,4,39:18
+US,feel,mental,subject,4,4,47:13
+US,attack,action_nominal,nominal_agent,3,3,3:11
+US,target,action,subject,3,3,17:22
+US,carry,other,subject,3,3,22:25
+US,fire,action,prep_target,3,3,24:5
+US,start,other,subject,3,3,27:40
+US,ask,communicative,object,3,3,28:17
+US,pull,other,object,3,3,35:50
+US,use,other,subject,3,3,46:16
+US,leave,other,object,3,3,57:5
+US,blackmail,other,object,3,3,59:32
+US,tell,communicative,object,2,2,3:5
+US,fail,other,subject,2,2,3:25
+US,remove,other,subject,2,2,11:18
+US,maintain,other,subject,2,2,17:10
+US,destroy,action,subject,2,2,17:25
+US,surrender,other,subject,2,2,18:23
+US,lead,other,subject,2,1,22:5
+US,urge,communicative,object,2,2,23:8
+US,contact,other,subject,2,2,24:12
+US,want,mental,subject,2,2,26:7
+US,go,other,subject,2,2,26:30
+US,strike,action,subject,2,1,27:1
+US,seek,mental,subject,2,2,27:1
+US,seize,action,subject,2,2,28:25
+US,blockade,action_nominal,nominal_agent,2,2,28:28
+US,withdraw,action,subject,2,2,28:34
+US,receive,other,subject,2,2,28:39
+US,hit,action,subject,2,2,40:12
+US,achieve,other,subject,2,2,50:56
+US,stop,other,subject,2,2,57:13
+US,involve,other,passive_subject,2,2,64:19
+US,insist,communicative,subject,2,2,70:16
+US,prompt,other,object,2,2,74:1
+US,reject,communicative,subject,2,2,87:53
+US,warn,communicative,object,1,1,3:4
+US,set,other,subject,1,1,3:31
+US,claim,communicative,subject,1,1,3:34
+US,issue,other,subject,1,1,7:18
+US,support,action_nominal,nominal_agent,1,1,14:19
+US,fire,action,subject,1,1,17:2
+US,signal,other,subject,1,1,17:14
+US,opt,other,subject,1,1,18:17
+US,threaten,communicative,subject,1,1,18:24
+US,gain,other,subject,1,1,20:15
+US,inch,other,subject,1,1,21:13
+US,grant,other,subject,1,1,21:17
+US,advise,other,subject,1,1,22:14
+US,sanction,action,subject,1,1,23:15
+US,challenge,other,object,1,1,23:18
+US,attempt,other,subject,1,1,24:13
+US,disregard,other,subject,1,1,24:24
+US,pause,other,subject,1,1,24:35
+US,jeopardise,other,subject,1,1,25:18
+US,face,other,subject,1,1,26:5
+US,allow,other,subject,1,1,26:18
+US,inflict,other,subject,1,1,26:25
+US,show,other,subject,1,1,26:28
+US,kill,action,subject,1,1,26:32
+US,start,other,object,1,1,26:47
+US,ask,communicative,passive_subject,1,1,27:42
+US,deny,communicative,subject,1,1,28:1
+US,shoot,action,prep_target,1,1,28:6
+US,help,other,object,1,1,29:54
+US,help,other,subject,1,1,30:10
+US,step,other,subject,1,1,30:36
+US,warn,communicative,subject,1,1,33:1
+US,reach,other,object,1,1,35:7
+US,institute,other,subject,1,1,35:27
+US,study,other,subject,1,1,37:1
+US,humiliate,other,passive_subject,1,1,37:2
+US,travel,other,subject,1,1,37:12
+US,punish,other,subject,1,1,37:30
+US,resume,other,subject,1,1,38:9
+US,see,mental,object,1,1,38:19
+US,mean,other,object,1,1,38:20
+US,invite,other,subject,1,1,38:60
+US,prepare,other,subject,1,1,39:1
+US,operate,other,subject,1,1,40:21
+US,cause,other,subject,1,1,40:23
+US,increase,other,subject,1,1,45:6
+US,suspect,other,subject,1,1,45:22
+US,wait,other,subject,1,1,48:7
+US,condemn,communicative,subject,1,1,50:40
+US,denounce,other,object,1,1,50:70
+US,talk,other,subject,1,1,50:75
+US,hold,action,subject,1,1,52:4
+US,consider,mental,subject,1,1,52:35
+US,struggle,other,subject,1,1,54:21
+US,lift,other,subject,1,1,57:1
+US,get,other,subject,1,1,57:15
+US,give,other,subject,1,1,59:8
+US,end,other,subject,1,1,59:29
+US,put,other,subject,1,1,61:12
+US,retaliate,action,prep_target,1,1,63:15
+US,work,other,subject,1,1,63:18
+US,see,mental,subject,1,1,65:29
+US,downgrade,other,subject,1,1,67:58
+US,propose,other,subject,1,1,74:20
+US,back,action,subject,1,1,77:29
+US,pressure,other,object,1,1,78:20
+US,hop,other,subject,1,1,78:32
+US,bring,other,subject,1,1,80:17
+US,determine,other,subject,1,1,81:11
+US,blockade,action,subject,1,1,82:12
+US,aid,action_nominal,nominal_agent,1,1,86:13
+US,drag,other,passive_subject,1,1,86:49
+US,recognise,other,subject,1,1,87:53
+US,seem,other,subject,1,1,87:54
+US,expect,mental,subject,1,1,89:24
+US,instal,other,subject,1,1,89:26
+US,ignite,other,subject,1,1,89:33
+US,do,other,subject,1,1,89:35
+US,translate,other,subject,1,1,89:39
+US,need,other,subject,1,1,89:85
+US,campaign,action_nominal,nominal_agent,1,1,91:16
+US,accuse,communicative,subject,1,1,91:31
+US,wag,other,subject,1,1,91:32
+US,choose,other,subject,1,1,93:2
+US Defense Department,announce,communicative,subject,1,1,52:25
+US Department of Defence,say,communicative,subject,1,1,49:2
+US Department of Defense,decline,other,subject,1,1,40:15
+US Department of Defense,release,action,subject,1,1,72:8
+US Marines,deploy,action,object,1,1,34:14
+US Navy,order,other,object,3,2,26:29
+US Navy,seize,action,subject,2,2,58:2
+US Navy,fire,action,subject,1,1,55:12
+US Navy,warn,communicative,object,1,1,71:16
+US State Department,say,communicative,subject,1,1,88:12
+US Supreme Court,find,other,subject,1,1,66:11
+US Treasury,announce,communicative,subject,1,1,33:13
+Ukraine,do,other,object,1,1,86:68
+Umesh Babu,spend,other,subject,1,1,41:45
+United Arab Emirates,visit,other,object,1,1,8:1
+United Arab Emirates,say,communicative,subject,1,1,28:24
+United Arab Emirates (UAE,look,other,subject,1,1,26:33
+United Kingdom Maritime Transportation Operation (UKMTO,report,communicative,subject,1,1,28:23
+United Nations Resolution 1701,implement,other,passive_subject,1,1,67:24
+United States Air Force,use,other,subject,1,1,46:1
+United States Central Command,define,other,subject,1,1,42:17
+Urea,double,other,subject,1,1,62:24
+VanLandingham,be,other,subject,1,1,40:9
+Vance,tell,communicative,subject,3,2,74:23
+Vance,be,other,subject,3,1,86:16
+Vance,have,other,subject,2,1,86:58
+Vance,expect,mental,passive_subject,1,1,57:19
+Vance,board,action,subject,1,1,70:28
+Vance,give,other,subject,1,1,82:6
+Vance,leave,other,subject,1,1,82:9
+Vance,land,other,subject,1,1,82:21
+Vance,back,action,subject,1,1,82:25
+Vance,handle,other,subject,1,1,82:27
+Vance,lead,other,subject,1,1,82:28
+Vance,speak,communicative,subject,1,1,83:21
+Vance,warn,communicative,subject,1,1,83:29
+Vance,watch,other,object,1,1,86:8
+Vance,need,other,subject,1,1,86:9
+Vance,face,other,subject,1,1,86:14
+Vance,signal,other,subject,1,1,86:17
+Vance,collaborate,other,subject,1,1,86:22
+Vance,tamp,other,subject,1,1,86:23
+Vance,tell,communicative,object,1,1,86:28
+Vance,try,other,subject,1,1,86:36
+Vance,work,other,subject,1,1,86:38
+Vance,make,other,subject,1,1,86:40
+Vance,position,action,subject,1,1,86:43
+Vance,agree,communicative,subject,1,1,86:46
+Vance,put,other,object,1,1,86:47
+Vance,publish,other,subject,1,1,86:48
+Vance,call,communicative,subject,1,1,86:52
+Vance,tap,other,object,1,1,86:53
+Vance,choose,other,passive_subject,1,1,86:55
+Vance,involve,other,passive_subject,1,1,86:64
+Vance,command,other,subject,1,1,86:71
+Vance,forget,other,object,1,1,86:73
+Vanguard,identify,other,subject,1,1,7:3
+Vanguard,tell,communicative,object,1,1,7:4
+Vanguard,say,communicative,subject,1,1,7:13
+Vanguard,tell,communicative,subject,1,1,53:18
+Venkatakrishnan,be,other,subject,1,1,62:56
+Videos,say,communicative,passive_subject,1,1,57:8
+Viktor Orbán,make,other,object,1,1,86:42
+Volodymyr Zelensky,accuse,communicative,object,1,1,86:41
+Wafiq Safa,tell,communicative,subject,1,1,65:20
+Wall Street Journal,report,communicative,subject,1,1,8:17
+Wall Street Journal,cite,other,subject,1,1,39:26
+Wall Street Journal,publish,other,object,1,1,86:48
+Wang,reiterate,other,subject,1,1,23:8
+Wang,add,communicative,subject,1,1,23:9
+Wang,tell,communicative,object,1,1,23:10
+Wang,emphasise,communicative,subject,1,1,23:12
+Wang Yi,call,communicative,subject,1,1,23:1
+Wang Yi,tell,communicative,subject,1,1,23:3
+Wang Yi,say,communicative,subject,1,1,23:6
+War Powers Resolution,define,other,subject,1,1,35:30
+War Powers Resolution,adhere,other,passive_subject,1,1,35:41
+War Powers Resolution,pass,other,passive_subject,1,1,66:21
+Warren Davidson,vote,other,subject,1,1,66:13
+Washington Post,tell,communicative,object,1,1,86:49
+Wes Bryant,tell,communicative,subject,1,1,40:21
+West,trust,other,object,1,1,51:64
+West,target,action,object,1,1,84:31
+Westminster,resolve,other,subject,1,1,1:9
+White House,say,communicative,subject,4,3,7:17
+White House,believe,mental,subject,2,2,18:19
+White House,tell,communicative,subject,1,1,24:38
+White House,contact,other,object,1,1,37:5
+White House,confirm,communicative,subject,1,1,59:4
+Witkoff,send,action,object,1,1,47:10
+Witkoff,lead,other,subject,1,1,86:65
+Witkoff,do,other,subject,1,1,86:68
+World Bank,surge,other,subject,1,1,39:29
+World Bank,readie,other,subject,1,1,62:18
+World Health Organization,report,communicative,subject,1,1,15:56
+Xi,make,other,subject,1,1,7:17
+Xi,be,other,subject,1,1,23:17
+Xi,challenge,other,subject,1,1,23:18
+Yasmin,tell,communicative,subject,1,1,32:46
+Yvette Cooper,act,other,subject,1,1,1:10
+Yvette Cooper,call,communicative,subject,1,1,91:14
+Zack Polanski,say,communicative,subject,1,1,91:36
+Zeraati,say,communicative,subject,2,1,2:8
+Zeraati,describe,communicative,subject,1,1,2:6
+Zeraati,add,communicative,subject,1,1,2:13
+Zeraati,take,other,passive_subject,1,1,2:18
+Zeraati,see,mental,subject,1,1,2:19
+Zereshk,increase,other,subject,1,1,13:27
+Ziad Samir Itani,say,communicative,subject,1,1,92:42
+Zoetic Ltd,run,other,object,1,1,13:16
+Zvi,ask,communicative,subject,1,1,77:6
+navy,say,communicative,subject,2,2,49:16
+sports ministry,say,communicative,subject,1,1,68:15

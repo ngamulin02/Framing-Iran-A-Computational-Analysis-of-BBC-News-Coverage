@@ -2,102 +2,150 @@
 
 ## 1. Introduction
 
-This project examines how the BBC frames Iran in its online news coverage of the 2026 Iran war through a computational analysis of 93 articles published in April and May 2026. Rather than relying on close reading alone, the analysis applies Named Entity Recognition (NER), entity co-occurrence statistics, and syntactic agency extraction to surface patterns across a corpus of 3,588 sentences. The central questions are: which actors dominate coverage, how are they relationally paired in discourse, and who is framed as an agent versus a patient of action?
+This project examines how the BBC frames Iran in its online news coverage of the 2026 Iran war through a computational analysis of 93 articles published in April and May 2026. The pipeline applies Named Entity Recognition (NER), entity co-occurrence statistics, a syntactic agency model, and directed dyad extraction to surface patterns across a corpus of 3,588 sentences. The central questions are: which actors dominate coverage, how are they relationally paired in discourse, and who is framed as an agent of action versus a target of it.
+
+The present version extends an earlier analysis with three substantive changes. First, the dyad extractor now captures prepositional targets: in news prose, hostile action is at least as often expressed through prepositions ("Iran fired missiles at US bases", "US imposed sanctions on Iran", "Hezbollah fired at Israel") as through direct objects, and the previous extractor missed all of them. Second, NORP forms and metonymic capitals are folded into their state entities: "Iranian", "Tehran", and "Iran" now resolve to one entity, as do "Israeli"/"Jerusalem"/"Israel" and "Lebanese"/"Beirut"/"Lebanon". Third, every row in the agency and dyad tables now carries a sentence-id pointer back to the source corpus so any reported finding can be spot-checked.
 
 
 ## 2. Methodology
 
 ### scraper.py
 
-`scraper.py` builds the raw corpus. It reads a dictionary of article titles and BBC URLs defined in `articles.py` and iterates through each entry. For every article it sends an HTTP GET request, parses the HTML with BeautifulSoup, and extracts text from all `<p>` tags inside the `<article>` element (falling back to the full page if no article tag is found). Two filters clean the output: paragraphs shorter than 40 characters are discarded as likely navigation fragments or captions, and a blacklist removes standard BBC footer text (copyright notices, external-linking disclaimers). The remaining paragraphs are concatenated and sentence-tokenised using NLTK's Punkt model. Each sentence is written as a row to `bbc_sentences.csv` with columns for article ID, headline, source URL, sentence position, and sentence text.
+`scraper.py` builds the raw corpus. It reads a dictionary of article titles and BBC URLs defined in `articles.py` and iterates through each entry. For every article it sends an HTTP GET request, parses the HTML with BeautifulSoup, and extracts text from all `<p>` tags inside the `<article>` element (falling back to the full page if no article tag is found). Two filters clean the output: paragraphs shorter than 40 characters are discarded as likely navigation fragments or captions, and a blacklist removes standard BBC footer text. The remaining paragraphs are concatenated and sentence-tokenised using NLTK's Punkt model. Each sentence is written as a row to `bbc_sentences.csv` with columns for article ID, headline, source URL, sentence position, and sentence text.
 
 ### main.py
 
-`main.py` reads `bbc_sentences.csv` and runs three complementary analyses, writing results to the `outputs/` directory.
+`main.py` reads `bbc_sentences.csv` and runs four complementary analyses, writing results to the `outputs/` directory.
 
-**Named Entity Recognition.** The spaCy `en_core_web_lg` pipeline (falling back to `en_core_web_sm` if unavailable) is applied to every sentence in batch. Five entity types are retained: PERSON, ORG, GPE, LOC, and NORP. Surface forms are normalised through a canonical alias table (e.g. "United States", "U.S.", and "America" all resolve to "US"; "Revolutionary Guards" resolves to "IRGC") and minor punctuation is stripped. Entities appearing fewer than twice across the corpus are excluded from the final `entities.csv`.
+**Named Entity Recognition.** The spaCy `en_core_web_lg` pipeline is applied to every sentence in batch. Five entity types are retained: PERSON, ORG, GPE, LOC, and NORP. Surface forms are normalised through a canonical alias table. The alias table has two layers. The first folds explicit name variants ("United States", "U.S.", "America" → US; "Revolutionary Guards" → IRGC; "Benjamin Netanyahu" → Netanyahu). The second, gated by the `COLLAPSE_METONYMS` flag and on by default, folds NORP nationality forms and metonymic capitals into their state: "Iranian" and "Tehran" both resolve to Iran, "Israeli" and "Jerusalem" to Israel, "Lebanese" and "Beirut" to Lebanon, and so on. For a framing analysis these refer to the same actor; the flag exists so the surface-form view is recoverable when needed. Entities appearing fewer than twice across the corpus are excluded from the final `entities.csv`.
 
-**Entity co-occurrence.** For each sentence the deduplicated set of recognised entities is enumerated and all unordered pairs are recorded. Pair counts are aggregated across the full corpus. Only pairs co-occurring in three or more sentences are retained. For each qualifying pair, Pointwise Mutual Information (PMI) is computed as a measure of associative strength beyond what chance co-occurrence would predict. Results are written to `cooccurrence.csv`.
+**Entity co-occurrence.** For each sentence the deduplicated set of recognised entities is enumerated and all unordered pairs are recorded. Pair counts are aggregated across the full corpus. Only pairs co-occurring in three or more sentences are retained. For each qualifying pair, Pointwise Mutual Information (PMI) and Positive PMI (PPMI) are computed; pairs with fewer than ten shared sentences are flagged as `low_count` because PMI is unstable for sparse co-occurrences. Results are written to `cooccurrence.csv`.
 
-**Agency analysis.** For each entity mention the dependency parse is inspected to determine the grammatical role of the entity's root token: active subject (`nsubj`), passive subject (`nsubjpass`), or direct object (`dobj`). Prepositional-agent constructions (`pobj` of an `agent` head) are treated as active subjects. Counts are aggregated per entity and written to `agency.csv`. A summary table (`agency_summary.csv`) adds derived ratios: `agency_ratio` (proportion of appearances as active subject), `patient_ratio` (proportion as object or passive subject), and `passive_share` (proportion of patient appearances that are passive rather than direct object).
+**Agency analysis.** For each entity mention the dependency parse is inspected to determine the grammatical role of the entity's root token. Six roles are distinguished. Four verbal roles cover the standard argument positions: active subject (`nsubj`), passive subject (`nsubjpass`), direct object (`dobj`), and passive agent (`pobj` of a verbal `agent` head, as in "X was attacked by ENT"). A fifth verbal role, `prep_target`, captures entities that are the prepositional object of a target-introducing preposition (`against`, `at`, `into`, `toward`, `on`, `over`) whose head is an action verb; the compound case is also covered one level deep so that "at US bases" credits US, not just "bases". `prep_target` is gated on the verb being action-class so that "comment on Iran" and "talks on Iran's program" do not fire. A sixth role, `nominal_agent`, captures agency expressed through deverbal action nouns: "Iran's strike" (possessive of action noun), "the attack by Iran" (pobj of `by` attached to an action noun), and (for NORP entities) "Iranian strike" (amod of action noun) all register as nominal agents. Action nouns are drawn from a hand-curated list of military and coercive deverbals (strike, attack, raid, bombing, sanction, deployment, intervention, blockade, etc.).
+
+For each role-bearing mention the governing predicate is also classified into one of four classes against hand-curated lexicons: **action** (attack, strike, kill, bomb, launch, sanction, impose, intercept, deploy, etc.), **communicative** (say, tell, announce, declare, warn, threaten, accuse, deny, etc.), **mental** (believe, want, fear, expect, etc.), and **other** for everything else (light verbs, copulas, intransitives). Counts are aggregated per entity and written to `agency.csv` along with the article count and an example sentence id (`"<article_id>:<sentence_id>"`) for each tuple.
+
+A summary table (`agency_summary.csv`) breaks subject counts down by predicate class and derives four ratios. `action_agency_ratio` is the proportion of role-bearing mentions where the entity is the subject of an action verb or a nominal agent of an action noun; it isolates "doing things in the world" from "being quoted in an article". `communicative_share` is the proportion of subject mentions that fall on communicative verbs; a high value indicates the entity functions primarily as a quoted source. `patient_ratio` is the proportion of mentions as direct object, passive subject, or prepositional target. `passive_share` is the proportion of strict patient mentions (direct object plus passive subject) that are passive rather than direct-object, since the passive construction is the canonical site of agent suppression.
+
+**Directional dyads.** Within each sentence, for every action verb whose subject and patient are both recognised named entities, the triple (subject, verb, patient) is recorded. The patient slot is populated from any of three constructions: direct object ("Israel attacked Iran"), prepositional target ("Iran fired at US bases"), or passive agent ("Iran was attacked by US", which is reconstructed as the active dyad). Each row of `directed_pairs.csv` reports the three counts separately as well as a combined total. This is the file to inspect for framing-asymmetry claims: it lets us see who acts on whom, not just who co-occurs with whom.
 
 
 ## 3. Results
 
 ### 3.1 Entity landscape
 
-The corpus yielded 403 unique entities with two or more mentions, generating a heavily skewed distribution. The fifteen most-mentioned entities are shown below.
+The corpus yielded 388 unique entities with two or more mentions after NORP and metonym collapse. The fifteen most-mentioned entities are shown below.
 
-| Entity | Type | Mentions | Articles |
-|---|---|---|---|
-| Iran | GPE | 919 | 89 |
-| US | GPE | 793 | 85 |
-| Trump | PERSON | 377 | 69 |
-| Iranian | NORP | 345 | 80 |
-| Israel | GPE | 246 | 61 |
-| Strait of Hormuz | LOC | 206 | 64 |
-| Tehran | GPE | 163 | 65 |
-| Lebanon | GPE | 136 | 28 |
-| Israeli | NORP | 107 | 41 |
-| Hezbollah | ORG | 98 | 22 |
-| UK | GPE | 94 | 35 |
-| Pakistan | GPE | 73 | 41 |
-| Gulf | LOC | 66 | 37 |
-| Middle East | LOC | 59 | 34 |
-| Centcom | ORG | 57 | 19 |
+| Entity | Mentions | Articles |
+|---|---|---|
+| Iran | 1,475 | 90 |
+| US | 896 | 85 |
+| Trump | 377 | 69 |
+| Israel | 365 | 71 |
+| Strait of Hormuz | 206 | 64 |
+| Lebanon | 180 | 28 |
+| Pakistan | 144 | 48 |
+| UK | 130 | 39 |
+| Hezbollah | 98 | 22 |
+| Gulf | 66 | 37 |
+| Middle East | 59 | 34 |
+| Centcom | 57 | 19 |
+| Vance | 56 | 10 |
+| IRGC | 49 | 18 |
+| Netanyahu | 43 | 18 |
 
 *Table 1. Top 15 entities by mention count.*
 
-Iran is the most mentioned entity (919 mentions across 89 of 93 articles), closely followed by the US (793, 85 articles). Trump is the most prominent individual (377 mentions, 69 articles). The Strait of Hormuz, a geographic feature rather than a state actor, appears in 64 of 93 articles (more than Israel or Lebanon) signalling a strong maritime-security orientation in the corpus.
+Iran is the dominant entity at 1,475 mentions across 90 of 93 articles. This figure is the result of folding "Iranian" and "Tehran" into the same entity. The same operation produces clearer counts for Israel (365), Lebanon (180), Pakistan (144), and the UK (130). Trump is the most-mentioned individual at 377 mentions in 69 articles. The Strait of Hormuz appears in 64 of 93 articles, still more than any single state actor outside Iran/US/Israel/Lebanon, signalling the corpus's strong maritime-security framing.
 
 ### 3.2 Co-occurrence patterns
 
-344 entity pairs met the threshold of three or more shared sentences. The ten most frequent pairings are listed below. PMI (Pointwise Mutual Information) quantifies how much more often a pair co-occurs than would be expected if both entities appeared independently; positive values indicate a stronger-than-chance association, negative values the opposite.
+269 entity pairs met the threshold of three or more shared sentences. The ten most frequent pairings are listed below.
 
 | Entity A | Entity B | Shared sentences | PMI |
 |---|---|---|---|
-| Iran | US | 343 | 1.006 |
-| Iran | Trump | 151 | 0.782 |
-| Trump | US | 137 | 0.862 |
-| Iranian | US | 130 | 0.959 |
-| Israel | US | 100 | 1.131 |
-| Iran | Israel | 95 | 0.836 |
-| Iran | Strait of Hormuz | 88 | 0.887 |
-| Iran | Iranian | 65 | -0.262 |
-| Strait of Hormuz | US | 65 | 0.671 |
-| Tehran | US | 64 | 0.985 |
+| Iran | US | 504 | 0.907 |
+| Iran | Trump | 190 | 0.582 |
+| Iran | Israel | 167 | 0.599 |
+| Israel | US | 153 | 1.101 |
+| Trump | US | 145 | 0.820 |
+| Iran | Strait of Hormuz | 116 | 0.755 |
+| Israel | Lebanon | 92 | 2.754 |
+| Iran | Pakistan | 82 | 0.890 |
+| Strait of Hormuz | US | 68 | 0.613 |
+| Hezbollah | Israel | 64 | 2.869 |
 
 *Table 2. Top 10 co-occurring entity pairs.*
 
-The Iran-US dyad dominates at 343 co-occurrences, more than double the next most frequent pair. Of the top ten pairs, six involve Iran (or a referring form) on one side and the US or Trump on the other. High-PMI pairs outside this axis include Hezbollah-Lebanon (PMI 3.402), Hezbollah-Israeli (3.166) and Israel-Lebanese (3.135). 
+The Iran-US dyad dominates at 504 sentences. Iran-Trump (190) and Iran-Israel (167) are the next most prominent pairings. High-PMI pairs outside the central axis include Hezbollah-Lebanon (3.643), Hezbollah-Israel (2.869), and Israel-Lebanon (2.754); their elevated PMI partly reflects that Hezbollah and Lebanon are mentioned together more often than not (Hezbollah appears in 97 sentences, 51 of which also mention Lebanon).
 
 ### 3.3 Agency analysis
 
-The agency summary for the most active entities is shown below. The table is restricted to entities with at least 30 total appearances and a substantively interpretable ratio. Several categories of entity are excluded. First, many lower-frequency entities in the full dataset carry an agency ratio of exactly 1.0, meaning they never appear as a grammatical object or passive subject, but their totals are small enough (typically under 20) that the ratio reflects sparse data rather than a consistent framing pattern. These are omitted to avoid over-interpreting noise. Second, Tehran and Iranians are excluded as near-synonymous surface forms of Iran that would duplicate rather than add to the picture. 
+The agency summary for the most active entities is shown below. The table is restricted to entities with at least 30 total role-bearing appearances, ordered by `action_agency_ratio`.
 
-| Entity | Agency ratio | Patient ratio | Total appearances |
-|---|---|---|---|
-| Netanyahu | 0.967 | 0.033 | 30 |
-| Trump | 0.954 | 0.046 | 260 |
-| Israel | 0.921 | 0.079 | 114 |
-| US | 0.869 | 0.131 | 244 |
-| Iran | 0.809 | 0.191 | 320 |
-| Hezbollah | 0.643 | 0.357 | 42 |
-| UK | 0.600 | 0.400 | 30 |
-| Lebanon | 0.387 | 0.613 | 31 |
-| Strait of Hormuz | 0.206 | 0.794 | 68 |
+| Entity | Action agency | Comm. share | Patient ratio | Passive share | Total |
+|---|---|---|---|---|---|
+| Israel | 0.485 | 0.191 | 0.111 | 0.000 | 171 |
+| US | 0.257 | 0.172 | 0.151 | 0.132 | 284 |
+| Hezbollah | 0.143 | 0.148 | 0.357 | 0.400 | 42 |
+| Iran | 0.130 | 0.308 | 0.183 | 0.107 | 447 |
+| UK | 0.125 | 0.167 | 0.406 | 0.308 | 32 |
+| Vance | 0.079 | 0.233 | 0.211 | 0.375 | 38 |
+| Centcom | 0.029 | 0.886 | 0.000 | — | 35 |
+| Trump | 0.019 | 0.665 | 0.049 | 0.333 | 264 |
+| Netanyahu | 0.000 | 0.552 | 0.033 | 0.000 | 30 |
+| Lebanon | 0.000 | 0.200 | 0.583 | 0.286 | 36 |
+| Strait of Hormuz | 0.000 | 0.000 | 0.794 | 0.130 | 68 |
 
-*Table 3. Agency and patient ratios for major entities.*
+*Table 3. Action agency, communicative share, patient ratio, and passive share for major entities.*
 
-This table differs from the mention counts in section 3.1 because the two measures count different things. Section 3.1 counts every NER detection of an entity, regardless of grammatical function. The agency analysis counts only those mentions where the dependency parse assigns the entity's root token a clear verb-linked role; active subject, passive subject, or direct object. Mentions in prepositional phrases, possessives, appositives, and other non-argument positions are excluded. For Iran, for example, 919 total mentions reduce to 320 role-bearing appearances. The agency ratios are therefore computed over a subset of total mentions, not the full mention count.
-Trump (0.954), Netanyahu (0.967), and Israel (0.921) have the highest agency ratios among major actors. They are overwhelmingly framed as initiators of action. Iran has a moderately high agency ratio (0.809) but also accumulates the largest absolute patient count (54 direct object appearances), meaning it is simultaneously the most written-about subject and the most written-about target. Lebanon (0.387) and the Strait of Hormuz (0.206) are predominantly patient entities; things that are acted upon rather than actors in their own right.
+Israel has the highest action-agency ratio in the corpus at 0.485, substantially ahead of the US (0.257) and roughly four times that of Iran (0.130). Of Israel's 171 role-bearing mentions, 41 are active subjects of action verbs (most commonly *launch* (18), *attack* (13), and *kill*/*target*/*hit* (2 each)), and 42 are nominal agents (the deverbal patterns *attack* (16), *strike* (13), *offensive* (5), *campaign* (4), and *operation* (2)). The combination of these two sources, both expressing Israeli action, drives the ratio. Israel's passive share is zero: it is never positioned as a passive grammatical subject in the corpus. The collapsing of NORP "Israeli" into Israel materially affects this measure.
+
+The US ranks second at 0.257. It is the most-active state actor when measured by verbal action subjects alone (65, compared to Israel's 41), but its larger denominator (284 total mentions versus Israel's 171) brings the ratio down. Its most frequent action-subject verbs are *attack* (14), *launch* (13), *enforce* (8), and *intercept* (6). 
+
+Iran's profile is the most distinctive of the major actors. Total role-bearing mentions: 447, by far the largest in the corpus. But of these, only 40 are subjects of action verbs and 18 are nominal agents, yielding an action-agency ratio of 0.130, lower than every other major state actor. Iran's communicative share (0.308) is by contrast almost twice as high as Israel's or the US's, reflecting 107 verbal subject appearances with communicative verbs (most often *say* (26), *agree* (19), *respond* (11), *deny* (10), *insist* (6)). The most frequent verbs taking Iran as direct object are *attack* (12), *accuse* (9), *infuriate* (3), and *urge* (3). Iran's *prep_target* mentions are dominated by *launch* (6) and one instance of *shoot*. 
+
+Trump and Netanyahu remain near-pure speakers. Trump's 264 role-bearing mentions include 248 verbal subjects, of which 165 are with communicative verbs (88 with *say* alone) and only 2 with action verbs. Netanyahu shows the same pattern at lower volume: 16 of 29 subject mentions are communicative, 0 are action. 
+
+Lebanon (patient ratio 0.583) and the Strait of Hormuz (0.794) are predominantly patient entities. The Strait's role profile remains the cleanest: 47 direct-object mentions (most often *reopen* (11), *transit* (5), *block* (4), *close* (4)), 7 passive subjects, and no action subjects at all. 
+
+### 3.4 Directional dyads
+
+The directed-pair table records subject-patient pairs sharing a verb. Pairs with at least two combined occurrences are shown below.
+
+| Subject | Verb | Class | Object | dobj | prep | passive | Total | Articles |
+|---|---|---|---|---|---|---|---|---|
+| US | attack | action | Iran | 9 | 0 | 0 | 9 | 8 |
+| Israel | attack | action | Iran | 9 | 0 | 0 | 9 | 8 |
+| US | launch | action | Iran | 0 | 5 | 0 | 5 | 5 |
+| Israel | launch | action | Iran | 0 | 5 | 0 | 5 | 5 |
+| Hezbollah | fire | action | Israel | 0 | 3 | 0 | 3 | 3 |
+| Trump | pull | other | US | 3 | 0 | 0 | 3 | 3 |
+| Iran | accuse | communicative | US | 2 | 0 | 0 | 2 | 2 |
+| Iran | blackmail | other | US | 2 | 0 | 0 | 2 | 2 |
+| Trump | tell | communicative | Fox News | 2 | 0 | 0 | 2 | 2 |
+| Trump | tell | communicative | Kan News | 2 | 0 | 0 | 2 | 2 |
+| Revolutionary Court | sentence | other | Mohammadi | 0 | 0 | 2 | 2 | 2 |
+
+*Table 4. Directed entity dyads with a combined count of two or more.*
+
+The action-verb dyads cluster around three pairings. The US and Israel each take Iran as the direct object of *attack* in 9 sentences and as the prepositional target of *launch* in 5 sentences. 
+
+Iran's only directed dyads above threshold are communicative or stance-taking: Iran accuses the US (2) and Iran is described as blackmailing the US. The corpus contains 40 sentences in which Iran is the subject of an action verb but in none of them does the dependency parser identify a named state as the patient.
+
+Trump's only dyads are Trump-tells-X for two specific media outlets and Trump-pulls-X, the latter referring to withdrawing the US from agreements. Both findings are consistent with the broader pattern: Trump's grammatical presence in the corpus is overwhelmingly that of a speaker, and the few non-communicative dyads he enters describe political moves rather than kinetic action.
+
 
 ## 4. Discussion
 
-The most consistent pattern in the data is the dominance of the Iran-US dyad. Iran appears alongside the US in 343 sentences, and no other relationship comes close in raw frequency. This positions Iran as legible in BBC coverage primarily through the lens of American policy rather than as an autonomous subject of news. Trump's exceptional presence (377 mentions, the most of any individual) reinforces this: the US side of the dyad is further personalised around a single figure, making the dominant frame not just bilateral but highly individualised.
+Three findings hold up cleanly across the revised methodology and warrant being stated as the central results.
 
-The appearance of the Strait of Hormuz in 64 articles (comparable in breadth to Israel) combined with a very low agency ratio (0.206) confirms that it functions in the discourse as a contested space that states act upon rather than an actor in its own right, which is unsurprising for a piece of geography. Its moderate co-occurrence with the US (65 sentences) suggests it is framed as an object of American strategic interest.
+The first is the dominance of the Iran-US dyad in news framing. Iran and the US co-occur in 504 sentences, more than triple the next most frequent pair. This is not by itself a framing claim. Both states are participants in the events being reported, so high co-occurrence is partially expected, but the lopsidedness (US mentions appearing more often with Iran than alone) confirms that Iran's legibility in the corpus runs primarily through American policy.
 
-The agency ratios reveal a clear asymmetry. Israel, Netanyahu, and Trump are overwhelmingly active grammatical subjects, while Lebanon, Hezbollah, and the Strait of Hormuz carry high patient ratios. Iran sits in the middle: active in most sentences where it appears, yet accumulating more object appearances in absolute terms than any other entity. This dual role, simultaneously the initiating subject of crises and the target of sanctions, strikes, and blockades, reflects the structurally contested position Iran occupies in the coverage.
+The second is the asymmetric action-agency profile. Israel is the most active grammatical agent of action in the corpus (action-agency 0.485), ahead of the US (0.257), with Iran's action-agency considerably lower (0.130). Trump and Netanyahu, the two most-mentioned individuals on the Western side, have action-agency ratios near zero (0.019 and 0.000); their prominence is the prominence of a quoted source rather than a depicted actor. The verb-class split and the nominalisation detection together produce a picture that conflating subjects with subjects-of-action would obscure: it is not that "the West" dominates active grammatical agency in this corpus, but specifically that Israel does, while the US's prominence is divided between depicted action and reported speech, and individual Western political figures contribute almost no depicted action at all.
 
-A smaller but distinct cluster around Lebanon, Hezbollah, Israel, and Beirut (high mutual PMI values) points to a secondary narrative thread concerning the Lebanon war running alongside the primary US-Iran frame. 
+The third is the directional dyad asymmetry. With prepositional targets now captured, the US and Israel each register fourteen action-verb dyads against Iran (9 direct-object plus 5 prepositional-target, in both cases). Iran registers no reciprocal action-verb dyad against any named state, despite having 40 sentences in which it is the subject of an action verb. The named patients of Iran's depicted actions, where they appear at all, are common-noun objects (*missiles*, *bases*, *ships*, *infrastructure*) rather than named states. This is the kind of framing distinction that is invisible to undirected co-occurrence and to undifferentiated agency ratios; it is exactly the asymmetry that splitting roles directionally and by verb class was designed to make visible.
+
+The interpretation of this last finding warrants care. The asymmetry is partly an artefact of how each side's actions are described in news prose; strikes against Iran are typically reported as "X attacked Iran" or "X launched strikes at Iran" (named patient), whereas Iranian actions are typically reported as "Iran launched missiles" (common-noun patient) or "Iran fired drones at military targets" (common-noun prepositional patient). That descriptive convention is itself a framing choice. The data here does not let us say whether the choice reflects editorial preference, source asymmetry, or differences in what the underlying actions actually targeted, but it does let us measure the choice precisely.
+
+A secondary cluster around Lebanon and Hezbollah confirms a smaller narrative thread on the northern theatre alongside the primary US-Iran frame. The Strait of Hormuz remains the cleanest patient entity in the data, geography functioning as a contested space that states act upon. Its 64-article spread, comparable to Israel's, makes clear that the corpus's maritime-security framing is not concentrated in a few pieces but distributed across most coverage.

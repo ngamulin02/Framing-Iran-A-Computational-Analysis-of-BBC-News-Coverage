@@ -1,0 +1,12 @@
+subject,verb,verb_class,object,count_dobj,count_prep,count_passive,count_total,articles,example_sent
+US,attack,action,Iran,9,0,0,9,8,5:14
+Israel,attack,action,Iran,9,0,0,9,8,5:14
+US,launch,action,Iran,0,5,0,5,5,13:11
+Israel,launch,action,Iran,0,5,0,5,5,13:11
+Trump,pull,other,US,3,0,0,3,3,35:50
+Hezbollah,fire,action,Israel,0,3,0,3,3,45:25
+Revolutionary Court,sentence,other,Mohammadi,0,0,2,2,2,12:26
+Trump,tell,communicative,Kan News,2,0,0,2,2,28:33
+Iran,accuse,communicative,US,2,0,0,2,2,50:17
+Iran,blackmail,other,US,2,0,0,2,2,59:32
+Trump,tell,communicative,Fox News,2,0,0,2,2,80:15

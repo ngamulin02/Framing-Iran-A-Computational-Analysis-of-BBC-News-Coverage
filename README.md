@@ -4,8 +4,6 @@
 
 This project examines how the BBC frames Iran in its online news coverage of the 2026 Iran war through a computational analysis of 93 articles published in April and May 2026. The pipeline applies Named Entity Recognition (NER), entity co-occurrence statistics, a syntactic agency model, and directed dyad extraction to surface patterns across a corpus of 3,588 sentences. The central questions are: which actors dominate coverage, how are they relationally paired in discourse, and who is framed as an agent of action versus a target of it.
 
-The present version extends an earlier analysis with three substantive changes. First, the dyad extractor now captures prepositional targets: in news prose, hostile action is at least as often expressed through prepositions ("Iran fired missiles at US bases", "US imposed sanctions on Iran", "Hezbollah fired at Israel") as through direct objects, and the previous extractor missed all of them. Second, NORP forms and metonymic capitals are folded into their state entities: "Iranian", "Tehran", and "Iran" now resolve to one entity, as do "Israeli"/"Jerusalem"/"Israel" and "Lebanese"/"Beirut"/"Lebanon". Third, every row in the agency and dyad tables now carries a sentence-id pointer back to the source corpus so any reported finding can be spot-checked.
-
 
 ## 2. Methodology
 

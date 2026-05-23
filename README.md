@@ -136,7 +136,7 @@ Trump's only dyads are Trump-tells-X for two specific media outlets and Trump-pu
 
 ## 4. Discussion
 
-Three findings hold up cleanly across the revised methodology and warrant being stated as the central results.
+Three findings hold up cleanly across methodology and warrant being stated as the central results.
 
 The first is the dominance of the Iran-US dyad in news framing. Iran and the US co-occur in 504 sentences, more than triple the next most frequent pair. This is not by itself a framing claim. Both states are participants in the events being reported, so high co-occurrence is partially expected, but the lopsidedness (US mentions appearing more often with Iran than alone) confirms that Iran's legibility in the corpus runs primarily through American policy.
 

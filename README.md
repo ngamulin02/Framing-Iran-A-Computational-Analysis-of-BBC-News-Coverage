@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This project examines how the BBC frames Iran in its online news coverage of the 2026 Iran war through a computational analysis of 93 articles published in April and May 2026. The pipeline applies Named Entity Recognition (NER), entity co-occurrence statistics, a syntactic agency model, and directed dyad extraction to surface patterns across a corpus of 3,588 sentences. The central questions are: which actors dominate coverage, how are they relationally paired in discourse, and who is framed as an agent of action versus a target of it.
+This project examines how the BBC frames Iran in its online news coverage of the 2026 Iran war through a computational analysis of 93 articles published in April and May 2026. The pipeline applies Named Entity Recognition (NER), entity co-occurrence statistics, and a syntactic agency model to surface patterns across a corpus of 3,588 sentences. The central questions are: which actors dominate coverage, how are they relationally paired in discourse, and who is framed as an agent of action versus a target of it.
 
 
 ## 2. Methodology
@@ -13,7 +13,7 @@ This project examines how the BBC frames Iran in its online news coverage of the
 
 ### main.py
 
-`main.py` reads `bbc_sentences.csv` and runs four complementary analyses, writing results to the `outputs/` directory.
+`main.py` reads `bbc_sentences.csv` and runs three complementary analyses, writing results to the `outputs/` directory.
 
 **Named Entity Recognition.** The spaCy `en_core_web_lg` pipeline is applied to every sentence in batch. Five entity types are retained: PERSON, ORG, GPE, LOC, and NORP. Surface forms are normalised through a canonical alias table. The alias table has two layers. The first folds explicit name variants ("United States", "U.S.", "America" → US; "Revolutionary Guards" → IRGC; "Benjamin Netanyahu" → Netanyahu). The second, gated by the `COLLAPSE_METONYMS` flag and on by default, folds NORP nationality forms and metonymic capitals into their state: "Iranian" and "Tehran" both resolve to Iran, "Israeli" and "Jerusalem" to Israel, "Lebanese" and "Beirut" to Lebanon, and so on. For a framing analysis these refer to the same actor; the flag exists so the surface-form view is recoverable when needed. Entities appearing fewer than twice across the corpus are excluded from the final `entities.csv`.
 
@@ -24,8 +24,6 @@ This project examines how the BBC frames Iran in its online news coverage of the
 For each role-bearing mention the governing predicate is also classified into one of four classes against hand-curated lexicons: **action** (attack, strike, kill, bomb, launch, sanction, impose, intercept, deploy, etc.), **communicative** (say, tell, announce, declare, warn, threaten, accuse, deny, etc.), **mental** (believe, want, fear, expect, etc.), and **other** for everything else (light verbs, copulas, intransitives). Counts are aggregated per entity and written to `agency.csv` along with the article count and an example sentence id (`"<article_id>:<sentence_id>"`) for each tuple.
 
 A summary table (`agency_summary.csv`) breaks subject counts down by predicate class and derives four ratios. `action_agency_ratio` is the proportion of role-bearing mentions where the entity is the subject of an action verb or a nominal agent of an action noun; it isolates "doing things in the world" from "being quoted in an article". `communicative_share` is the proportion of subject mentions that fall on communicative verbs; a high value indicates the entity functions primarily as a quoted source. `patient_ratio` is the proportion of mentions as direct object, passive subject, or prepositional target. `passive_share` is the proportion of strict patient mentions (direct object plus passive subject) that are passive rather than direct-object, since the passive construction is the canonical site of agent suppression.
-
-**Directional dyads.** Within each sentence, for every action verb whose subject and patient are both recognised named entities, the triple (subject, verb, patient) is recorded. The patient slot is populated from any of three constructions: direct object ("Israel attacked Iran"), prepositional target ("Iran fired at US bases"), or passive agent ("Iran was attacked by US", which is reconstructed as the active dyad). Each row of `directed_pairs.csv` reports the three counts separately as well as a combined total. This is the file to inspect for framing-asymmetry claims: it lets us see who acts on whom, not just who co-occurs with whom.
 
 
 ## 3. Results
@@ -107,32 +105,6 @@ Trump and Netanyahu remain near-pure speakers. Trump's 264 role-bearing mentions
 
 Lebanon (patient ratio 0.583) and the Strait of Hormuz (0.794) are predominantly patient entities. The Strait's role profile remains the cleanest: 47 direct-object mentions (most often *reopen* (11), *transit* (5), *block* (4), *close* (4)), 7 passive subjects, and no action subjects at all. 
 
-### 3.4 Directional dyads
-
-The directed-pair table records subject-patient pairs sharing a verb. Pairs with at least two combined occurrences are shown below.
-
-| Subject | Verb | Class | Object | dobj | prep | passive | Total | Articles |
-|---|---|---|---|---|---|---|---|---|
-| US | attack | action | Iran | 9 | 0 | 0 | 9 | 8 |
-| Israel | attack | action | Iran | 9 | 0 | 0 | 9 | 8 |
-| US | launch | action | Iran | 0 | 5 | 0 | 5 | 5 |
-| Israel | launch | action | Iran | 0 | 5 | 0 | 5 | 5 |
-| Hezbollah | fire | action | Israel | 0 | 3 | 0 | 3 | 3 |
-| Trump | pull | other | US | 3 | 0 | 0 | 3 | 3 |
-| Iran | accuse | communicative | US | 2 | 0 | 0 | 2 | 2 |
-| Iran | blackmail | other | US | 2 | 0 | 0 | 2 | 2 |
-| Trump | tell | communicative | Fox News | 2 | 0 | 0 | 2 | 2 |
-| Trump | tell | communicative | Kan News | 2 | 0 | 0 | 2 | 2 |
-| Revolutionary Court | sentence | other | Mohammadi | 0 | 0 | 2 | 2 | 2 |
-
-*Table 4. Directed entity dyads with a combined count of two or more.*
-
-The action-verb dyads cluster around three pairings. The US and Israel each take Iran as the direct object of *attack* in 9 sentences and as the prepositional target of *launch* in 5 sentences. 
-
-Iran's only directed dyads above threshold are communicative or stance-taking: Iran accuses the US (2) and Iran is described as blackmailing the US. The corpus contains 40 sentences in which Iran is the subject of an action verb but in none of them does the dependency parser identify a named state as the patient.
-
-Trump's only dyads are Trump-tells-X for two specific media outlets and Trump-pulls-X, the latter referring to withdrawing the US from agreements. Both findings are consistent with the broader pattern: Trump's grammatical presence in the corpus is overwhelmingly that of a speaker, and the few non-communicative dyads he enters describe political moves rather than kinetic action.
-
 
 ## 4. Discussion
 
@@ -141,9 +113,5 @@ Three findings hold up cleanly across methodology and warrant being stated as th
 The first is the dominance of the Iran-US dyad in news framing. Iran and the US co-occur in 504 sentences, more than triple the next most frequent pair. This is not by itself a framing claim. Both states are participants in the events being reported, so high co-occurrence is partially expected, but the lopsidedness (US mentions appearing more often with Iran than alone) confirms that Iran's legibility in the corpus runs primarily through American policy.
 
 The second is the asymmetric action-agency profile. Israel is the most active grammatical agent of action in the corpus (action-agency 0.485), ahead of the US (0.257), with Iran's action-agency considerably lower (0.130). Trump and Netanyahu, the two most-mentioned individuals on the Western side, have action-agency ratios near zero (0.019 and 0.000); their prominence is the prominence of a quoted source rather than a depicted actor. The verb-class split and the nominalisation detection together produce a picture that conflating subjects with subjects-of-action would obscure: it is not that "the West" dominates active grammatical agency in this corpus, but specifically that Israel does, while the US's prominence is divided between depicted action and reported speech, and individual Western political figures contribute almost no depicted action at all.
-
-The third is the directional dyad asymmetry. With prepositional targets now captured, the US and Israel each register fourteen action-verb dyads against Iran (9 direct-object plus 5 prepositional-target, in both cases). Iran registers no reciprocal action-verb dyad against any named state, despite having 40 sentences in which it is the subject of an action verb. The named patients of Iran's depicted actions, where they appear at all, are common-noun objects (*missiles*, *bases*, *ships*, *infrastructure*) rather than named states. This is the kind of framing distinction that is invisible to undirected co-occurrence and to undifferentiated agency ratios; it is exactly the asymmetry that splitting roles directionally and by verb class was designed to make visible.
-
-The interpretation of this last finding warrants care. The asymmetry is partly an artefact of how each side's actions are described in news prose; strikes against Iran are typically reported as "X attacked Iran" or "X launched strikes at Iran" (named patient), whereas Iranian actions are typically reported as "Iran launched missiles" (common-noun patient) or "Iran fired drones at military targets" (common-noun prepositional patient). That descriptive convention is itself a framing choice. The data here does not let us say whether the choice reflects editorial preference, source asymmetry, or differences in what the underlying actions actually targeted, but it does let us measure the choice precisely.
 
 A secondary cluster around Lebanon and Hezbollah confirms a smaller narrative thread on the northern theatre alongside the primary US-Iran frame. The Strait of Hormuz remains the cleanest patient entity in the data, geography functioning as a contested space that states act upon. Its 64-article spread, comparable to Israel's, makes clear that the corpus's maritime-security framing is not concentrated in a few pieces but distributed across most coverage.

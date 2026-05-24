@@ -18,7 +18,6 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 MIN_MENTIONS_FOR_CSV = 2
 MIN_COOC_SHARED = 3
 MIN_AGENCY_TOTAL = 5
-MIN_DYAD_COUNT = 2
 LOW_COUNT_FLAG_THRESHOLD = 10
 
 ENTITY_STOPLIST = {"bbc"}
@@ -339,18 +338,6 @@ agency = collections.defaultdict(
     lambda: {"count": 0, "example_sent": None, "articles": set()}
 )
 
-# directed: (subject, lemma, class, object) -> {dobj, prep, passive,
-#                                               example_sent, articles}
-directed = collections.defaultdict(
-    lambda: {
-        "dobj": 0,
-        "prep": 0,
-        "passive": 0,
-        "example_sent": None,
-        "articles": set(),
-    }
-)
-
 # For the fragility check we need the UNION of article ids per
 # (entity, role) and per (entity, subject_predicate_class), not the sum
 # of per-predicate article counts. Tracked separately because aggregating
@@ -371,9 +358,6 @@ for (article_id, sentence_id), doc in zip(metadata, nlp.pipe(sentences, batch_si
     sent_key = (aid, sid)
     sent_label = f"{aid}:{sid}"
     sentence_ents = []
-    # verb_token.i -> {"lemma":..., "class":..., "subjects":[], "objects":[],
-    #                  "passives":[], "prep_targets":[]}
-    verb_arg_map = {}
 
     for ent in doc.ents:
         if ent.label_ not in KEEP_LABELS:
@@ -410,57 +394,6 @@ for (article_id, sentence_id), doc in zip(metadata, nlp.pipe(sentences, batch_si
         role_articles[(canonical, role)].add(aid)
         if role == "subject":
             subj_class_articles[(canonical, pred_class)].add(aid)
-
-        # Track verbal-predicate arguments for directed-dyad extraction.
-        # prep_target is treated like a direct object in dyad logic but
-        # tracked separately so the breakdown is visible in the output.
-        if role in {"subject", "object", "passive_subject", "prep_target"}:
-            slot = verb_arg_map.setdefault(
-                pred_token.i,
-                {
-                    "lemma": pred_lemma,
-                    "class": pred_class,
-                    "subjects": [],
-                    "objects": [],
-                    "passives": [],
-                    "prep_targets": [],
-                },
-            )
-            if role == "subject":
-                slot["subjects"].append(canonical)
-            elif role == "object":
-                slot["objects"].append(canonical)
-            elif role == "passive_subject":
-                slot["passives"].append(canonical)
-            else:  # prep_target
-                slot["prep_targets"].append(canonical)
-
-    # Extract directed dyads from this sentence
-    for slot in verb_arg_map.values():
-        subjects = slot["subjects"]
-        key_prefix = (slot["lemma"], slot["class"])
-        for s in subjects:
-            for o in slot["objects"]:
-                if s != o:
-                    d = directed[(s, *key_prefix, o)]
-                    d["dobj"] += 1
-                    d["articles"].add(aid)
-                    if d["example_sent"] is None:
-                        d["example_sent"] = sent_label
-            for o in slot["prep_targets"]:
-                if s != o:
-                    d = directed[(s, *key_prefix, o)]
-                    d["prep"] += 1
-                    d["articles"].add(aid)
-                    if d["example_sent"] is None:
-                        d["example_sent"] = sent_label
-            for p in slot["passives"]:
-                if s != p:
-                    d = directed[(s, *key_prefix, p)]
-                    d["passive"] += 1
-                    d["articles"].add(aid)
-                    if d["example_sent"] is None:
-                        d["example_sent"] = sent_label
 
     # Co-occurrence
     unique_in_sent = list(dict.fromkeys(sentence_ents))
@@ -699,55 +632,6 @@ else:
 
 
 
-# Write directed_pairs.csv
-#
-# Each row: (subject, verb, verb_class, object) with breakdown columns
-# count_dobj   - subject V object (direct object: "Israel attacked Iran")
-# count_prep   - subject V at/against/etc object ("Iran fired at US")
-# count_passive - object was V'd by subject ("Iran was attacked by US")
-# count_total  - sum of all three
-# articles     - distinct articles containing the dyad
-# example_sent - one source sentence ("<article_id>:<sentence_id>")
-
-
-directed_rows = []
-for (s, v, c, o), d in directed.items():
-    total = d["dobj"] + d["prep"] + d["passive"]
-    if total < MIN_DYAD_COUNT:
-        continue
-    directed_rows.append({
-        "subject": s,
-        "verb": v,
-        "verb_class": c,
-        "object": o,
-        "count_dobj": d["dobj"],
-        "count_prep": d["prep"],
-        "count_passive": d["passive"],
-        "count_total": total,
-        "articles": len(d["articles"]),
-        "example_sent": d["example_sent"],
-    })
-
-if directed_rows:
-    directed_df = (
-        pd.DataFrame(directed_rows)
-        .sort_values("count_total", ascending=False)
-        .reset_index(drop=True)
-    )
-else:
-    directed_df = pd.DataFrame(columns=[
-        "subject", "verb", "verb_class", "object",
-        "count_dobj", "count_prep", "count_passive",
-        "count_total", "articles", "example_sent",
-    ])
-directed_df.to_csv(OUTPUT_DIR / "directed_pairs.csv", index=False)
-print(
-    f"Wrote directed_pairs.csv "
-    f"({len(directed_df)} directed dyads with count_total >= {MIN_DYAD_COUNT})."
-)
-
-
-
 # Console summary + sensitivity checks
 
 
@@ -821,35 +705,5 @@ if len(summary):
             print(f"  {ent:12s} {sent_col:25s} {s:>6} {a:>6}")
 
 
-def probe_dyad(subj, obj, verb_class="action"):
-    """Sum count_total across all verbs in the given class for (subj, obj)."""
-    if not len(directed_df):
-        return (0, 0, 0, 0)
-    mask = (directed_df["subject"] == subj) & (directed_df["object"] == obj)
-    if verb_class is not None:
-        mask &= directed_df["verb_class"] == verb_class
-    sub = directed_df.loc[mask]
-    return (
-        int(sub["count_total"].sum()),
-        int(sub["count_dobj"].sum()),
-        int(sub["count_prep"].sum()),
-        int(sub["count_passive"].sum()),
-    )
-
-
-print("\n=== Directional asymmetry probes (action verbs only) ===")
-print(f"  {'subject -> object':30s} {'total':>6} {'dobj':>5} {'prep':>5} {'pass':>5}")
-probe_pairs = [
-    ("US", "Iran"), ("Iran", "US"),
-    ("Israel", "Iran"), ("Iran", "Israel"),
-    ("Israel", "Hezbollah"), ("Hezbollah", "Israel"),
-]
-for a, b in probe_pairs:
-    tot, dobj, prep, passive = probe_dyad(a, b)
-    label = f"{a} -> {b}"
-    print(f"  {label:30s} {tot:>6} {dobj:>5} {prep:>5} {passive:>5}")
-
-
 print("\nDone. Output files in", OUTPUT_DIR)
-print("  entities.csv  cooccurrence.csv  agency.csv")
-print("  agency_summary.csv  directed_pairs.csv")
+print("  entities.csv  cooccurrence.csv  agency.csv  agency_summary.csv")

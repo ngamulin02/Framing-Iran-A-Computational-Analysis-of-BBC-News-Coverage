@@ -243,8 +243,6 @@ def is_valid_entity(text):
 
 
 def _prep_target_check(prep_token):
-    """Given a preposition token, return the governing verb if it's an
-    action verb attached to a target-introducing preposition, else None."""
     if prep_token.lemma_.lower() not in TARGET_PREPS:
         return None
     verb = prep_token.head
